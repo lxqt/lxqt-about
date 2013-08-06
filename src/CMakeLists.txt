@@ -1,39 +1,37 @@
-project(razor-about)
+cmake_minimum_required( VERSION 2.6 )
+project(lxqt-about)
 
-
-set(razor-about_H_FILES
+set(H_FILES
 )
 
-set(razor-about_MOC_FILES
+set(MOC_FILES
 )
 
-set(razor-about_CPP_FILES
+set(CPP_FILES
     main.cpp
 )
 
 
-set(razor-about_UI_FILES
+set(UI_FILES
 )
 
-set(razor-about_QRC_FILES
+set(QRC_FILES
 
 )
 
-set(razor-about_LIBRARIES
-    razorqt
-    qtxdg
-)
+
+find_package(LXQT REQUIRED)
+include(${LXQT_USE_FILE})
 
 # Translations **********************************
-include(RazorTranslate)
-razor_translate_ts(razor-about_QM_FILES
+razor_translate_ts(QM_FILES
     SOURCES
-        ${razor-about_H_FILES}
-        ${razor-about_CPP_FILES} 
-        ${razor-about_UI_FILES}
+        ${H_FILES}
+        ${CPP_FILES}
+        ${UI_FILES}
 )
 
-razor_translate_desktop(razor-about_DESKTOP_FILES
+razor_translate_desktop(DESKTOP_FILES
     SOURCES
         resources/razor-about.desktop.in
 )
@@ -56,29 +54,27 @@ add_definitions(-Wall)
 find_package(Qt4 REQUIRED)
 include(${QT_USE_FILE})
 
-
-set(RAZOR_SHARE_DIR ${CMAKE_INSTALL_PREFIX}/share/razor)
-set(APP_SHARE_DIR ${RAZOR_SHARE_DIR}/${PROJECT_NAME})
+set(APP_SHARE_DIR share/lxqt/${PROJECT_NAME})
 
 #************************************************
 
 
-qt4_wrap_cpp(razor-about_MOC_SOURCES ${razor-about_MOC_FILES})
-qt4_wrap_ui(razor-about_UI_HEADERS ${razor-about_UI_FILES})
-qt4_add_resources(razor-about_QRC_SOURCES ${razor-about_QRC_FILES})
+qt4_wrap_cpp(MOC_SOURCES ${MOC_FILES})
+qt4_wrap_ui(UI_HEADERS ${UI_FILES})
+qt4_add_resources(QRC_SOURCES ${QRC_FILES})
 
-add_executable(${PROJECT_NAME} 
-    ${razor-about_CPP_FILES} 
-    ${razor-about_UI_FILES} 
-    ${razor-about_RESOURCES} 
-    ${razor-about_QRC_SOURCES} 
-    ${razor-about_QM_FILES} 
-    ${razor-about_MOC_SOURCES} 
-    ${razor-about_DESKTOP_FILES}
+add_executable(${PROJECT_NAME}
+    ${CPP_FILES}
+    ${UI_FILES}
+    ${RESOURCES}
+    ${QRC_SOURCES}
+    ${QM_FILES}
+    ${MOC_SOURCES}
+    ${DESKTOP_FILES}
 )
-add_dependencies(${PROJECT_NAME} razorqt)
-target_link_libraries(${PROJECT_NAME}  ${razor-about_LIBRARIES} ${QT_LIBRARIES})
+#add_dependencies(${PROJECT_NAME} ${LXQT_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${QT_LIBRARIES} ${LXQT_LIBRARIES})
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
 install(FILES   ${CONFIG_FILES}    DESTINATION ${APP_SHARE_DIR})
-install(FILES   ${razor-about_DESKTOP_FILES}   DESTINATION share/applications)
+install(FILES   ${DESKTOP_FILES}   DESTINATION share/applications)
