@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-about
+Icon=help-about
+Terminal=false
+#OnlyShowIn=LXDE-Qt;
+Categories=Qt;System;Razor;DesktopSettings;Settings;
+Name=About LXDE-Qt
+GenericName=Learn more about LXDE-Qt

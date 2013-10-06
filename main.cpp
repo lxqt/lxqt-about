@@ -26,16 +26,15 @@
  * END_COMMON_COPYRIGHT_HEADER */
 
 
-#include <razorqt/razorapplication.h>
-#include <RazorAboutDialog>
-#include "razortranslate.h"
-
+#include <LxQtApplication>
+#include <LxQtAboutDialog>
+#include <LxQtGridLayout>
 
 int main(int argc, char *argv[])
 {
-    RazorApplication app(argc, argv);
-    TRANSLATE_APP;
-
-    RazorAboutDLG dlg;
+    //QApplication app(argc, argv);
+    //LxQt::GridLayout *g = new LxQt::GridLayout();
+    LxQt::Application app(argc, argv);
+    LxQt::AboutDialog dlg;
     return app.exec();
 }
