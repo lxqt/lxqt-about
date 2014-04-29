@@ -1,9 +1,11 @@
 [Desktop Entry]
 Type=Application
+Name=About LXQt
+GenericName=About LXQt
+Comment=Learn more about LXQt
 Exec=lxqt-about
 Icon=help-about
-Terminal=false
-#OnlyShowIn=LXDE-Qt;
-Categories=Qt;LxQt;DesktopSettings;Settings;
-Name=About LXDE-Qt
-GenericName=Learn more about LXDE-Qt
+Categories=Help;LXQt
+OnlyShowIn=LXQt;LXDE;
+
+#TRANSLATIONS_DIR=translations
