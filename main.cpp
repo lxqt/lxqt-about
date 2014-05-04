@@ -26,12 +26,54 @@
  * END_COMMON_COPYRIGHT_HEADER */
 
 
+#include <QtCore/QDebug>
+#include <QDirIterator>
+
 #include <LxQtApplication>
 #include <LxQtAboutDialog>
 #include <LxQtGridLayout>
 
+
+
+void printHelp()
+{
+    QTextStream out(stdout);
+    out << "Usage: lxqt-about [options]" << endl;
+    out << endl;
+    out << "Options:" << endl;
+    out << "  -h, --help    Show help about options" << endl;
+    out << "  --version     Show version information" << endl;
+}
+
+
+void printVersion()
+{
+    QTextStream out(stdout);
+    out << "lxqt-about " << LXQT_VERSION << endl;
+}
+
+
 int main(int argc, char *argv[])
 {
+    QString configFile;
+    for (int i=1; i < argc; ++i)
+    {
+        QString arg = QString::fromLocal8Bit(argv[i]);
+
+        if (arg == "--help" || arg == "-h")
+        {   
+            printHelp();
+            return 0;
+        }
+
+        if (arg == "--version" )
+        {   
+            printVersion();
+            return 0;
+        }
+ 
+    }
+
     //QApplication app(argc, argv);
     //LxQt::GridLayout *g = new LxQt::GridLayout();
     LxQt::Application app(argc, argv);
