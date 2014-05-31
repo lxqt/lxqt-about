@@ -42,7 +42,7 @@ if(USE_QT5)
     find_package(Qt5Widgets REQUIRED QUIET)
     find_package(Qt5DBus REQUIRED QUIET)
     find_package(Qt5X11Extras REQUIRED QUIET)
-    find_package(lxqt5 REQUIRED QUIET)
+    find_package(lxqt-qt5 REQUIRED QUIET)
     include(${LXQT_USE_FILE})
 
     qt5_wrap_cpp(MOC_SOURCES ${MOC_FILES})
