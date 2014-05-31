@@ -26,9 +26,9 @@
  * END_COMMON_COPYRIGHT_HEADER */
 
 
-#include <LxQtApplication>
-#include <LxQtAboutDialog>
-#include <LxQtGridLayout>
+#include <LXQt/Application>
+#include <LXQt/AboutDialog>
+#include <LXQt/GridLayout>
 
 int main(int argc, char *argv[])
 {
