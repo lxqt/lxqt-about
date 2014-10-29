@@ -1,14 +1,9 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 2.8.11)
 project(lxqt-about)
 
 set(CPP_FILES
     main.cpp
 )
-
-set(H_FILES "")
-set(MOC_FILES "")
-set(UI_FILES "")
-set(QRC_FILES "")
 
 find_package(Qt5Widgets REQUIRED QUIET)
 find_package(Qt5DBus REQUIRED QUIET)
@@ -16,15 +11,8 @@ find_package(Qt5X11Extras REQUIRED QUIET)
 find_package(lxqt-qt5 REQUIRED QUIET)
 include(${LXQT_USE_FILE})
 
-qt5_wrap_cpp(MOC_SOURCES ${MOC_FILES})
-qt5_wrap_ui(UI_HEADERS ${UI_FILES})
-qt5_add_resources(QRC_SOURCES ${QRC_FILES})
-
-set(QTX_LIBRARIES ${Qt5Widgets_LIBRARIES} ${Qt5DBus_LIBRARIES} ${Qt5X11Extras_LIBRARIES})
-
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
-    ${QT_QTCORE_INCLUDE_DIR} ${QT_QTGUI_INCLUDE_DIR}
     ${LXQT_INCLUDE_DIR}
 )
 
@@ -33,8 +21,6 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 set(APP_SHARE_DIR share/lxqt/${PROJECT_NAME})
-
-#************************************************
 
 
 # Translations **********************************
@@ -47,15 +33,16 @@ lxqt_translate_desktop(DESKTOP_FILES
 
 add_executable(${PROJECT_NAME}
     ${CPP_FILES}
-    ${UI_FILES}
-    ${RESOURCES}
-    ${QRC_SOURCES}
     ${QM_FILES}
-    ${MOC_SOURCES}
     ${DESKTOP_FILES}
 )
-#add_dependencies(${PROJECT_NAME} ${LXQT_LIBRARIES})
-target_link_libraries(${PROJECT_NAME} ${QTX_LIBRARIES} ${LXQT_LIBRARIES})
+
+target_link_libraries(${PROJECT_NAME}
+    Qt5::Widgets
+    Qt5::DBus
+    Qt5::X11Extras
+    ${LXQT_LIBRARIES}
+)
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
 install(FILES ${CONFIG_FILES} DESTINATION ${APP_SHARE_DIR})
