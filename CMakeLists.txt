@@ -24,6 +24,7 @@ set(APP_SHARE_DIR share/lxqt/${PROJECT_NAME})
 
 
 # Translations **********************************
+include(LXQtTranslateDesktop)
 lxqt_translate_desktop(DESKTOP_FILES
     SOURCES
     resources/lxqt-about.desktop.in
