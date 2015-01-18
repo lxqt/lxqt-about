@@ -5,7 +5,7 @@ GenericName=About LXQt
 Comment=Learn more about LXQt
 Exec=lxqt-about
 Icon=help-about
-Categories=Settings;Documentation;Qt;
+Categories=Documentation;Qt;
 OnlyShowIn=LXQt;
 
 #TRANSLATIONS_DIR=translations
