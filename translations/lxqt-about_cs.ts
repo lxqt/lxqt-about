@@ -1,97 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs">
-<context>
-    <name>AddPluginDialog</name>
-    <message>
-        <source>Add plugins</source>
-        <translation type="obsolete">Přidat přídavné moduly</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="22"/>
-        <source>Search:</source>
-        <translation>Hledat:</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="52"/>
-        <source>Add Widget</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add plugin</source>
-        <translation type="obsolete">Přidat přídavný modul</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="59"/>
-        <source>Close</source>
-        <translation>Zavřít</translation>
-    </message>
-</context>
-<context>
-    <name>ConfigDialog</name>
-    <message>
-        <location filename="../configdialog/lxqtconfigdialog.ui" line="14"/>
-        <source>Dialog</source>
-        <translation>Dialog</translation>
-    </message>
-</context>
+<TS version="2.1" language="cs">
 <context>
     <name>AboutDialogPrivate</name>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="86"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
         <translation>Verze: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Pokročilé, snadno se používající a rychlé pracovní prostředí založené na technologiích Qt.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="101"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Autorské právo: %1-%2 %3</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="105"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Domovská stránka: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Licence: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="117"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="119"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="137"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="134"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="144"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="141"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
         <translation>LXQt je přeložen do mnoha jazyků díky práci překladatelských týmů z celého světa.</translation>
@@ -169,178 +135,174 @@
 <context>
     <name>AddPluginDialog</name>
     <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.cpp" line="199"/>
-        <source>(%1 active)</source>
-        <translation type="unfinished"></translation>
+        <source>Add plugins</source>
+        <translation type="obsolete">Přidat přídavné moduly</translation>
+    </message>
+    <message>
+        <source>Search:</source>
+        <translation type="vanished">Hledat:</translation>
+    </message>
+    <message>
+        <source>Add plugin</source>
+        <translation type="obsolete">Přidat přídavný modul</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="vanished">Zavřít</translation>
+    </message>
+</context>
+<context>
+    <name>ConfigDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation type="vanished">Dialog</translation>
     </message>
 </context>
 <context>
     <name>MessageBox</name>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="70"/>
         <source>LxQt Power Manager Error</source>
-        <translation type="unfinished">Chyba ve správě energie</translation>
+        <translation type="obsolete">Chyba ve správě energie</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="70"/>
         <source>Hibernate failed.</source>
-        <translation type="unfinished">Hibernace se nezdařila.</translation>
+        <translation type="obsolete">Hibernace se nezdařila.</translation>
     </message>
 </context>
 <context>
     <name>NotificationPrivate</name>
     <message>
-        <location filename="../lxqtnotification.cpp" line="152"/>
         <source>Notifications Fallback</source>
-        <translation>Záloha oznamování</translation>
+        <translation type="vanished">Záloha oznamování</translation>
     </message>
 </context>
 <context>
     <name>PowerManager</name>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="113"/>
         <source>Hibernate</source>
-        <translation>Hibernovat</translation>
+        <translation type="vanished">Hibernovat</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="120"/>
         <source>Suspend</source>
-        <translation>Uspat</translation>
+        <translation type="vanished">Uspat</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="127"/>
         <source>Reboot</source>
-        <translation>Restartovat</translation>
+        <translation type="vanished">Restartovat</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="134"/>
         <source>Shutdown</source>
-        <translation>Vypnout</translation>
+        <translation type="vanished">Vypnout</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="141"/>
         <source>Logout</source>
-        <translation>Odhlásit se</translation>
+        <translation type="vanished">Odhlásit se</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="153"/>
         <source>LxQt Session Suspend</source>
-        <translation>Pozastavení sezení LxQtu</translation>
+        <translation type="vanished">Pozastavení sezení LxQtu</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="154"/>
         <source>Do you want to really suspend your computer?&lt;p&gt;Suspends the computer into a low power state. System state is not preserved if the power is lost.</source>
-        <translation>Opravdu chcete uspat svůj počítač?&lt;p&gt;Uvede počítač do stavu s nízkým odběrem elektrické energie. Stav systému není při ztrátě energie zachován.</translation>
+        <translation type="vanished">Opravdu chcete uspat svůj počítač?&lt;p&gt;Uvede počítač do stavu s nízkým odběrem elektrické energie. Stav systému není při ztrátě energie zachován.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="163"/>
         <source>LxQt Session Hibernate</source>
-        <translation>Zazimování sezení LxQtu</translation>
+        <translation type="vanished">Zazimování sezení LxQtu</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="164"/>
         <source>Do you want to really hibernate your computer?&lt;p&gt;Hibernates the computer into a low power state. System state is preserved if the power is lost.</source>
-        <translation>Opravdu chcete zazimovat svůj počítač?&lt;p&gt;Uvede počítač do stavu s nízkým odběrem elektrické energie. Stav systému je při ztrátě energie zachován.</translation>
+        <translation type="vanished">Opravdu chcete zazimovat svůj počítač?&lt;p&gt;Uvede počítač do stavu s nízkým odběrem elektrické energie. Stav systému je při ztrátě energie zachován.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="173"/>
         <source>LxQt Session Reboot</source>
-        <translation>Spuštění sezení LxQtu znovu</translation>
+        <translation type="vanished">Spuštění sezení LxQtu znovu</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="174"/>
         <source>Do you want to really restart your computer? All unsaved work will be lost...</source>
-        <translation>Opravdu chcete spustit svůj počítač znovu?&lt;p&gt;Všechna neuložená práce bude ztracena...</translation>
+        <translation type="vanished">Opravdu chcete spustit svůj počítač znovu?&lt;p&gt;Všechna neuložená práce bude ztracena...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="183"/>
         <source>LxQt Session Shutdown</source>
-        <translation>Vypnutí sezení LxQtu</translation>
+        <translation type="vanished">Vypnutí sezení LxQtu</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="184"/>
         <source>Do you want to really switch off your computer? All unsaved work will be lost...</source>
-        <translation>Opravdu chcete vypnout svůj počítač?&lt;p&gt;Všechna neuložená práce bude ztracena...</translation>
+        <translation type="vanished">Opravdu chcete vypnout svůj počítač?&lt;p&gt;Všechna neuložená práce bude ztracena...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="193"/>
         <source>LxQt Session Logout</source>
-        <translation>Odhlášení sezení LxQtu</translation>
+        <translation type="vanished">Odhlášení sezení LxQtu</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="194"/>
         <source>Do you want to really logout? All unsaved work will be lost...</source>
-        <translation>Opravdu se chcete odhlásit?&lt;p&gt;Všechna neuložená práce bude ztracena...</translation>
+        <translation type="vanished">Opravdu se chcete odhlásit?&lt;p&gt;Všechna neuložená práce bude ztracena...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="202"/>
-        <location filename="../lxqtpowermanager.cpp" line="207"/>
         <source>LxQt Power Manager Error</source>
-        <translation>Chyba ve správě energie</translation>
+        <translation type="vanished">Chyba ve správě energie</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="202"/>
         <source>Hibernate failed.</source>
-        <translation>Hibernace se nezdařila.</translation>
+        <translation type="vanished">Hibernace se nezdařila.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="207"/>
         <source>Suspend failed.</source>
-        <translation>Uspání se nezdařilo.</translation>
+        <translation type="vanished">Uspání se nezdařilo.</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Power Manager Error</source>
+        <translation type="vanished">Chyba správce energie</translation>
+    </message>
+    <message>
+        <source>QDBusInterface is invalid</source>
+        <translation type="vanished">QDBusInterface je neplatné</translation>
+    </message>
+    <message>
+        <source>Power Manager Error (D-BUS call)</source>
+        <translation type="vanished">Chyba správce energie (volání D-BUS)</translation>
     </message>
 </context>
 <context>
     <name>ScreenSaver</name>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="52"/>
         <source>Lock Screen</source>
-        <translation>Zamknout obrazovku</translation>
+        <translation type="vanished">Zamknout obrazovku</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="71"/>
-        <location filename="../lxqtscreensaver.cpp" line="79"/>
-        <location filename="../lxqtscreensaver.cpp" line="87"/>
-        <location filename="../lxqtscreensaver.cpp" line="99"/>
-        <location filename="../lxqtscreensaver.cpp" line="107"/>
-        <location filename="../lxqtscreensaver.cpp" line="115"/>
-        <location filename="../lxqtscreensaver.cpp" line="124"/>
         <source>Screen Saver Activation Error</source>
-        <translation>Chyba při zapínání šetřiče obrazovky</translation>
+        <translation type="vanished">Chyba při zapínání šetřiče obrazovky</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="72"/>
         <source>An error occurred starting screensaver. xdg-screensaver cannot be started due its crash.</source>
-        <translation>Při spouštění šetřiče obrazovky se vyskytla chyba. xdg-screensavernelze spustit kvůli jeho pádu.</translation>
+        <translation type="vanished">Při spouštění šetřiče obrazovky se vyskytla chyba. xdg-screensavernelze spustit kvůli jeho pádu.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="80"/>
         <source>An error occurred starting screensaver. xdg-screensaver is not installed correctly.</source>
-        <translation>Při spouštění šetřiče obrazovky se vyskytla chyba. xdg-screensaver není nainstalován správně.</translation>
+        <translation type="vanished">Při spouštění šetřiče obrazovky se vyskytla chyba. xdg-screensaver není nainstalován správně.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="88"/>
         <source>An error occurred starting screensaver. xdg-screensaver cannot be started.</source>
-        <translation>Při spouštění šetřiče obrazovky se vyskytla chyba. xdg-screensaver nelze spustit.</translation>
+        <translation type="vanished">Při spouštění šetřiče obrazovky se vyskytla chyba. xdg-screensaver nelze spustit.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="100"/>
         <source>An error occurred starting screensaver. Syntax error in xdg-screensaver arguments.</source>
-        <translation>Při spouštění šetřiče obrazovky se vyskytla chyba. Chybná skladba v argumentech xdg-screensaver.</translation>
+        <translation type="vanished">Při spouštění šetřiče obrazovky se vyskytla chyba. Chybná skladba v argumentech xdg-screensaver.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="108"/>
         <source>An error occurred starting screensaver. Ensure you have xscreensaver installed and running.</source>
-        <translation>Při spouštění šetřiče obrazovky se vyskytla chyba. Ujistěte se, že máte xdg-screensaver nainstalován a že běží.</translation>
+        <translation type="vanished">Při spouštění šetřiče obrazovky se vyskytla chyba. Ujistěte se, že máte xdg-screensaver nainstalován a že běží.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="116"/>
         <source>An error occurred starting screensaver. Action &apos;activate&apos; failed. Ensure you have xscreensaver installed and running.</source>
-        <translation>Při spouštění šetřiče obrazovky se vyskytla chyba. Krok &quot;zapnutí&quot; se nezdařil. Ujistěte se, že máte xdg-screensaver nainstalován a že běží.</translation>
+        <translation type="vanished">Při spouštění šetřiče obrazovky se vyskytla chyba. Krok &quot;zapnutí&quot; se nezdařil. Ujistěte se, že máte xdg-screensaver nainstalován a že běží.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="125"/>
         <source>An error occurred starting screensaver. Unknown error - undocumented return value from xdg-screensaver=%1.</source>
-        <translation>Během spouštění spořiče obrazovky se vyskytla chyba. Neznámá chyba - nezdokumentovaná vrácená hodnota od xdg-screensaver=%1.</translation>
+        <translation type="vanished">Během spouštění spořiče obrazovky se vyskytla chyba. Neznámá chyba - nezdokumentovaná vrácená hodnota od xdg-screensaver=%1.</translation>
     </message>
 </context>
 <context>
@@ -352,27 +314,6 @@
     <message>
         <source>None</source>
         <translation type="obsolete">Žádný</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="91"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="141"/>
-        <source>Power Manager Error</source>
-        <translation>Chyba správce energie</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="92"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="142"/>
-        <source>QDBusInterface is invalid</source>
-        <translation>QDBusInterface je neplatné</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="106"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="156"/>
-        <source>Power Manager Error (D-BUS call)</source>
-        <translation>Chyba správce energie (volání D-BUS)</translation>
     </message>
 </context>
 <context>

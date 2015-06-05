@@ -1,97 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="tr">
-<context>
-    <name>AddPluginDialog</name>
-    <message>
-        <source>Add plugins</source>
-        <translation type="obsolete">Eklenti ekle</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="22"/>
-        <source>Search:</source>
-        <translation>Ara:</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="52"/>
-        <source>Add Widget</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add plugin</source>
-        <translation type="obsolete">Eklenti ekle</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="59"/>
-        <source>Close</source>
-        <translation>Kapat</translation>
-    </message>
-</context>
-<context>
-    <name>ConfigDialog</name>
-    <message>
-        <location filename="../configdialog/lxqtconfigdialog.ui" line="14"/>
-        <source>Dialog</source>
-        <translation>Etkileşim</translation>
-    </message>
-</context>
+<TS version="2.1" language="tr">
 <context>
     <name>AboutDialogPrivate</name>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="86"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
         <translation>Versiyon: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Qt teknolojilerini temel alan gelişmiş, kullanımı kolay ve hızlı masaüstü ortamı.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="101"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Telif Hakkı: %1-%2 %3</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="105"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Anasayfa: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Lisans: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="117"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="119"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="137"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="134"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="144"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="141"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
         <translation>LXQt tüm dünyadaki çeviri ekiplerinin çalışmalarına sayesinde birçok dil çevrilir.</translation>
@@ -169,178 +135,174 @@
 <context>
     <name>AddPluginDialog</name>
     <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.cpp" line="199"/>
-        <source>(%1 active)</source>
-        <translation type="unfinished"></translation>
+        <source>Add plugins</source>
+        <translation type="obsolete">Eklenti ekle</translation>
+    </message>
+    <message>
+        <source>Search:</source>
+        <translation type="vanished">Ara:</translation>
+    </message>
+    <message>
+        <source>Add plugin</source>
+        <translation type="obsolete">Eklenti ekle</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="vanished">Kapat</translation>
+    </message>
+</context>
+<context>
+    <name>ConfigDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation type="vanished">Etkileşim</translation>
     </message>
 </context>
 <context>
     <name>MessageBox</name>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="70"/>
         <source>LxQt Power Manager Error</source>
-        <translation type="unfinished">LxQt Güç Yöneticisi Hatası</translation>
+        <translation type="obsolete">LxQt Güç Yöneticisi Hatası</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="70"/>
         <source>Hibernate failed.</source>
-        <translation type="unfinished">Uykuya alma başarısız oldu.</translation>
+        <translation type="obsolete">Uykuya alma başarısız oldu.</translation>
     </message>
 </context>
 <context>
     <name>NotificationPrivate</name>
     <message>
-        <location filename="../lxqtnotification.cpp" line="152"/>
         <source>Notifications Fallback</source>
-        <translation>Bildirimleri geriye al</translation>
+        <translation type="vanished">Bildirimleri geriye al</translation>
     </message>
 </context>
 <context>
     <name>PowerManager</name>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="113"/>
         <source>Hibernate</source>
-        <translation>Uyku</translation>
+        <translation type="vanished">Uyku</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="120"/>
         <source>Suspend</source>
-        <translation>Askıya Al</translation>
+        <translation type="vanished">Askıya Al</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="127"/>
         <source>Reboot</source>
-        <translation>Yeniden Başlat</translation>
+        <translation type="vanished">Yeniden Başlat</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="134"/>
         <source>Shutdown</source>
-        <translation>Bilgisayarı Kapat</translation>
+        <translation type="vanished">Bilgisayarı Kapat</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="141"/>
         <source>Logout</source>
-        <translation>Oturumu Kapat</translation>
+        <translation type="vanished">Oturumu Kapat</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="153"/>
         <source>LxQt Session Suspend</source>
-        <translation>LxQt Oturum Askıya Alma</translation>
+        <translation type="vanished">LxQt Oturum Askıya Alma</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="154"/>
         <source>Do you want to really suspend your computer?&lt;p&gt;Suspends the computer into a low power state. System state is not preserved if the power is lost.</source>
-        <translation>Bilgisayarınızı gerçekten askıya almak istiyor musunuz?&lt;p&gt;Bilgisayarı düşük güç tüketiminde askıya alır. Güç gittiği takdirde sistem durumu saklanmaz.</translation>
+        <translation type="vanished">Bilgisayarınızı gerçekten askıya almak istiyor musunuz?&lt;p&gt;Bilgisayarı düşük güç tüketiminde askıya alır. Güç gittiği takdirde sistem durumu saklanmaz.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="163"/>
         <source>LxQt Session Hibernate</source>
-        <translation>LxQt Oturum Uyku Kipi</translation>
+        <translation type="vanished">LxQt Oturum Uyku Kipi</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="164"/>
         <source>Do you want to really hibernate your computer?&lt;p&gt;Hibernates the computer into a low power state. System state is preserved if the power is lost.</source>
-        <translation>Bilgisayarınızı gerçekten uyku kipine geçirmek istiyor musunuz?&lt;p&gt;Bilgisayarı düşük güç tüketiminde uyku kipine alır. Güç gittiği takdirde sistem durumu korunur.</translation>
+        <translation type="vanished">Bilgisayarınızı gerçekten uyku kipine geçirmek istiyor musunuz?&lt;p&gt;Bilgisayarı düşük güç tüketiminde uyku kipine alır. Güç gittiği takdirde sistem durumu korunur.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="173"/>
         <source>LxQt Session Reboot</source>
-        <translation>LxQt Oturum Yeniden Başlatma</translation>
+        <translation type="vanished">LxQt Oturum Yeniden Başlatma</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="174"/>
         <source>Do you want to really restart your computer? All unsaved work will be lost...</source>
-        <translation>Bilgisayarınızı gerçekten yeniden başlatmak istiyor musunuz? Kaydedilmemiş veriler kaybolacaktır...</translation>
+        <translation type="vanished">Bilgisayarınızı gerçekten yeniden başlatmak istiyor musunuz? Kaydedilmemiş veriler kaybolacaktır...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="183"/>
         <source>LxQt Session Shutdown</source>
-        <translation>LxQt Oturum Kapatma</translation>
+        <translation type="vanished">LxQt Oturum Kapatma</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="184"/>
         <source>Do you want to really switch off your computer? All unsaved work will be lost...</source>
-        <translation>Bilgisayarınızı gerçekten kapatmak istiyor musunuz? Kaydedilmemiş veriler kaybolacaktır...</translation>
+        <translation type="vanished">Bilgisayarınızı gerçekten kapatmak istiyor musunuz? Kaydedilmemiş veriler kaybolacaktır...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="193"/>
         <source>LxQt Session Logout</source>
-        <translation>LxQt Oturumu Kapatma</translation>
+        <translation type="vanished">LxQt Oturumu Kapatma</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="194"/>
         <source>Do you want to really logout? All unsaved work will be lost...</source>
-        <translation>Oturumunuzu gerçekten kapatmak istiyor musunuz? Kaydedilmemiş veriler kaybolacaktır...</translation>
+        <translation type="vanished">Oturumunuzu gerçekten kapatmak istiyor musunuz? Kaydedilmemiş veriler kaybolacaktır...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="202"/>
-        <location filename="../lxqtpowermanager.cpp" line="207"/>
         <source>LxQt Power Manager Error</source>
-        <translation>LxQt Güç Yöneticisi Hatası</translation>
+        <translation type="vanished">LxQt Güç Yöneticisi Hatası</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="202"/>
         <source>Hibernate failed.</source>
-        <translation>Uykuya alma başarısız oldu.</translation>
+        <translation type="vanished">Uykuya alma başarısız oldu.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="207"/>
         <source>Suspend failed.</source>
-        <translation>Askıya alma başarısız oldu.</translation>
+        <translation type="vanished">Askıya alma başarısız oldu.</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Power Manager Error</source>
+        <translation type="vanished">Güç Yöneticisi Hatası</translation>
+    </message>
+    <message>
+        <source>QDBusInterface is invalid</source>
+        <translation type="vanished">QDBusInterface geçersiz</translation>
+    </message>
+    <message>
+        <source>Power Manager Error (D-BUS call)</source>
+        <translation type="vanished">Güç Yöneticisi Hatası (D-Bus çağrısı)</translation>
     </message>
 </context>
 <context>
     <name>ScreenSaver</name>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="52"/>
         <source>Lock Screen</source>
-        <translation>Ekranı Kilitle</translation>
+        <translation type="vanished">Ekranı Kilitle</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="71"/>
-        <location filename="../lxqtscreensaver.cpp" line="79"/>
-        <location filename="../lxqtscreensaver.cpp" line="87"/>
-        <location filename="../lxqtscreensaver.cpp" line="99"/>
-        <location filename="../lxqtscreensaver.cpp" line="107"/>
-        <location filename="../lxqtscreensaver.cpp" line="115"/>
-        <location filename="../lxqtscreensaver.cpp" line="124"/>
         <source>Screen Saver Activation Error</source>
-        <translation>Ekran Koruyucusu Etkinleştirme Hatası</translation>
+        <translation type="vanished">Ekran Koruyucusu Etkinleştirme Hatası</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="72"/>
         <source>An error occurred starting screensaver. xdg-screensaver cannot be started due its crash.</source>
-        <translation>Ekran koruyucu başlatılırken hata oluştu. xdg-screensaver çöktüğünden başlatılamadı.</translation>
+        <translation type="vanished">Ekran koruyucu başlatılırken hata oluştu. xdg-screensaver çöktüğünden başlatılamadı.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="80"/>
         <source>An error occurred starting screensaver. xdg-screensaver is not installed correctly.</source>
-        <translation>Ekran koruyucu başlatılırken hata oluştu. xdg-screensaver düzgün biçimde kurulmamış,</translation>
+        <translation type="vanished">Ekran koruyucu başlatılırken hata oluştu. xdg-screensaver düzgün biçimde kurulmamış,</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="88"/>
         <source>An error occurred starting screensaver. xdg-screensaver cannot be started.</source>
-        <translation>Ekran koruyucu başlatılırken hata oluştu. xdg-screensaver başlatılamıyor.</translation>
+        <translation type="vanished">Ekran koruyucu başlatılırken hata oluştu. xdg-screensaver başlatılamıyor.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="100"/>
         <source>An error occurred starting screensaver. Syntax error in xdg-screensaver arguments.</source>
-        <translation>Ekran koruyucu başlatılırken hata oluştu. xdg-screensaver argümanlarında sözdizimi hatası.</translation>
+        <translation type="vanished">Ekran koruyucu başlatılırken hata oluştu. xdg-screensaver argümanlarında sözdizimi hatası.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="108"/>
         <source>An error occurred starting screensaver. Ensure you have xscreensaver installed and running.</source>
-        <translation>Ekran koruyucu başlatılırken hata oluştu. xscreensaver uygulamasının kurulu ve çalışmakta olduğundan emin olun.</translation>
+        <translation type="vanished">Ekran koruyucu başlatılırken hata oluştu. xscreensaver uygulamasının kurulu ve çalışmakta olduğundan emin olun.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="116"/>
         <source>An error occurred starting screensaver. Action &apos;activate&apos; failed. Ensure you have xscreensaver installed and running.</source>
-        <translation>Ekran koruyucu başlatılırken hata oluştu. &apos;etkinleştirme&apos; eylemi başarısız oldu. xscreensaver uygulamasının kurulu ve çalışmakta olduğundan emin olun.</translation>
+        <translation type="vanished">Ekran koruyucu başlatılırken hata oluştu. &apos;etkinleştirme&apos; eylemi başarısız oldu. xscreensaver uygulamasının kurulu ve çalışmakta olduğundan emin olun.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="125"/>
         <source>An error occurred starting screensaver. Unknown error - undocumented return value from xdg-screensaver=%1.</source>
-        <translation>Ekran Koruyucu başlarken bir hata oluştur. Bilinmeyen hata - xdg-screensaver=%1 den okunamayan geri dönüş değeri.</translation>
+        <translation type="vanished">Ekran Koruyucu başlarken bir hata oluştur. Bilinmeyen hata - xdg-screensaver=%1 den okunamayan geri dönüş değeri.</translation>
     </message>
 </context>
 <context>
@@ -352,27 +314,6 @@
     <message>
         <source>None</source>
         <translation type="obsolete">Yok</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="91"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="141"/>
-        <source>Power Manager Error</source>
-        <translation>Güç Yöneticisi Hatası</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="92"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="142"/>
-        <source>QDBusInterface is invalid</source>
-        <translation>QDBusInterface geçersiz</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="106"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="156"/>
-        <source>Power Manager Error (D-BUS call)</source>
-        <translation>Güç Yöneticisi Hatası (D-Bus çağrısı)</translation>
     </message>
 </context>
 <context>

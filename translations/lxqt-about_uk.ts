@@ -1,97 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk">
-<context>
-    <name>AddPluginDialog</name>
-    <message>
-        <source>Add plugins</source>
-        <translation type="obsolete">Додати плаґіни</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="22"/>
-        <source>Search:</source>
-        <translation>Шукати:</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="52"/>
-        <source>Add Widget</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add plugin</source>
-        <translation type="obsolete">Додати плаґін</translation>
-    </message>
-    <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.ui" line="59"/>
-        <source>Close</source>
-        <translation>Закрити</translation>
-    </message>
-</context>
-<context>
-    <name>ConfigDialog</name>
-    <message>
-        <location filename="../configdialog/lxqtconfigdialog.ui" line="14"/>
-        <source>Dialog</source>
-        <translation>Діалог</translation>
-    </message>
-</context>
+<TS version="2.1" language="uk">
 <context>
     <name>AboutDialogPrivate</name>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="86"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
         <translation>Версія: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Передове, легке у використанні та швидке стільникове середовище засноване на технологіях Qt.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="101"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Авторське право: %1-%2 %3</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="105"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Домашня сторінка: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Ліцензія: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="117"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="119"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="137"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="134"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="144"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="141"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
         <translation>LXQt перекладено на багато мов завдяки праці команд перекладачів по всьому світу.</translation>
@@ -169,178 +135,174 @@
 <context>
     <name>AddPluginDialog</name>
     <message>
-        <location filename="../addplugindialog/lxqtaddplugindialog.cpp" line="199"/>
-        <source>(%1 active)</source>
-        <translation type="unfinished"></translation>
+        <source>Add plugins</source>
+        <translation type="obsolete">Додати плаґіни</translation>
+    </message>
+    <message>
+        <source>Search:</source>
+        <translation type="vanished">Шукати:</translation>
+    </message>
+    <message>
+        <source>Add plugin</source>
+        <translation type="obsolete">Додати плаґін</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="vanished">Закрити</translation>
+    </message>
+</context>
+<context>
+    <name>ConfigDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation type="vanished">Діалог</translation>
     </message>
 </context>
 <context>
     <name>MessageBox</name>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="70"/>
         <source>LxQt Power Manager Error</source>
-        <translation type="unfinished">Збій менеджера живлення LxQt</translation>
+        <translation type="obsolete">Збій менеджера живлення LxQt</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="70"/>
         <source>Hibernate failed.</source>
-        <translation type="unfinished">Не вдалося приспати.</translation>
+        <translation type="obsolete">Не вдалося приспати.</translation>
     </message>
 </context>
 <context>
     <name>NotificationPrivate</name>
     <message>
-        <location filename="../lxqtnotification.cpp" line="152"/>
         <source>Notifications Fallback</source>
-        <translation>Резервне сповіщення</translation>
+        <translation type="vanished">Резервне сповіщення</translation>
     </message>
 </context>
 <context>
     <name>PowerManager</name>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="113"/>
         <source>Hibernate</source>
-        <translation>Приспати</translation>
+        <translation type="vanished">Приспати</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="120"/>
         <source>Suspend</source>
-        <translation>Призупинити</translation>
+        <translation type="vanished">Призупинити</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="127"/>
         <source>Reboot</source>
-        <translation>Перезавантажити</translation>
+        <translation type="vanished">Перезавантажити</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="134"/>
         <source>Shutdown</source>
-        <translation>Вимкнути</translation>
+        <translation type="vanished">Вимкнути</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="141"/>
         <source>Logout</source>
-        <translation>Вийти</translation>
+        <translation type="vanished">Вийти</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="153"/>
         <source>LxQt Session Suspend</source>
-        <translation>Призупинити комп’ютер</translation>
+        <translation type="vanished">Призупинити комп’ютер</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="154"/>
         <source>Do you want to really suspend your computer?&lt;p&gt;Suspends the computer into a low power state. System state is not preserved if the power is lost.</source>
-        <translation>Дійсно призупинити комп’ютер?&lt;p&gt;Це переведе його в режим зниженого енергоспоживання. При втраті живлення стан системи не збережеться.</translation>
+        <translation type="vanished">Дійсно призупинити комп’ютер?&lt;p&gt;Це переведе його в режим зниженого енергоспоживання. При втраті живлення стан системи не збережеться.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="163"/>
         <source>LxQt Session Hibernate</source>
-        <translation>Приспати комп’ютер</translation>
+        <translation type="vanished">Приспати комп’ютер</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="164"/>
         <source>Do you want to really hibernate your computer?&lt;p&gt;Hibernates the computer into a low power state. System state is preserved if the power is lost.</source>
-        <translation>Дійсно приспати комп’ютер?&lt;p&gt;Це переведе його в режим зниженого енергоспоживання. При втраті живлення стан системи збережеться.</translation>
+        <translation type="vanished">Дійсно приспати комп’ютер?&lt;p&gt;Це переведе його в режим зниженого енергоспоживання. При втраті живлення стан системи збережеться.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="173"/>
         <source>LxQt Session Reboot</source>
-        <translation>Перезавантажити комп’ютер</translation>
+        <translation type="vanished">Перезавантажити комп’ютер</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="174"/>
         <source>Do you want to really restart your computer? All unsaved work will be lost...</source>
-        <translation>Дійсно перезавантажити комп’ютер? Усю незбережену роботу буде втрачено...</translation>
+        <translation type="vanished">Дійсно перезавантажити комп’ютер? Усю незбережену роботу буде втрачено...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="183"/>
         <source>LxQt Session Shutdown</source>
-        <translation>Вимкнути комп’ютер</translation>
+        <translation type="vanished">Вимкнути комп’ютер</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="184"/>
         <source>Do you want to really switch off your computer? All unsaved work will be lost...</source>
-        <translation>Дійсно вимкнути комп’ютер? Усю незбережену роботу буде втрачено...</translation>
+        <translation type="vanished">Дійсно вимкнути комп’ютер? Усю незбережену роботу буде втрачено...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="193"/>
         <source>LxQt Session Logout</source>
-        <translation>Вийти з сеансу LxQt</translation>
+        <translation type="vanished">Вийти з сеансу LxQt</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="194"/>
         <source>Do you want to really logout? All unsaved work will be lost...</source>
-        <translation>Дійсно завершити сеанс? Усю незбережену роботу буде втрачено...</translation>
+        <translation type="vanished">Дійсно завершити сеанс? Усю незбережену роботу буде втрачено...</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="202"/>
-        <location filename="../lxqtpowermanager.cpp" line="207"/>
         <source>LxQt Power Manager Error</source>
-        <translation>Збій менеджера живлення LxQt</translation>
+        <translation type="vanished">Збій менеджера живлення LxQt</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="202"/>
         <source>Hibernate failed.</source>
-        <translation>Не вдалося приспати.</translation>
+        <translation type="vanished">Не вдалося приспати.</translation>
     </message>
     <message>
-        <location filename="../lxqtpowermanager.cpp" line="207"/>
         <source>Suspend failed.</source>
-        <translation>Не вдалося призупинити.</translation>
+        <translation type="vanished">Не вдалося призупинити.</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Power Manager Error</source>
+        <translation type="vanished">Збій менеджера живлення</translation>
+    </message>
+    <message>
+        <source>QDBusInterface is invalid</source>
+        <translation type="vanished">QDBusInterface недійсний</translation>
+    </message>
+    <message>
+        <source>Power Manager Error (D-BUS call)</source>
+        <translation type="vanished">Збій менеджера живлення (виклик D-BUS)</translation>
     </message>
 </context>
 <context>
     <name>ScreenSaver</name>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="52"/>
         <source>Lock Screen</source>
-        <translation>Заблокувати екран</translation>
+        <translation type="vanished">Заблокувати екран</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="71"/>
-        <location filename="../lxqtscreensaver.cpp" line="79"/>
-        <location filename="../lxqtscreensaver.cpp" line="87"/>
-        <location filename="../lxqtscreensaver.cpp" line="99"/>
-        <location filename="../lxqtscreensaver.cpp" line="107"/>
-        <location filename="../lxqtscreensaver.cpp" line="115"/>
-        <location filename="../lxqtscreensaver.cpp" line="124"/>
         <source>Screen Saver Activation Error</source>
-        <translation>Збій запуску зберігача екрану</translation>
+        <translation type="vanished">Збій запуску зберігача екрану</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="72"/>
         <source>An error occurred starting screensaver. xdg-screensaver cannot be started due its crash.</source>
-        <translation>Стався збій при запуску зберігача екрану. xdg-screensaver зазнав краху.</translation>
+        <translation type="vanished">Стався збій при запуску зберігача екрану. xdg-screensaver зазнав краху.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="80"/>
         <source>An error occurred starting screensaver. xdg-screensaver is not installed correctly.</source>
-        <translation>Стався збій при запуску зберігача екрану. xdg-screensaver не встановлено коректним чином.</translation>
+        <translation type="vanished">Стався збій при запуску зберігача екрану. xdg-screensaver не встановлено коректним чином.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="88"/>
         <source>An error occurred starting screensaver. xdg-screensaver cannot be started.</source>
-        <translation>Стався збій при запуску зберігача екрану. Не вдалося запустити xdg-screensaver.</translation>
+        <translation type="vanished">Стався збій при запуску зберігача екрану. Не вдалося запустити xdg-screensaver.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="100"/>
         <source>An error occurred starting screensaver. Syntax error in xdg-screensaver arguments.</source>
-        <translation>Стався збій при запуску зберігача екрану. В аргументах xdg-screensaver синтаксична помилка.</translation>
+        <translation type="vanished">Стався збій при запуску зберігача екрану. В аргументах xdg-screensaver синтаксична помилка.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="108"/>
         <source>An error occurred starting screensaver. Ensure you have xscreensaver installed and running.</source>
-        <translation>Стався збій при запуску зберігача екрану. Впевніться, що xscreensaver коректно встановлено та запущено.</translation>
+        <translation type="vanished">Стався збій при запуску зберігача екрану. Впевніться, що xscreensaver коректно встановлено та запущено.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="116"/>
         <source>An error occurred starting screensaver. Action &apos;activate&apos; failed. Ensure you have xscreensaver installed and running.</source>
-        <translation>Стався збій при запуску зберігача екрану. Не вдалося виконати дію &quot;activate&quot;. Впевніться, що xscreensaver коректно встановлено та запущено.</translation>
+        <translation type="vanished">Стався збій при запуску зберігача екрану. Не вдалося виконати дію &quot;activate&quot;. Впевніться, що xscreensaver коректно встановлено та запущено.</translation>
     </message>
     <message>
-        <location filename="../lxqtscreensaver.cpp" line="125"/>
         <source>An error occurred starting screensaver. Unknown error - undocumented return value from xdg-screensaver=%1.</source>
-        <translation>Стався збій при запуску зберігача екрану. Невідома помилка - xdg-screensaver повернув недокументоване значення = %1.</translation>
+        <translation type="vanished">Стався збій при запуску зберігача екрану. Невідома помилка - xdg-screensaver повернув недокументоване значення = %1.</translation>
     </message>
 </context>
 <context>
@@ -352,27 +314,6 @@
     <message>
         <source>None</source>
         <translation type="obsolete">Нічого</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="91"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="141"/>
-        <source>Power Manager Error</source>
-        <translation>Збій менеджера живлення</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="92"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="142"/>
-        <source>QDBusInterface is invalid</source>
-        <translation>QDBusInterface недійсний</translation>
-    </message>
-    <message>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="106"/>
-        <location filename="../lxqtpower/lxqtpowerproviders.cpp" line="156"/>
-        <source>Power Manager Error (D-BUS call)</source>
-        <translation>Збій менеджера живлення (виклик D-BUS)</translation>
     </message>
 </context>
 <context>
