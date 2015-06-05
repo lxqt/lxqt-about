@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.11)
 project(lxqt-about)
 
+option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
+
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -10,6 +12,10 @@ set(CPP_FILES
     aboutdialog/technicalinfo.cpp
     translatorsinfo/translatorsinfo.cpp
     main.cpp
+)
+
+set(UI_FILES
+    aboutdialog/lxqtaboutdialog.ui
 )
 
 find_package(Qt5Widgets REQUIRED QUIET)
@@ -29,9 +35,21 @@ endif()
 
 set(APP_SHARE_DIR share/lxqt/${PROJECT_NAME})
 
-
 # Translations **********************************
-include(LXQtTranslateDesktop)
+include(LXQtTranslate)
+
+lxqt_translate_ts(QM_FILES
+    UPDATE_TRANSLATIONS ${UPDATE_TRANSLATIONS}
+    SOURCES
+        ${H_FILES}
+        ${CPP_FILES}
+        ${UI_FILES}
+    INSTALL_DIR
+        "${LXQT_TRANSLATIONS_DIR}/${PROJECT_NAME}"
+)
+
+lxqt_app_translation_loader(QM_LOADER ${PROJECT_NAME})
+
 lxqt_translate_desktop(DESKTOP_FILES
     SOURCES
     resources/lxqt-about.desktop.in
@@ -47,6 +65,8 @@ add_executable(${PROJECT_NAME}
     ${QM_FILES}
     ${DESKTOP_FILES}
     ${QRC_CXX_SOURCES}
+    ${QM_LOADER}
+
 )
 
 target_link_libraries(${PROJECT_NAME}
