@@ -1,12 +1,12 @@
 /* BEGIN_COMMON_COPYRIGHT_HEADER
  * (c)LGPL2+
  *
- * LXDE-Qt - a lightweight, Qt based, desktop toolset
+ * LXQt - a lightweight, Qt based, desktop toolset
  * http://razor-qt.org
  *
- * Copyright: 2010-2011 Razor team
+ * Copyright: 2012 Razor team
  * Authors:
- *   Petr Vanek <petr@scribus.info>
+ *   Alexander Sokoloff <sokoloff.a@gmail.com>
  *
  * This program or library is free software; you can redistribute it
  * and/or modify it under the terms of the GNU Lesser General Public
@@ -26,14 +26,30 @@
  * END_COMMON_COPYRIGHT_HEADER */
 
 
-#include "aboutdialog/lxqtaboutdialog.h"
+#ifndef TECHNICALINFO_H
+#define TECHNICALINFO_H
 
-#include <LXQt/Application>
-#include <LXQt/GridLayout>
+#include <QList>
+#include <QPair>
+#include <QDateTime>
+#include <QVariant>
 
-int main(int argc, char *argv[])
+class TechInfoTable;
+
+class TechnicalInfo
 {
-    LxQt::Application app(argc, argv);
-    AboutDialog dlg;
-    return app.exec();
-}
+public:
+    TechnicalInfo();
+    ~TechnicalInfo();
+
+    QString html() const;
+    QString text() const;
+
+    TechInfoTable *newTable(const QString &title);
+    void add(const TechInfoTable &table);
+
+private:
+    QList<TechInfoTable*> mItems;
+};
+
+#endif // TECHNICALINFO_H

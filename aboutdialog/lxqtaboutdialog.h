@@ -1,7 +1,7 @@
 /* BEGIN_COMMON_COPYRIGHT_HEADER
  * (c)LGPL2+
  *
- * LXDE-Qt - a lightweight, Qt based, desktop toolset
+ * LXQt - a lightweight, Qt based, desktop toolset
  * http://razor-qt.org
  *
  * Copyright: 2010-2011 Razor team
@@ -25,15 +25,24 @@
  *
  * END_COMMON_COPYRIGHT_HEADER */
 
+#ifndef LXQTRABOUTDIALOG_H
+#define LXQTRABOUTDIALOG_H
 
-#include "aboutdialog/lxqtaboutdialog.h"
+#include <QDialog>
 
-#include <LXQt/Application>
-#include <LXQt/GridLayout>
+class AboutDialogPrivate;
 
-int main(int argc, char *argv[])
+/**
+ * @brief displays a simple about dialog
+ */
+class AboutDialog: public QDialog
 {
-    LxQt::Application app(argc, argv);
-    AboutDialog dlg;
-    return app.exec();
-}
+    Q_OBJECT
+public:
+    AboutDialog();
+private:
+    AboutDialogPrivate * d_ptr;
+};
+
+
+#endif // LXQTRABOUTDIALOG_H

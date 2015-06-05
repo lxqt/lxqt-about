@@ -1,7 +1,7 @@
 /* BEGIN_COMMON_COPYRIGHT_HEADER
  * (c)LGPL2+
  *
- * LXDE-Qt - a lightweight, Qt based, desktop toolset
+ * LXQt - a lightweight, Qt based, desktop toolset
  * http://razor-qt.org
  *
  * Copyright: 2010-2011 Razor team
@@ -25,15 +25,29 @@
  *
  * END_COMMON_COPYRIGHT_HEADER */
 
+#ifndef LXQT_ABOUTDIALOG_P_H
+#define LXQT_ABOUTDIALOG_P_H
 
-#include "aboutdialog/lxqtaboutdialog.h"
+#include "ui_lxqtaboutdialog.h"
+#include <QDialog>
 
-#include <LXQt/Application>
-#include <LXQt/GridLayout>
-
-int main(int argc, char *argv[])
+/**
+ * @brief prepares the data to show and fills the form, then shows.
+ */
+class AboutDialogPrivate: public QDialog, public Ui_about
 {
-    LxQt::Application app(argc, argv);
-    AboutDialog dlg;
-    return app.exec();
-}
+    Q_OBJECT
+
+public:
+    AboutDialogPrivate();
+    QString titleText() const;
+    QString aboutText() const;
+    QString authorsText() const;
+    QString thanksText() const;
+    QString translationsText() const;
+
+public slots:
+    void copyToCliboardTechInfo();
+};
+
+#endif // LXQT_ABOUTDIALOG_P_H
