@@ -1,7 +1,14 @@
 cmake_minimum_required(VERSION 2.8.11)
 project(lxqt-about)
 
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
 set(CPP_FILES
+    aboutdialog/lxqtaboutdialog.cpp
+    aboutdialog/technicalinfo.cpp
+    translatorsinfo/translatorsinfo.cpp
     main.cpp
 )
 
@@ -31,11 +38,15 @@ lxqt_translate_desktop(DESKTOP_FILES
 )
 #************************************************
 
+include(translatorsinfo/CMakeLists.txt)
+get_translatorsinfo_qrc(translatorsinfo_qrc)
+qt5_add_resources(QRC_CXX_SOURCES ${translatorsinfo_qrc})
 
 add_executable(${PROJECT_NAME}
     ${CPP_FILES}
     ${QM_FILES}
     ${DESKTOP_FILES}
+    ${QRC_CXX_SOURCES}
 )
 
 target_link_libraries(${PROJECT_NAME}
