@@ -29,17 +29,13 @@
 #define LXQTRABOUTDIALOG_H
 
 #include <QDialog>
-#include "lxqtglobals.h"
-
-namespace LxQt
-{
 
 class AboutDialogPrivate;
 
 /**
  * @brief displays a simple about dialog
  */
-class LXQT_API AboutDialog: public QDialog
+class AboutDialog: public QDialog
 {
     Q_OBJECT
 public:
@@ -48,6 +44,5 @@ private:
     AboutDialogPrivate * d_ptr;
 };
 
-} // namespace LxQt
 
 #endif // LXQTRABOUTDIALOG_H

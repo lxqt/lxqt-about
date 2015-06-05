@@ -28,18 +28,15 @@
 #include "lxqtaboutdialog.h"
 #include "ui_lxqtaboutdialog.h"
 #include "lxqtaboutdialog_p.h"
-#include "lxqttranslator.h"
 #include "technicalinfo.h"
 #include "translatorsinfo/translatorsinfo.h"
+
 #include <QDebug>
 #include <QDate>
 #include <QClipboard>
 
-using namespace LxQt;
-
 AboutDialogPrivate::AboutDialogPrivate()
 {
-    Translator::translateLibrary("liblxqt");
     setupUi(this);
 
     QString css="<style TYPE='text/css'> "

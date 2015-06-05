@@ -34,9 +34,6 @@
 #include <QDateTime>
 #include <QVariant>
 
-namespace LxQt
-{
-
 class TechInfoTable;
 
 class TechnicalInfo
@@ -54,8 +51,5 @@ public:
 private:
     QList<TechInfoTable*> mItems;
 };
-
-
-} // namespace LxQt
 
 #endif // TECHNICALINFO_H

@@ -31,9 +31,6 @@
 #include "ui_lxqtaboutdialog.h"
 #include <QDialog>
 
-namespace LxQt
-{
-
 /**
  * @brief prepares the data to show and fills the form, then shows.
  */
@@ -53,5 +50,4 @@ public slots:
     void copyToCliboardTechInfo();
 };
 
-} // namespace LxQt
 #endif // LXQT_ABOUTDIALOG_P_H

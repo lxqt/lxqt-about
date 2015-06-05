@@ -31,8 +31,10 @@
 #include <QMap>
 #include <QStringList>
 
+#if 0
 namespace LxQt
 {
+#endif
 
 class TranslatorPerson
 {
@@ -70,5 +72,5 @@ private:
     void process(const QString &lang, const QString &englishName, const QString &nativeName, const QString &contact);
 };
 
-} //namecpace LxQt
+//} //namecpace LxQt
 #endif // TRANSLATORSINFO_H

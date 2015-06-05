@@ -27,13 +27,13 @@
 
 
 #include "technicalinfo.h"
-#include "lxqttranslator.h"
+#include <LXQt/Translator>
 
 #include <XdgDirs>
 
 using namespace LxQt;
 
-class LxQt::TechInfoTable
+class TechInfoTable
 {
 public:
     TechInfoTable(const QString &title);

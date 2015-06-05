@@ -25,13 +25,15 @@
  *
  * END_COMMON_COPYRIGHT_HEADER */
 
+
+#include "aboutdialog/lxqtaboutdialog.h"
+
 #include <LXQt/Application>
-#include <LXQt/AboutDialog>
 #include <LXQt/GridLayout>
 
 int main(int argc, char *argv[])
 {
     LxQt::Application app(argc, argv);
-    LxQt::AboutDialog dlg;
+    AboutDialog dlg;
     return app.exec();
 }
