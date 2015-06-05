@@ -36,7 +36,7 @@
     </message>
 </context>
 <context>
-    <name>LxQt::AboutDialogPrivate</name>
+    <name>AboutDialogPrivate</name>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="86"/>
         <source>Version: %1</source>
@@ -119,7 +119,7 @@
     </message>
 </context>
 <context>
-    <name>LxQt::AddPluginDialog</name>
+    <name>AddPluginDialog</name>
     <message>
         <location filename="../addplugindialog/lxqtaddplugindialog.cpp" line="199"/>
         <source>(%1 active)</source>
@@ -127,7 +127,7 @@
     </message>
 </context>
 <context>
-    <name>LxQt::MessageBox</name>
+    <name>MessageBox</name>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="70"/>
         <source>LxQt Power Manager Error</source>
@@ -140,7 +140,7 @@
     </message>
 </context>
 <context>
-    <name>LxQt::NotificationPrivate</name>
+    <name>NotificationPrivate</name>
     <message>
         <location filename="../lxqtnotification.cpp" line="152"/>
         <source>Notifications Fallback</source>
@@ -148,7 +148,7 @@
     </message>
 </context>
 <context>
-    <name>LxQt::PowerManager</name>
+    <name>PowerManager</name>
     <message>
         <location filename="../lxqtpowermanager.cpp" line="113"/>
         <source>Hibernate</source>
@@ -242,7 +242,7 @@
     </message>
 </context>
 <context>
-    <name>LxQt::ScreenSaver</name>
+    <name>ScreenSaver</name>
     <message>
         <location filename="../lxqtscreensaver.cpp" line="52"/>
         <source>Lock Screen</source>
@@ -296,7 +296,7 @@
     </message>
 </context>
 <context>
-    <name>LxQt::ShortcutButton</name>
+    <name>ShortcutButton</name>
     <message>
         <source>Clear</source>
         <translation type="obsolete">Tyhjennä</translation>
