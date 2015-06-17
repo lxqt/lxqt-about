@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.11)
+cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
 project(lxqt-about)
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
@@ -21,11 +21,9 @@ find_package(Qt5Widgets REQUIRED QUIET)
 find_package(Qt5DBus REQUIRED QUIET)
 find_package(Qt5X11Extras REQUIRED QUIET)
 find_package(lxqt REQUIRED QUIET)
-include(${LXQT_USE_FILE})
 
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}
-    ${LXQT_INCLUDE_DIR}
 )
 
 if(NOT CMAKE_BUILD_TYPE)
@@ -74,7 +72,7 @@ target_link_libraries(${PROJECT_NAME}
     Qt5::Widgets
     Qt5::DBus
     Qt5::X11Extras
-    ${LXQT_LIBRARIES}
+    lxqt
 )
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
