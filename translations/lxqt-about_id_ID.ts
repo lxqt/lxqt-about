@@ -64,29 +64,6 @@
     </message>
 </context>
 <context>
-    <name>PowerManager</name>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Hibernasi</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Suspend</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Reboot</translation>
-    </message>
-    <message>
-        <source>Shutdown</source>
-        <translation type="vanished">Shutdown</translation>
-    </message>
-    <message>
-        <source>Logout</source>
-        <translation type="vanished">Keluar</translation>
-    </message>
-</context>
-<context>
     <name>about</name>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>

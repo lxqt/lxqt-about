@@ -72,100 +72,11 @@
     </message>
 </context>
 <context>
-    <name>AddPluginDialog</name>
-    <message>
-        <source>Add plugins</source>
-        <translation type="obsolete">Aldoni kromprogramojn</translation>
-    </message>
-    <message>
-        <source>Search:</source>
-        <translation type="vanished">Serĉi:</translation>
-    </message>
-    <message>
-        <source>Add plugin</source>
-        <translation type="obsolete">Aldoni kromprogramon</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="vanished">Fermi</translation>
-    </message>
-</context>
-<context>
-    <name>ConfigDialog</name>
-    <message>
-        <source>Dialog</source>
-        <translation type="vanished">Dialogo</translation>
-    </message>
-</context>
-<context>
-    <name>MessageBox</name>
-    <message>
-        <source>Hibernate failed.</source>
-        <translation type="obsolete">Pasivumigo fiaskis.</translation>
-    </message>
-</context>
-<context>
-    <name>PowerManager</name>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Pasivumigi</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Prokrasti</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Restartigi</translation>
-    </message>
-    <message>
-        <source>Shutdown</source>
-        <translation type="vanished">Elŝalti</translation>
-    </message>
-    <message>
-        <source>Logout</source>
-        <translation type="vanished">Elsaluti</translation>
-    </message>
-    <message>
-        <source>Hibernate failed.</source>
-        <translation type="vanished">Pasivumigo fiaskis.</translation>
-    </message>
-    <message>
-        <source>Suspend failed.</source>
-        <translation type="vanished">Prokrasto fiaskis.</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>QDBusInterface is invalid</source>
-        <translation type="vanished">QDBusInterface nevalidas</translation>
-    </message>
-</context>
-<context>
-    <name>ScreenSaver</name>
-    <message>
-        <source>Lock Screen</source>
-        <translation type="vanished">Ŝlosi ekranon</translation>
-    </message>
-</context>
-<context>
-    <name>ShortcutButton</name>
-    <message>
-        <source>Clear</source>
-        <translation type="obsolete">Vakigi</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="obsolete">Nenio</translation>
-    </message>
-</context>
-<context>
     <name>about</name>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation> Pri LxQto</translation>
+        <translation> Pri LXQto</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
