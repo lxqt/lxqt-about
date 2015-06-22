@@ -1,8 +1,0 @@
-[main]
-host = https://www.transifex.com
-
-[lxde-qt.lxqt-about_desktop]
-source_file = resources/lxqt-about.desktop.in
-source_lang = en
-file_filter = translations/lxqt-about_<lang>.desktop
-type = DESKTOP
