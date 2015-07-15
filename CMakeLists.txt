@@ -5,6 +5,7 @@ option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" O
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(CPP_FILES
@@ -49,13 +50,12 @@ lxqt_translate_desktop(DESKTOP_FILES
 
 include(translatorsinfo/CMakeLists.txt)
 get_translatorsinfo_qrc(translatorsinfo_qrc)
-qt5_add_resources(QRC_CXX_SOURCES ${translatorsinfo_qrc})
 
 add_executable(${PROJECT_NAME}
     ${CPP_FILES}
     ${QM_FILES}
     ${DESKTOP_FILES}
-    ${QRC_CXX_SOURCES}
+    ${translatorsinfo_qrc}
     ${QM_LOADER}
 
 )

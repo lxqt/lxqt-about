@@ -34,5 +34,5 @@ function(get_translatorsinfo_qrc _qrcFile)
         translatorsinfo/translatorsinfo.qrc.in
         "${CMAKE_CURRENT_BINARY_DIR}/translatorsinfo.qrc"
     )
-    set(${_qrcFile} "${CMAKE_CURRENT_BINARY_DIR}/translatorsinfo.qrc PARENT_SCOPE")
+    set(${_qrcFile} "${CMAKE_CURRENT_BINARY_DIR}/translatorsinfo.qrc" PARENT_SCOPE)
 endfunction()
