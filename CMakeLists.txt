@@ -22,10 +22,6 @@ find_package(Qt5DBus REQUIRED QUIET)
 find_package(Qt5X11Extras REQUIRED QUIET)
 find_package(lxqt REQUIRED QUIET)
 
-include_directories(
-    ${CMAKE_CURRENT_SOURCE_DIR}
-)
-
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()
