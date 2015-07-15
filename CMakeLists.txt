@@ -25,8 +25,6 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()
 
-set(APP_SHARE_DIR share/lxqt/${PROJECT_NAME})
-
 # Translations **********************************
 include(LXQtTranslate)
 
@@ -65,7 +63,6 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
-install(FILES ${CONFIG_FILES} DESTINATION ${APP_SHARE_DIR})
 install(FILES ${DESKTOP_FILES} DESTINATION share/applications)
 
 # building tarball with CPack -------------------------------------------------
