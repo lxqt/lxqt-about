@@ -18,9 +18,6 @@ set(UI_FILES
     aboutdialog/lxqtaboutdialog.ui
 )
 
-find_package(Qt5Widgets REQUIRED QUIET)
-find_package(Qt5DBus REQUIRED QUIET)
-find_package(Qt5X11Extras REQUIRED QUIET)
 find_package(lxqt REQUIRED QUIET)
 
 if(NOT CMAKE_BUILD_TYPE)
@@ -64,9 +61,6 @@ add_executable(${PROJECT_NAME}
 )
 
 target_link_libraries(${PROJECT_NAME}
-    Qt5::Widgets
-    Qt5::DBus
-    Qt5::X11Extras
     lxqt
 )
 
