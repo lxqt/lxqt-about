@@ -3,7 +3,11 @@ project(lxqt-about)
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
+include(GNUInstallDirs)
+
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(CPP_FILES
@@ -17,20 +21,11 @@ set(UI_FILES
     aboutdialog/lxqtaboutdialog.ui
 )
 
-find_package(Qt5Widgets REQUIRED QUIET)
-find_package(Qt5DBus REQUIRED QUIET)
-find_package(Qt5X11Extras REQUIRED QUIET)
 find_package(lxqt REQUIRED QUIET)
-
-include_directories(
-    ${CMAKE_CURRENT_SOURCE_DIR}
-)
 
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()
-
-set(APP_SHARE_DIR share/lxqt/${PROJECT_NAME})
 
 # Translations **********************************
 include(LXQtTranslate)
@@ -55,29 +50,30 @@ lxqt_translate_desktop(DESKTOP_FILES
 
 include(translatorsinfo/CMakeLists.txt)
 get_translatorsinfo_qrc(translatorsinfo_qrc)
-qt5_add_resources(QRC_CXX_SOURCES ${translatorsinfo_qrc})
-qt5_wrap_ui(UICS ${UI_FILES})
 
 add_executable(${PROJECT_NAME}
     ${CPP_FILES}
-    ${UICS}
     ${QM_FILES}
     ${DESKTOP_FILES}
-    ${QRC_CXX_SOURCES}
+    ${translatorsinfo_qrc}
     ${QM_LOADER}
 
 )
 
 target_link_libraries(${PROJECT_NAME}
-    Qt5::Widgets
-    Qt5::DBus
-    Qt5::X11Extras
     lxqt
 )
 
-install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
-install(FILES ${CONFIG_FILES} DESTINATION ${APP_SHARE_DIR})
-install(FILES ${DESKTOP_FILES} DESTINATION share/applications)
+install(TARGETS
+    ${PROJECT_NAME}
+    RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"
+    COMPONENT Runtime
+)
+install(FILES
+    ${DESKTOP_FILES}
+    DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/applications"
+    COMPONENT Runtime
+)
 
 # building tarball with CPack -------------------------------------------------
 include(InstallRequiredSystemLibraries)
