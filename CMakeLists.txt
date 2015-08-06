@@ -23,7 +23,7 @@ set(UI_FILES
 
 find_package(lxqt REQUIRED QUIET)
 
-include(LXQtCompilerSettings)
+include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
