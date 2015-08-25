@@ -71,8 +71,8 @@
         <translation type="obsolete">Hayır</translation>
     </message>
     <message>
-        <source>&lt;b&gt;LxQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
-        <translation type="obsolete">&lt;b&gt;LxQt Masaüstü araç kutusu - Teknik bilgi&lt;/b&gt;</translation>
+        <source>&lt;b&gt;LXQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
+        <translation type="obsolete">&lt;b&gt;LXQt Masaüstü araç kutusu - Teknik bilgi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Version</source>
@@ -137,7 +137,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation>LxQt Hakkında</translation>
+        <translation>LXQt Hakkında</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>

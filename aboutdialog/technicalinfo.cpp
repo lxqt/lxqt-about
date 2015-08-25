@@ -31,7 +31,7 @@
 
 #include <XdgDirs>
 
-using namespace LxQt;
+using namespace LXQt;
 
 class TechInfoTable
 {

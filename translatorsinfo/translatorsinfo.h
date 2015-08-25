@@ -32,7 +32,7 @@
 #include <QStringList>
 
 #if 0
-namespace LxQt
+namespace LXQt
 {
 #endif
 
@@ -72,5 +72,5 @@ private:
     void process(const QString &lang, const QString &englishName, const QString &nativeName, const QString &contact);
 };
 
-//} //namecpace LxQt
+//} //namecpace LXQt
 #endif // TRANSLATORSINFO_H

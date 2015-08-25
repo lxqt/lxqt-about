@@ -32,7 +32,7 @@
 #include <QTextCodec>
 #include <QTextDocument>
 
-//using namespace LxQt;
+//using namespace LXQt;
 
 void fillLangguages(QMap<QString, QString> *languages)
 {

@@ -71,8 +71,8 @@
         <translation type="obsolete">Ne</translation>
     </message>
     <message>
-        <source>&lt;b&gt;LxQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
-        <translation type="obsolete">&lt;b&gt;Nástroje LxQt Desktop - Technické informace&lt;/b&gt;</translation>
+        <source>&lt;b&gt;LXQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
+        <translation type="obsolete">&lt;b&gt;Nástroje LXQt Desktop - Technické informace&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Version</source>

@@ -33,7 +33,7 @@
 
 int main(int argc, char *argv[])
 {
-    LxQt::Application app(argc, argv);
+    LXQt::Application app(argc, argv);
     AboutDialog dlg;
     return app.exec();
 }

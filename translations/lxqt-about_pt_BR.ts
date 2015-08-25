@@ -71,7 +71,7 @@
         <translation type="obsolete">Não</translation>
     </message>
     <message>
-        <source>&lt;b&gt;LxQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
+        <source>&lt;b&gt;LXQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
         <translation type="obsolete">&lt;b&gt;Caixa De Ferramentas Do Desktop LXQt - Informações Técnicas&lt;/b&gt;</translation>
     </message>
     <message>

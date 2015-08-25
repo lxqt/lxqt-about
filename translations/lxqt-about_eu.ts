@@ -71,8 +71,8 @@
         <translation type="obsolete">Ez</translation>
     </message>
     <message>
-        <source>&lt;b&gt;LxQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
-        <translation type="obsolete">&lt;b&gt;LxQt mahaigainaren tresna-jokoa - Informazio teknikoa&lt;/b&gt;</translation>
+        <source>&lt;b&gt;LXQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
+        <translation type="obsolete">&lt;b&gt;LXQt mahaigainaren tresna-jokoa - Informazio teknikoa&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Version</source>

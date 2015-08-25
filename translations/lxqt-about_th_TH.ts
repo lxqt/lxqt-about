@@ -71,7 +71,7 @@
         <translation type="obsolete">ไม่</translation>
     </message>
     <message>
-        <source>&lt;b&gt;LxQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
+        <source>&lt;b&gt;LXQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
         <translation type="obsolete">&lt;b&gt;กล่องเครื่องมือเดกส์ท็อป LXQt - ข้อมูลทางเทคนิค&lt;/b&gt;</translation>
     </message>
     <message>

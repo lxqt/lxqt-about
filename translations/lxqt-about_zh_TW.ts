@@ -71,8 +71,8 @@
         <translation type="obsolete">否</translation>
     </message>
     <message>
-        <source>&lt;b&gt;LxQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
-        <translation type="obsolete">&lt;b&gt;LxQt桌面工具箱-技術資訊&lt;/b&gt;</translation>
+        <source>&lt;b&gt;LXQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
+        <translation type="obsolete">&lt;b&gt;LXQt桌面工具箱-技術資訊&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Version</source>
@@ -137,7 +137,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation>關於LxQt</translation>
+        <translation>關於LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>

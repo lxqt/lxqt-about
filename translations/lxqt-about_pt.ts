@@ -42,7 +42,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>O LxQt é desenvolvido pelos &lt;a %1&gt;colaboradores da equipa LxQt&lt;/a&gt;.</translation>
+        <translation>O LXQt é desenvolvido pelos &lt;a %1&gt;colaboradores da equipa LXQt&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="141"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>O LxQt está traduzido em diversos idiomas graças ao trabalho desenvolvido pelas equipas de tradução de todo o mundo.</translation>
+        <translation>O LXQt está traduzido em diversos idiomas graças ao trabalho desenvolvido pelas equipas de tradução de todo o mundo.</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -71,7 +71,7 @@
         <translation type="obsolete">Não</translation>
     </message>
     <message>
-        <source>&lt;b&gt;LxQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
+        <source>&lt;b&gt;LXQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
         <translation type="obsolete">&lt;b&gt;Ambiente de trabalho LXQt - Informações técnicas&lt;/b&gt;</translation>
     </message>
     <message>
