@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="el_GR">
+<TS version="2.1" language="el">
 <context>
     <name>AboutDialogPrivate</name>
     <message>
@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Το LXQt δεν θα ήταν εφικτό να δημιουργηθεί χωρίς το έργο &lt;a %1&gt;Razor-qt&lt;/a&gt; και τους πολλούς συντελεστές του.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -30,7 +30,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Αρχική σελίδα: %1</translation>
+        <translation>Ιστοσελίδα: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
@@ -42,19 +42,19 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Το LXQt αναπτύσσεται από την &lt;a %1&gt;ομάδα του LXQt και τους συνεισφέροντες&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Αν ενδιαφέρεστε να συνεργαστούμε στην ομάδα ανάπτυξης, &lt;a %1&gt;ελάτε μαζί μας&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="134"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ειδικές ευχαριστίες σε:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="141"/>
@@ -137,7 +137,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation>Σχετικά με το LXQt</translation>
+        <translation> Σχετικά με το LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
@@ -149,7 +149,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Δημιουργοί</translation>
+        <translation>Συγγραφείς</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
@@ -172,7 +172,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντιγραφή στο πρόχειρο</translation>
     </message>
 </context>
 </TS>
