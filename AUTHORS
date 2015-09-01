@@ -1,11 +1,38 @@
-Upstream authors:
-    LXQt team: http://lxqt.org
-    Razor team: http://razor-qt.org
+lxqt-about was originally part of the Razor-qt project. It is
+the fruit of the merge between the LXDE-Qt and the Razor-qt projects.
+
+Please refer to the LICENSE file for licence information.
+
+Major contributors:
+
+  * The LXQt team - http://lxqt.org
+  * The LXDE project - http://lxde.org
+  * The Razor-qt project - http://razor-qt.org
 
 Copyright:
-    Copyright (c) 2010-2012 Razor team
-    Copyright (c) 2012-2014 LXQt team
-    Petr Vanek <petr@scribus.info>
 
-License: GPL-2 and LGPL-2.1+
-The full text of the licenses can be found in the 'COPYING' file.
+  Copyright (c) 2010-2012, the Razor-qt project
+  Copyright (c) 2012-2015, the LXQt project
+
+Our contributors:
+
+  Alec Moskvin <alecm@gmx.com>
+  Alexander Sokolov <sokoloff.a@gmail.com>
+  Alf Gaida <agaida@siduction.org>
+  Christian Surlykke <christian@surlykke.dk>
+  Helio Chissini de Castro <helio@kde.org>
+  Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+  Jerome Leclanche <jerome@leclan.ch>
+  Julien Lavergne <julien.lavergne@gmail.com>
+  Kuzma Shapran <kuzma.shapran@gmail.com>
+  Luís Pereira <luis.artur.pereira@gmail.com>
+  Mika Kobayashi <mika@wjn.moe>
+  Peter Mattern
+  Petr Vanek <petr@scribus.info>
+  Sérgio Marques <smarquespt@gmail.com>
+  Thomas Viehweger
+  attus <attus@enterpriseforever.com>
+
+Our translators:
+
+  ...
