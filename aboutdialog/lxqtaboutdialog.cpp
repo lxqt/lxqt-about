@@ -128,7 +128,6 @@ QString AboutDialogPrivate::thanksText() const
                 "<li>Alexander Zakher (the Razor-qt name)</li>"
                 "<li>Andy Fitzsimon (logo/icon)</li>"
                 "<li>Eugene Pivnev (QtDesktop)</li>"
-                "<li>Paul Gnther (desktop backgrounds)</li>"
                 "<li>Manuel Meier (for ideas)</li>"
                 "<li>KDE &lt;<a href=\"http://kde.org/\">http://kde.org/</a>&gt;</li>"
                 ).arg(tr("Special thanks to:", "About dialog, 'Thanks' tab text"));
