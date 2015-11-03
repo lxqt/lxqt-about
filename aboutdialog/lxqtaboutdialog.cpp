@@ -97,7 +97,7 @@ QString AboutDialogPrivate::aboutText() const
                "About dialog, 'About' tab text"),
             tr("LXQt would not have been possible without the <a %1>Razor-qt</a> project and its many contributors.",
                "About dialog, 'About' tab text").arg("href=\"http://razor-qt.org\""),
-            tr("Copyright: %1-%2 %3", "About dialog, 'About' tab text")
+            tr("Copyright: © %1-%2 %3", "About dialog, 'About' tab text")
                 .arg("2010", QDate::currentDate().toString("yyyy"), "LXQt team"),
             tr("Homepage: %1", "About dialog, 'About' tab text")
                 .arg("<a href=\"http://lxqt.org\">http://lxqt.org</a>"),
