@@ -22,9 +22,9 @@
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
-        <source>Copyright: %1-%2 %3</source>
+        <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Urheberrecht: %1-%2 %3</translation>
+        <translation>Urheberrecht: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
@@ -51,13 +51,13 @@
         <translation>Wenn Sie an der Mitarbeit in unserem Entwicklungsteam interessiert sind, &lt;a %1&gt;treten Sie uns bei&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="134"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
         <translation>Besonderen Dank an:</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="141"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
         <translation>LXQt wird dank der Arbeit unseres über die ganze Welt verteilten Übersetzungsteams in viele Sprachen übersetzt.</translation>
