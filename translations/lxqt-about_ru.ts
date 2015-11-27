@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQT не могло бы существовать без проекта &lt;a %1&gt;Razor-qt&lt;/a&gt; и многих его участников.</translation>
+        <translation>LXQT не могло бы существовать без проекта &lt;a %1&gt;Razor-qt&lt;/a&gt; и его многочисленных участников.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -48,7 +48,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Если вы заинтересованы работой с нашей командой разработки, &lt;a %1&gt;присоединяйтесь к нам&lt;/a&gt;.</translation>
+        <translation>Если вы заинтересованы в работе с нашей командой, &lt;a %1&gt;присоединяйтесь к нам&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="134"/>
@@ -68,7 +68,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation> О LXQt</translation>
+        <translation> Об LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
