@@ -20,3 +20,4 @@ lxqt-panel/panel/lxqt-panel
 CMakeLists.txt.user*
 /build
 nbproject/
+translations/lxqt-sudo
