@@ -18,18 +18,18 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt by nebylo možné bez &lt;a %1&gt;projektu Razor-qt&lt;/a&gt; a mnoha jeho přispěvatelů.</translation>
     </message>
     <message>
         <source>Copyright: %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="vanished">Autorské právo: %1-%2 %3</translation>
+        <translation>Autorské právo: %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Autorské právo: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
@@ -47,19 +47,19 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt je vyvíjeno &lt;a %1&gt;Skupinou LXQt a přispěvateli&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Pokud se zajímáte o práci s našimi vývojáři, &lt;a %1&gt;připojte se&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Zvláštní poděkování:</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
@@ -177,7 +177,7 @@
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopírovat do schránky</translation>
     </message>
 </context>
 </TS>
