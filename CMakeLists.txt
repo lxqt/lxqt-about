@@ -5,6 +5,8 @@ option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" O
 
 include(GNUInstallDirs)
 
+set(LXQTBT_MINIMUM_VERSION "0.1.0")
+
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
@@ -21,6 +23,7 @@ set(UI_FILES
     aboutdialog/lxqtaboutdialog.ui
 )
 
+find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 find_package(lxqt REQUIRED QUIET)
 
 include(LXQtCompilerSettings NO_POLICY_SCOPE)
