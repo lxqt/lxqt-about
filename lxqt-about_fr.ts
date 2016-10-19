@@ -21,15 +21,10 @@
         <translation>LXQt n&apos;aurait pu être réalisé sant le projet &lt;a %1&gt;Razor-qt&lt;/a&gt; et ses nombreux collaborateurs.</translation>
     </message>
     <message>
-        <source>Copyright: %1-%2 %3</source>
-        <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="vanished">Copyright: © %1-%2 %3</translation>
-    </message>
-    <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Copyright: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
@@ -66,14 +61,6 @@
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
         <translation>LXQt est traduit dans de nombreuses langues grâce au travail des équipes de traduction dans le monde entier.</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation type="obsolete">Oui</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">Non</translation>
     </message>
 </context>
 <context>
