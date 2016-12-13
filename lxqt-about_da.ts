@@ -6,19 +6,24 @@
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Version: %1</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Avanceret, nem at bruge, hurtigt skrivebordsmiljø baseret på Qt teknologier.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copyright: %1-%2 %3</source>
+        <comment>About dialog, &apos;About&apos; tab text</comment>
+        <translation type="vanished">Copyright: %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -30,13 +35,13 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Hjemmeside: %1</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Licens: %1</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
@@ -60,7 +65,76 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt er oversat til mange sprog takket være oversættere fra hele verden.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="obsolete">Ja</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="obsolete">Nej</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;LXQt Desktop Toolbox - Technical Info&lt;/b&gt;</source>
+        <translation type="obsolete">&lt;b&gt;LXQt Desktop Værktøjskasse - Teknisk Information&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="obsolete">Version</translation>
+    </message>
+    <message>
+        <source>Qt</source>
+        <translation type="obsolete">Qt</translation>
+    </message>
+    <message>
+        <source>Debug Build</source>
+        <translation type="obsolete">Fejlsøgningsversion</translation>
+    </message>
+    <message>
+        <source>System Configuration</source>
+        <translation type="obsolete">Systemindstillinger</translation>
+    </message>
+    <message>
+        <source>Share Directory</source>
+        <translation type="obsolete">Delt Katalog</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <comment>About dialog, Tab title</comment>
+        <translation type="obsolete">Oversættelser</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;User Directories&lt;/b&gt;</source>
+        <translation type="obsolete">&lt;b&gt;Bruger Biblioteker&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Xdg Data Home</source>
+        <translation type="obsolete">Xdg Brugerdata Katalog</translation>
+    </message>
+    <message>
+        <source>Xdg Config Home</source>
+        <translation type="obsolete">Xdg Konfigurationsdata Katalog</translation>
+    </message>
+    <message>
+        <source>Xdg Data Dirs</source>
+        <translation type="obsolete">Xdg Data Kataloger</translation>
+    </message>
+    <message>
+        <source>Xdg Cache Home</source>
+        <translation type="obsolete">Xdg Cache Katalog</translation>
+    </message>
+    <message>
+        <source>Xdg Runtime Home</source>
+        <translation type="obsolete">Xdg udførselskatalog</translation>
+    </message>
+    <message>
+        <source>Xdg Autostart Dirs</source>
+        <translation type="obsolete">Xdg Autostart Katalog</translation>
+    </message>
+    <message>
+        <source>Xdg Autostart Home</source>
+        <translation type="obsolete">Xdg Autostart Hjemmekatalog</translation>
     </message>
 </context>
 <context>
@@ -68,37 +142,37 @@
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation type="unfinished"></translation>
+        <translation> Om LXQt</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation type="unfinished"></translation>
+        <translation>Omkring</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="83"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
-        <translation type="unfinished"></translation>
+        <translation>Forfattere</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="100"/>
         <source>Thanks</source>
         <comment>About dialog, Tab title</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tak</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="117"/>
         <source>Translations</source>
         <comment>About dialog, Tab title</comment>
-        <translation type="unfinished"></translation>
+        <translation>Oversættelser</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="134"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
-        <translation type="unfinished"></translation>
+        <translation>Teknisk Information</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="165"/>
