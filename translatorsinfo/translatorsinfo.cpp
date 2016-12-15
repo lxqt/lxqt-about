@@ -92,7 +92,6 @@ void fillLangguages(QMap<QString, QString> *languages)
     languages->insert("cs"    ,"Czech");
     languages->insert("cs_CZ" ,"Czech (Czech Republic)");
     languages->insert("da"    ,"Danish");
-    languages->insert("da_DK" ,"Danish (Denmark)");
     languages->insert("nl"    ,"Dutch");
     languages->insert("nl_BE" ,"Dutch (Belgium)");
     languages->insert("nl_NL" ,"Dutch (Netherlands)");
