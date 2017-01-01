@@ -1,7 +1,16 @@
 
-lxqt-about-0.11.0 / 2016-09-24
+lxqt-about-0.11.1 / 2017-01-01
 ==============================
 
+  * Removed da_DK (keep da)
+  * Added *da.desktop, renamed da_DK to da
+  * .gitignore: Fix typo
+  * Remove cpack (#34)
+
+0.11.0 / 2016-09-24
+===================
+
+  * Release 0.11.0: Add changelog
   * Extend README.md
   * translation: Fix language in _nl.desktop
   * Create lxqt-about_nl.desktop
