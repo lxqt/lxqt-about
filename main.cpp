@@ -30,10 +30,22 @@
 
 #include <LXQt/Application>
 #include <LXQt/GridLayout>
+#include <QCommandLineParser>
 
 int main(int argc, char *argv[])
 {
     LXQt::Application app(argc, argv);
+
+    QCommandLineParser parser;
+    parser.setApplicationDescription(QStringLiteral("LXQt About"));
+    const QString VERINFO = QStringLiteral(LXQT_ABOUT_VERSION
+                                           "\nliblxqt   " LXQT_VERSION
+                                           "\nQt        " QT_VERSION_STR);
+    app.setApplicationVersion(VERINFO);
+    parser.addVersionOption();
+    parser.addHelpOption();
+    parser.process(app);
+
     AboutDialog dlg;
     return app.exec();
 }
