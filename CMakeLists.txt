@@ -29,6 +29,10 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()
 
+set(LXQT_ABOUT_PATCH_VERSION 2)
+set(LXQT_ABOUT_VERSION ${LXQT_MAJOR_VERSION}.${LXQT_MINOR_VERSION}.${LXQT_ABOUT_PATCH_VERSION})
+add_definitions("-DLXQT_ABOUT_VERSION=\"${LXQT_ABOUT_VERSION}\"")
+
 # Translations **********************************
 include(LXQtTranslate)
 

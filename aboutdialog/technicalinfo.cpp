@@ -163,7 +163,8 @@ TechnicalInfo::TechnicalInfo()
     QString buildType("Release");
 #endif
 
-    table->add("Version",              LXQT_VERSION);
+    table->add("LXQt About Version",   LXQT_ABOUT_VERSION);
+    table->add("LXQt Version",         LXQT_VERSION);
     table->add("Qt",                   qVersion());
     table->add("Build type",           buildType);
     table->add("System Configuration", LXQT_ETC_XDG_DIR);
