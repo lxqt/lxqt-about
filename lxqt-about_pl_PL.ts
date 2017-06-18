@@ -18,7 +18,7 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt nie powstałoby, gdyby nie projekt &lt;a %1&gt;Razor-qt&lt;/a&gt; i jego twórcy.</translation>
     </message>
     <message>
         <source>Copyright: %1-%2 %3</source>
@@ -29,7 +29,7 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Prawa autorskie: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
@@ -47,19 +47,19 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt jest rozwijane przez &lt;a %1&gt;zespół LXQt i współtwórców&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Jeżeli chcesz pracować z naszym zespołem, &lt;a %1&gt;dołącz do nas&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Szczególne podziękowania dla:</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
@@ -177,7 +177,7 @@
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiuj do schowka</translation>
     </message>
 </context>
 </TS>
