@@ -148,7 +148,7 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation>O</translation>
+        <translation>O LXQt</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="83"/>
