@@ -21,7 +21,7 @@ set(UI_FILES
     aboutdialog/lxqtaboutdialog.ui
 )
 
-find_package(lxqt REQUIRED QUIET)
+find_package(lxqt REQUIRED)
 
 include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
@@ -29,7 +29,9 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()
 
-set(LXQT_ABOUT_PATCH_VERSION 2)
+## Patch Version
+set(LXQT_ABOUT_PATCH_VERSION 0)
+
 set(LXQT_ABOUT_VERSION ${LXQT_MAJOR_VERSION}.${LXQT_MINOR_VERSION}.${LXQT_ABOUT_PATCH_VERSION})
 add_definitions("-DLXQT_ABOUT_VERSION=\"${LXQT_ABOUT_VERSION}\"")
 
