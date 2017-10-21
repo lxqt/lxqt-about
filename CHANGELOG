@@ -1,7 +1,20 @@
 
-lxqt-about-0.11.1 / 2017-01-01
+lxqt-about-0.12.0 / 2017-10-21
 ==============================
 
+  * Set patch version 0
+  * Don't export github templates
+  * Added Lithuanian translation
+  * added myself
+  * set Qt::AA_UseHighDpiPixmaps to true
+  * Added a very basic cli (#39)
+  * updated Polish translation
+  * Update AUTHORS
+
+0.11.1 / 2017-01-01
+===================
+
+  * Release 0.11.1: Update changelog
   * Removed da_DK (keep da)
   * Added *da.desktop, renamed da_DK to da
   * .gitignore: Fix typo
