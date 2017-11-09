@@ -18,7 +18,7 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt ville ikke havde været muligt uden &lt;a %1&gt;Razor-qt&lt;/a&gt;-projektet og dets mange bidragydere.</translation>
+        <translation>LXQt ville ikke havde været muligt uden &lt;a %1&gt;Razor-qt&lt;/a&gt;-projektet og dets mange bidragsydere.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -42,13 +42,13 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt er udviklet af &lt;a %1&gt;LXQt-teamet og bidragyderne&lt;/a&gt;.</translation>
+        <translation>LXQt er udviklet af &lt;a %1&gt;LXQt-teamet og bidragsyderne&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Hvis du er interesseret i at arbejde med vores udviklingsteam, så &lt;a %1&gt;slut dig til os&lt;/a&gt;.</translation>
+        <translation>Hvis du er interesseret i at arbejde med vores udviklingsteam, så &lt;a %1&gt;vær med&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
