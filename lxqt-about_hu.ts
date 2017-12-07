@@ -29,7 +29,7 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
@@ -47,7 +47,7 @@
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Az LXQt fejlesztői&lt;a %1&gt;LXQt Team és a társasága&lt;/a&gt;</translation>
+        <translation>Az LXQt fejlesztői&lt;a %1&gt;LXQt Team és a társasága&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
@@ -73,7 +73,7 @@
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation>Az LXQT -ről</translation>
+        <translation> Az LXQT</translation>
     </message>
     <message>
         <location filename="../../aboutdialog/lxqtaboutdialog.ui" line="66"/>
