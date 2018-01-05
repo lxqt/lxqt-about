@@ -339,7 +339,8 @@ TranslatorsInfo::TranslatorsInfo()
     QSettings src(":/translatorsInfo", QSettings::IniFormat);
     src.setIniCodec("UTF-8");
 
-    foreach(QString group, src.childGroups())
+    const auto groups = src.childGroups();
+    for(const QString& group : qAsConst(groups))
     {
         QString lang = group.section("_", 1).remove(".info");
         src.beginGroup(group);
@@ -369,7 +370,7 @@ TranslatorsInfo::~TranslatorsInfo()
 QString TranslatorsInfo::asHtml() const
 {
     QString ret;
-    foreach(TranslatorPerson *translator, mItems)
+    for(const TranslatorPerson *translator : qAsConst(mItems))
     {
         ret += "<li>" + translator->asHtml() + "</li>";
     }
@@ -436,7 +437,7 @@ void TranslatorPerson::addLanguage(QString langId)
 }
 
 
-QString TranslatorPerson::asHtml()
+QString TranslatorPerson::asHtml() const
 {
     QString ret(mInfo);
     ret += " - " + mLanguages.join(", ");

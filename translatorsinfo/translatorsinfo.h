@@ -48,7 +48,7 @@ public:
     QString info() const { return mInfo; }
 
     void addLanguage(QString langId);
-    QString asHtml();
+    QString asHtml() const;
 
 private:
     QString mEnglishName;

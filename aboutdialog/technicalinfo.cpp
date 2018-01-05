@@ -72,7 +72,7 @@ QString TechInfoTable::html() const
     res += QString("<b>%1</b>").arg(mTitle);
     res += "<table width='100%'>";
     QPair<QString,QString> row;
-    foreach(row, mRows)
+    for(const auto& row : qAsConst(mRows))
     {
         res += QString("<tr>"
                        "<td class=techInfoTd width='1%'>"
@@ -92,7 +92,7 @@ QString TechInfoTable::text(int nameFieldWidth) const
     res += QString("%1\n").arg(mTitle);
 
     QPair<QString,QString> row;
-    foreach(row, mRows)
+    for(const auto& row : qAsConst(mRows))
     {
         res += QString("  %1  %2\n")
                 .arg(row.first + ":", -nameFieldWidth)
@@ -105,7 +105,7 @@ int TechInfoTable::maxNameLength() const
 {
     int res = 0;
     QPair<QString,QString> row;
-    foreach (row, mRows)
+    for(const auto& row : qAsConst(mRows))
         res = qMax(res, row.first.length());
 
     return res;
@@ -115,7 +115,7 @@ int TechInfoTable::maxNameLength() const
 QString TechnicalInfo::html() const
 {
     QString res;
-    foreach (TechInfoTable* item, mItems)
+    for(const TechInfoTable* item : qAsConst(mItems))
     {
         res += item->html();
         res += "<br><br>";
@@ -126,11 +126,11 @@ QString TechnicalInfo::html() const
 QString TechnicalInfo::text() const
 {
     int nameWidth = 0;
-    foreach (TechInfoTable* item, mItems)
+    for(const TechInfoTable* item : qAsConst(mItems))
         nameWidth = qMax(nameWidth, item->maxNameLength());
 
     QString res;
-    foreach (TechInfoTable* item, mItems)
+    for(const TechInfoTable* item : qAsConst(mItems))
     {
         res += item->text(nameWidth + 2);
         res += "\n\n";
