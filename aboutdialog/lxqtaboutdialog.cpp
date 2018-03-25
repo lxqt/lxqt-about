@@ -112,7 +112,7 @@ QString AboutDialogPrivate::authorsText() const
 {
     return QString("<p>%1</p><p>%2</p>").arg(
                 tr("LXQt is developed by the <a %1>LXQt Team and contributors</a>.", "About dialog, 'Authors' tab text")
-                    .arg(" href=\"https://github.com/lxde/lxde-qt\""),
+                    .arg(" href=\"https://github.com/lxqt/lxqt\""),
                 tr("If you are interested in working with our development team, <a %1>join us</a>.", "About dialog, 'Authors' tab text")
                     .arg("href=\"http://lxqt.org\"")
                 );
