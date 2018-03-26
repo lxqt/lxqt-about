@@ -2,7 +2,7 @@
  * (c)LGPL2+
  *
  * LXQt - The Lightweight Desktop Environment
- * http://lxqt.org
+ * https://lxqt.org
  *
  * Copyright: 2010-2011 Razor team
  * Authors:
@@ -100,11 +100,11 @@ QString AboutDialogPrivate::aboutText() const
             tr("Copyright: © %1-%2 %3", "About dialog, 'About' tab text")
                 .arg("2010", QDate::currentDate().toString("yyyy"), "LXQt team"),
             tr("Homepage: %1", "About dialog, 'About' tab text")
-                .arg("<a href=\"http://lxqt.org\">http://lxqt.org</a>"),
+                .arg("<a href=\"https://lxqt.org\">https://lxqt.org</a>"),
             tr("License: %1", "About dialog, 'About' tab text")
-                .arg("<a href=\"http://www.gnu.org/licenses/lgpl-2.1.html\">GNU Lesser General Public License version 2.1 or later</a>"
+                .arg("<a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU Lesser General Public License version 2.1 or later</a>"
                      " and partly under the "
-                     "<a href=\"http://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License version 2</a>")
+                     "<a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License version 2</a>")
             );
 }
 
@@ -114,7 +114,7 @@ QString AboutDialogPrivate::authorsText() const
                 tr("LXQt is developed by the <a %1>LXQt Team and contributors</a>.", "About dialog, 'Authors' tab text")
                     .arg(" href=\"https://github.com/lxqt/lxqt\""),
                 tr("If you are interested in working with our development team, <a %1>join us</a>.", "About dialog, 'Authors' tab text")
-                    .arg("href=\"http://lxqt.org\"")
+                    .arg("href=\"https://lxqt.org\"")
                 );
 }
 
@@ -129,7 +129,7 @@ QString AboutDialogPrivate::thanksText() const
                 "<li>Andy Fitzsimon (logo/icon)</li>"
                 "<li>Eugene Pivnev (QtDesktop)</li>"
                 "<li>Manuel Meier (for ideas)</li>"
-                "<li>KDE &lt;<a href=\"http://kde.org/\">http://kde.org/</a>&gt;</li>"
+                "<li>KDE &lt;<a href=\"https://kde.org/\">https://kde.org/</a>&gt;</li>"
                 ).arg(tr("Special thanks to:", "About dialog, 'Thanks' tab text"));
 }
 
