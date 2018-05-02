@@ -23,6 +23,7 @@ set(UI_FILES
 
 find_package(lxqt REQUIRED)
 
+include(LXQtPreventInSourceBuilds)
 include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
 if(NOT CMAKE_BUILD_TYPE)
