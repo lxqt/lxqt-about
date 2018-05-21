@@ -1,6 +1,21 @@
-lxqt-about-0.12.0 / 2017-10-21
+
+lxqt-about-0.13.0 / 2018-05-21
 ==============================
 
+  * CMake: Prevent in-source builds
+  * Fixed razor and http -> https
+  * Fixed some LXDE mentions
+  * Drop Qt foreach
+  * Add Traditional Chinese translations
+  * Add Simplified Chinese translations
+  * Add Spanish desktop entry
+  * translators_ru: Remove "Translator X." prefix
+  * Make translators_lt.info tidy again
+
+0.12.0 / 2017-10-21
+===================
+
+  * Release 0.12.0: Update changelog
   * Set patch version 0
   * Don't export github templates
   * Added Lithuanian translation
