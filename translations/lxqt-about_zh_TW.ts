@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>因為 &lt;a %1&gt;Razor-qt&lt;/a&gt; 專案和它的許多貢獻者，讓 LXQt 成為可能</translation>
+        <translation>因為 &lt;a %1&gt;Razor-qt&lt;/a&gt; 專案和它的許多貢獻者，讓 LXQt 成為可能。</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
