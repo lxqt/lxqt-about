@@ -42,19 +42,19 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt 是由 &lt;a %1&gt;LXQt 團隊和其貢獻者開發&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>如果你對和我們的開發團隊一起工作有興趣，&lt;a %1&gt;加入我們&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>特別感謝:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
@@ -103,7 +103,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>複製到剪貼簿</translation>
     </message>
 </context>
 </TS>
