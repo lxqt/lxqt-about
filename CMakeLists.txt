@@ -36,7 +36,6 @@ set(LXQT_ABOUT_PATCH_VERSION 0)
 set(LXQT_ABOUT_VERSION ${LXQT_MAJOR_VERSION}.${LXQT_MINOR_VERSION}.${LXQT_ABOUT_PATCH_VERSION})
 add_definitions(
     "-DLXQT_ABOUT_VERSION=\"${LXQT_ABOUT_VERSION}\""
-    "-DQT_NO_FOREACH"
 )
 
 # Translations **********************************
