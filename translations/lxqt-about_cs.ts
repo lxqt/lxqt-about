@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Pokročilé, snadno použitelné a rychlé pracovní prostředí založené na technologiích Qt.</translation>
+        <translation>Pokročilé, snadno se používající a rychlé pracovní prostředí založené na technologiích Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
@@ -36,13 +36,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Licence: %1</translation>
+        <translation>Povolení: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt je vyvíjeno &lt;a %1&gt;Skupinou LXQt a přispěvateli&lt;/a&gt;.</translation>
+        <translation>LXQt je vyvíjeno &lt;a %1&gt;družstvem LXQt a přispěvateli&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt je přeloženp do mnoha jazyků díky práci překladatelských týmů z celého světa.</translation>
+        <translation>LXQt je přeloženo do mnoha jazyků díky práci překladatelských skupin z celého světa.</translation>
     </message>
 </context>
 <context>
@@ -68,13 +68,13 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation>O prostředí LXQt</translation>
+        <translation> O prostředí LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation>O</translation>
+        <translation>O prostředí</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
@@ -98,12 +98,12 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Technické informace</translation>
+        <translation>Technické údaje</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Zkopírovat do schránky</translation>
+        <translation>Kopírovat do schránky</translation>
     </message>
 </context>
 </TS>
