@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Pokročilé, snadno se používající a rychlé pracovní prostředí založené na technologiích Qt.</translation>
+        <translation>Pokročilé, snadno použitelné a rychlé pracovní prostředí založené na technologiích Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
@@ -48,7 +48,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Pokud se zajímáte o spolupráci s našimi vývojáři, &lt;a %1&gt;připojte se&lt;/a&gt;.</translation>
+        <translation>Pokud chcete spolupracovat na vývoji, &lt;a %1&gt;přidejte se&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
