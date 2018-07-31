@@ -6,7 +6,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
-        <translation>Versión %1</translation>
+        <translation>Versión: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt es traducido a muchos idiomas gracias a la labor de los equipos de traducción en todo el mundo.</translation>
+        <translation>LXQt se traduce a muchos idiomas gracias a la labor de los equipos de traducción en todo el mundo.</translation>
     </message>
 </context>
 <context>
