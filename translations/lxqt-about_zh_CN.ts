@@ -12,19 +12,19 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>基于 Qt 技术的高级、易用、快速的桌面环境</translation>
+        <translation>基于 Qt 技术的高级、易用、快速的桌面环境。</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished">LXQT的成功离不开&lt;a %1&gt;Razor-qt&lt;/a&gt;项目和它的众多贡献者</translation>
+        <translation>LXQt 的成功离不开&lt;a %1&gt;Razor-qt&lt;/a&gt;项目和它的众多贡献者。</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished">版权所有: © %1-%2 %3</translation>
+        <translation>版权所有: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
@@ -42,19 +42,19 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished">LXQT由&lt;a %1&gt;LXQt团队以及众多贡献者开发&lt;/a&gt;</translation>
+        <translation>LXQt 由&lt;a %1&gt; LXQt 团队以及众多贡献者开发&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished">假如你对我们的开发工作有兴趣， &lt;a %1&gt;加入我们吧&lt;/a&gt;</translation>
+        <translation>假如你对我们的开发工作有兴趣， &lt;a %1&gt;加入我们吧&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation type="unfinished">特别感谢：</translation>
+        <translation>特别感谢：</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
@@ -68,7 +68,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation>关于LXQt</translation>
+        <translation> 关于 LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
@@ -103,7 +103,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished">复制</translation>
+        <translation>复制至剪贴板</translation>
     </message>
 </context>
 </TS>
