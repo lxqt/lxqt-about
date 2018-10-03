@@ -54,7 +54,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Um agradecimento especial para:</translation>
+        <translation>Agradecimentos especiais para:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
@@ -103,7 +103,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Copiar para a área de tranferência</translation>
+        <translation>Copiar para a área de transferência</translation>
     </message>
 </context>
 </TS>
