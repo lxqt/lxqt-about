@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Ambiente de trabalho rápido simples e fácil de utilizar, baseado na tecnologia Qt.</translation>
+        <translation>Ambiente de trabalho rápido, simples e fácil de utilizar, baseado na tecnologia Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
@@ -42,7 +42,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>O LXQt é desenvolvido pelos &lt;a %1&gt;colaboradores da equipa LXQt&lt;/a&gt;.</translation>
+        <translation>O LXQt é desenvolvido pela Equipe LXQt e os seus&lt;a %1&gt;contribuídores&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
