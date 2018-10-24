@@ -68,7 +68,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation>À propos de LXQt</translation>
+        <translation> À propos de LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
