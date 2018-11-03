@@ -48,19 +48,19 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Se quiser ajudar no desenvolvimento, &lt;a %1&gt;pode integrar a nossa equipa&lt;/a&gt;.</translation>
+        <translation>Se você estiver interessado em trabalhar com nossa equipe de desenvolvimento, &lt;a %1&gt;junte-se a nós&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Um especial obrigado:</translation>
+        <translation>Agradecimentos especiais para:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>O LXQt está traduzido em diversos idiomas graças ao trabalho desenvolvido pelas equipas de tradução de todo o mundo.</translation>
+        <translation>O LXQt está traduzido em diversos idiomas graças ao trabalho desenvolvido pelas equipes de tradução de todo o mundo.</translation>
     </message>
 </context>
 <context>
@@ -103,7 +103,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Copiar para a área de transferência</translation>
+        <translation>Copiar para área de transferência</translation>
     </message>
 </context>
 </TS>
