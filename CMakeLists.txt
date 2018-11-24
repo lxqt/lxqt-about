@@ -26,7 +26,10 @@ set(UI_FILES
     aboutdialog/lxqtaboutdialog.ui
 )
 
-find_package(lxqt REQUIRED)
+# Minimum versions
+set(LXQT_MINIMUM_VERSION "0.14.0")
+
+find_package(lxqt ${LXQT_MINIMUM_VERSION} REQUIRED)
 
 include(LXQtPreventInSourceBuilds)
 include(LXQtCompilerSettings NO_POLICY_SCOPE)
