@@ -54,13 +54,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Özel Teşekkür:</translation>
+        <translation>Özel teşekkür:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt tüm dünyadaki çeviri ekiplerinin çalışmalarına sayesinde birçok dil çevrilir.</translation>
+        <translation>LXQt tüm dünyadaki çeviri ekiplerinin çalışmaları sayesinde birçok dile çevrilmektedir.</translation>
     </message>
 </context>
 <context>
@@ -68,7 +68,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source> About LXQt</source>
-        <translation>LXQt Hakkında</translation>
+        <translation> LXQt Hakkında</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
