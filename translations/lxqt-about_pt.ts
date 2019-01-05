@@ -54,7 +54,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Agradecimentos especiais para:</translation>
+        <translation>Agradecimentos especiais:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
@@ -68,7 +68,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source>About LXQt</source>
-        <translation type="unfinished"></translation>
+        <translation>Acerca de LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
