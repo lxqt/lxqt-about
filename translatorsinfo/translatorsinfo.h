@@ -27,9 +27,11 @@
 
 #ifndef TRANSLATORSINFO_H
 #define TRANSLATORSINFO_H
+#include <map>
+#include <set>
+#include <tuple>
+
 #include <QString>
-#include <QMap>
-#include <QStringList>
 
 #if 0
 namespace LXQt
@@ -39,36 +41,39 @@ namespace LXQt
 class TranslatorPerson
 {
 public:
-    TranslatorPerson(const QString &englishName, const QString &nativeName, const QString &contact);
+
+    TranslatorPerson(const QString &englishName, const QString &nativeName, const QString &contact)
+        :mEnglishName (englishName), mNativeName (nativeName != englishName ? nativeName : ""), mContact (contact)
+    { }
+    TranslatorPerson(TranslatorPerson &&other) = default;
 
     QString englishName() const { return mEnglishName; }
     QString nativeName() const { return mNativeName; }
     QString contact() const { return mContact; }
 
-    QString info() const { return mInfo; }
-
     void addLanguage(QString langId);
     QString asHtml() const;
+
+    // A comparison operator for std::set
+    bool operator<(const TranslatorPerson & other) const {
+        return std::tie(this->mEnglishName, this->mNativeName, this->mContact)
+             < std::tie(other.mEnglishName, other.mNativeName, other.mContact);
+    }
 
 private:
     QString mEnglishName;
     QString mNativeName;
     QString mContact;
-
-    QString mInfo;
-    QStringList mLanguages;
-
 };
 
 class TranslatorsInfo
 {
 public:
     TranslatorsInfo();
-    ~TranslatorsInfo();
     QString asHtml() const;
 
 private:
-    QMap<QString, TranslatorPerson*> mItems;
+    std::map<QString, std::set<TranslatorPerson> > mLangTranslators; //< maps a language to set of it's translators
     void process(const QString &lang, const QString &englishName, const QString &nativeName, const QString &contact);
 };
 
