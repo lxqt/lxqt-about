@@ -31,10 +31,11 @@
 #include <QStringList>
 #include <QTextCodec>
 #include <QTextDocument>
+#include <QHash>
 
 //using namespace LXQt;
 
-void fillLangguages(QMap<QString, QString> *languages)
+void fillLangguages(QHash<QString, QString> *languages)
 {
     languages->insert("ach"   ,"Acoli");
     languages->insert("af"    ,"Afrikaans");
@@ -320,6 +321,22 @@ void fillLangguages(QMap<QString, QString> *languages)
     languages->insert("zu_ZA" ,"Zulu (South Africa)");
 }
 
+QString languageToString(QString langId)
+{
+    static QHash<QString, QString> mLanguagesList;
+    if (mLanguagesList.isEmpty())
+    {
+        fillLangguages(&mLanguagesList);
+    }
+
+    if (mLanguagesList.contains(langId)) {
+        return mLanguagesList.value(langId);
+    } else {
+        return langId;
+    }
+}
+
+
 
 QString getValue(const QSettings &src, const QString &key)
 {
@@ -359,88 +376,51 @@ TranslatorsInfo::TranslatorsInfo()
         }
         src.endGroup();
     }
-
-}
-
-TranslatorsInfo::~TranslatorsInfo()
-{
-    qDeleteAll(mItems);
 }
 
 QString TranslatorsInfo::asHtml() const
 {
     QString ret;
-    for(const TranslatorPerson *translator : qAsConst(mItems))
+    ret = "<dl>";
+    for(const auto& entry : mLangTranslators)
     {
-        ret += "<li>" + translator->asHtml() + "</li>";
+        const auto& lang = entry.first;
+        const auto& translators = entry.second;
+
+        ret += "<dt><strong>" + languageToString(lang) + "</strong></dt>";
+        for(const auto & translator : translators) {
+            ret += "<dd>" + translator.asHtml() + "</dd>";
+        }
     }
+    ret += "</dl>";
 
     return ret;
 }
 
 
-
 void TranslatorsInfo::process(const QString &lang, const QString &englishName, const QString &nativeName, const QString &contact)
 {
-    QString key = QString("%1:%2:%3").arg(englishName, nativeName, contact);
-    TranslatorPerson *translator = mItems.value(key);
-
-    if (!translator)
-    {
-        translator = new TranslatorPerson(englishName, nativeName, contact);
-        mItems.insert(key, translator);
-    }
-
-    translator->addLanguage(lang);
+    mLangTranslators[lang].emplace(englishName, nativeName, contact);
 }
-
-
-TranslatorPerson::TranslatorPerson(const QString &englishName, const QString &nativeName, const QString &contact)
-{
-    mEnglishName = englishName;
-
-    if (nativeName != englishName)
-        mNativeName = nativeName;
-
-    mContact = contact;
-
-    if (mNativeName.isEmpty())
-        mInfo = QString("%1").arg(mEnglishName);
-    else
-        mInfo = QString("%1 (%2)").arg(mEnglishName, mNativeName);
-
-    if (!mContact.isEmpty())
-    {
-
-        if (mContact.contains(QRegExp("^(https?|mailto):")))
-            mInfo = QString(" <a href='%1'>%2</a>").arg(contact, mInfo.toHtmlEscaped());
-        else if (contact.contains("@") || contact.contains("<"))
-            mInfo = QString(" <a href='mailto:%1'>%2</a>").arg(contact, mInfo.toHtmlEscaped());
-        else
-            mInfo = QString(" <a href='http://%1'>%2</a>").arg(contact, mInfo.toHtmlEscaped());
-    }
-}
-
-
-void TranslatorPerson::addLanguage(QString langId)
-{
-    static QMap<QString, QString> mLanguagesList;
-    if (mLanguagesList.isEmpty())
-    {
-        fillLangguages(&mLanguagesList);
-    }
-
-    if (mLanguagesList.contains(langId))
-        mLanguages << mLanguagesList.value(langId);
-    else
-        mLanguages << langId;
-}
-
 
 QString TranslatorPerson::asHtml() const
 {
-    QString ret(mInfo);
-    ret += " - " + mLanguages.join(", ");
+    QString ret;
+    if (mNativeName.isEmpty())
+        ret = QString("%1").arg(mEnglishName);
+    else
+        ret = QString("%1 (%2)").arg(mEnglishName, mNativeName);
+
+    if (!mContact.isEmpty())
+    {
+        if (mContact.contains(QRegExp("^(https?|mailto):")))
+            ret = QString(" <a href='%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
+        else if (mContact.contains("@") || mContact.contains("<"))
+            ret = QString(" <a href='mailto:%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
+        else
+            ret = QString(" <a href='http://%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
+    }
+
     return ret;
 }
 
