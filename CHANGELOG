@@ -4,6 +4,7 @@ lxqt-about-0.14.0 / 2018-12-01
 
   * Bumped version to 0.14.0
   * Translation updates
+  * translatorsinfo: sort translators by language
   * Improved cmake scripting
     - Set cmake_minimum_required to 3.1.0
     - Removed locale compile definitons
