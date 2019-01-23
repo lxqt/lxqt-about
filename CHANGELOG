@@ -1,5 +1,5 @@
 
-lxqt-about-0.14.0 / 2018-12-01
+lxqt-about-0.14.0 / 2019-01-25
 ==============================
 
   * Bumped version to 0.14.0
@@ -25,8 +25,8 @@ lxqt-about-0.13.0 / 2018-05-21
   * translators_ru: Remove "Translator X." prefix
   * Make translators_lt.info tidy again
 
-0.12.0 / 2017-10-21
-===================
+lxqt-about-0.12.0 / 2017-10-21
+==============================
 
   * Release 0.12.0: Update changelog
   * Set patch version 0
@@ -38,8 +38,8 @@ lxqt-about-0.13.0 / 2018-05-21
   * updated Polish translation
   * Update AUTHORS
 
-0.11.1 / 2017-01-01
-===================
+lxqt-about-0.11.1 / 2017-01-01
+==============================
 
   * Release 0.11.1: Update changelog
   * Removed da_DK (keep da)
@@ -47,8 +47,8 @@ lxqt-about-0.13.0 / 2018-05-21
   * .gitignore: Fix typo
   * Remove cpack (#34)
 
-0.11.0 / 2016-09-24
-===================
+lxqt-about-0.11.0 / 2016-09-24
+==============================
 
   * Release 0.11.0: Add changelog
   * Extend README.md
@@ -70,8 +70,8 @@ lxqt-about-0.13.0 / 2018-05-21
   * Add copyright symbol © to ‘About’ tab
   * Add simple README.md file
 
-0.10.0 / 2015-10-31
-===================
+lxqt-about-0.10.0 / 2015-10-31
+==============================
 
   * Remove unknown contributor
   * Fix license file
@@ -101,8 +101,8 @@ lxqt-about-0.13.0 / 2018-05-21
   * Hungarian translation
   * Added german translation of .desktop file.
 
-0.9.0 / 2015-01-11
-==================
+lxqt-about-0.9.0 / 2015-01-11
+=============================
 
   * Add Japanese desktop file
   * Added Portuguese desktop file
@@ -112,22 +112,22 @@ lxqt-about-0.13.0 / 2018-05-21
   * Update translations and add french desktop file
   * Clean up CMakeLists.txt and drop Qt 4 support
 
-0.8.0 / 2014-06-01
-==================
+lxqt-about-0.8.0 / 2014-06-01
+=============================
 
   * Use preferred header style
   * Use lxqt-qt5 for Qt5 build.
   * Use new header file names.
   * Port to liblxqt5 and qt5
 
-0.7.0 / 2014-05-07
-==================
+lxqt-about-0.7.0 / 2014-05-07
+=============================
 
   * Update COPYING
   * translation template removed icon translation removed
 
-0.6.99 / 2014-04-29
-===================
+lxqt-about-0.6.99 / 2014-04-29
+==============================
 
   * Update AUTHORS
   * Update the .desktop file
