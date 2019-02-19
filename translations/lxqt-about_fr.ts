@@ -6,7 +6,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
-        <translation>Version : %1</translation>
+        <translation>Version: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt n&apos;aurait pu être réalisé sant le projet &lt;a %1&gt;Razor-qt&lt;/a&gt; et ses nombreux collaborateurs.</translation>
+        <translation>LXQt n&apos;aurait pu être réalisé sans le projet &lt;a %1&gt;Razor-qt&lt;/a&gt; et ses nombreux collaborateurs.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -30,7 +30,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation></translation>
+        <translation>Page d&apos;accueil: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
@@ -42,13 +42,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt est dévelopé par &lt;a %1&gt;l&apos;équipe LXQt et collaborateurs&lt;/a&gt;.</translation>
+        <translation>LXQt est développé par &lt;a %1&gt;l&apos;équipe LXQt et les contributeurs&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Si travailler avec notre équipe de développement vous intéresse, &lt;a %1&gt;rejoignez nous&lt;/a&gt;.</translation>
+        <translation>Si travailler avec notre équipe de développement vous intéresse, &lt;a %1&gt;rejoignez-nous&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt est traduit dans de nombreuses langues grâce au travail des équipes de traduction dans le monde entier.</translation>
+        <translation>LXQt est traduit dans de nombreuses langues grâce au travail des équipes de traduction du monde entier.</translation>
     </message>
 </context>
 <context>
@@ -68,7 +68,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source>About LXQt</source>
-        <translation type="unfinished"></translation>
+        <translation>À propos de LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
