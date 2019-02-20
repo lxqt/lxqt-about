@@ -42,13 +42,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>O LXQt é desenvolvido pela Equipe LXQt e os seus&lt;a %1&gt;contribuídores&lt;/a&gt;.</translation>
+        <translation>O LXQt é desenvolvido pela &lt;a %1&gt;equipa LXQt e pelos seus colaboradores&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Se você estiver interessado em trabalhar com nossa equipe de desenvolvimento, &lt;a %1&gt;junte-se a nós&lt;/a&gt;.</translation>
+        <translation>Se  estiver interessado em em ajudar no desenvolvimento, &lt;a %1&gt;junte-se a nós&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>O LXQt está traduzido em diversos idiomas graças ao trabalho desenvolvido pelas equipes de tradução de todo o mundo.</translation>
+        <translation>O LXQt está traduzido em diversos idiomas graças ao trabalho desenvolvido pelas equipas de tradução de todo o mundo.</translation>
     </message>
 </context>
 <context>
@@ -74,7 +74,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation>Sobre</translation>
+        <translation>Acerca</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
