@@ -12,13 +12,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Ambiente de trabalho fácil de ser utilizado, rápido e avançado, baseado nas tecnologias Qt.</translation>
+        <translation>Um ambiente desktop avançado, fácil de usar e rápido, baseado nas tecnologias Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>O LXQt não teria sido possível sem o projeto &lt;a %1&gt;Razor-qt&lt;/a&gt; e seus colaboradores.</translation>
+        <translation>O LXQt não seria possível sem o projeto &lt;a %1&gt;Razor-qt&lt;/a&gt; e seus colaboradores.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -48,7 +48,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Se você estiver interessado em trabalhar com a nossa equipe de desenvolvimento, &lt;a %1&gt;junte-se a nós&lt;/a&gt;.</translation>
+        <translation>Se você estiver interessado em trabalhar com a nosso time de desenvolvimento, &lt;a %1&gt;junte-se a nós&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>O LXQt está traduzido em várias línguas, graças ao trabalho das equipes de tradução ao redor do mundo.</translation>
+        <translation>O LXQt está traduzido em vários idiomas, graças ao trabalho das equipes de tradução ao redor do mundo.</translation>
     </message>
 </context>
 <context>
