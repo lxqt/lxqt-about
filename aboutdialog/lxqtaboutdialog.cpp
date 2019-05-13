@@ -51,7 +51,7 @@ AboutDialogPrivate::AboutDialogPrivate()
 
     iconLabel->setFixedSize(48, 48);
     iconLabel->setScaledContents(true);
-    iconLabel->setPixmap(QPixmap(QString(LXQT_SHARE_DIR) + "/graphics/lxqt_logo.png"));
+    iconLabel->setPixmap(QPixmap(QStringLiteral(LXQT_SHARE_DIR) + "/graphics/lxqt_logo.png"));
 
     nameLabel->setText(css + titleText());
 
@@ -79,7 +79,7 @@ AboutDialogPrivate::AboutDialogPrivate()
 
 QString AboutDialogPrivate::titleText() const
 {
-    return QString("<div class=name>%1</div><div class=ver>%2</div>").arg("LXQt",
+    return QStringLiteral("<div class=name>%1</div><div class=ver>%2</div>").arg(QStringLiteral("LXQt"),
                 tr("Version: %1").arg(LXQT_VERSION));
 
 }
@@ -96,11 +96,11 @@ QString AboutDialogPrivate::aboutText() const
             tr("Advanced, easy-to-use, and fast desktop environment based on Qt technologies.",
                "About dialog, 'About' tab text"),
             tr("LXQt would not have been possible without the <a %1>Razor-qt</a> project and its many contributors.",
-               "About dialog, 'About' tab text").arg("href=\"http://razor-qt.org\""),
+               "About dialog, 'About' tab text").arg(QStringLiteral("href=\"http://razor-qt.org\"")),
             tr("Copyright: © %1-%2 %3", "About dialog, 'About' tab text")
-                .arg("2010", QDate::currentDate().toString("yyyy"), "LXQt team"),
+                .arg(QStringLiteral("2010"), QDate::currentDate().toString(QStringLiteral("yyyy")), QStringLiteral("LXQt team")),
             tr("Homepage: %1", "About dialog, 'About' tab text")
-                .arg("<a href=\"https://lxqt.org\">https://lxqt.org</a>"),
+                .arg(QStringLiteral("<a href=\"https://lxqt.org\">https://lxqt.org</a>")),
             tr("License: %1", "About dialog, 'About' tab text")
                 .arg("<a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU Lesser General Public License version 2.1 or later</a>"
                      " and partly under the "
@@ -110,11 +110,11 @@ QString AboutDialogPrivate::aboutText() const
 
 QString AboutDialogPrivate::authorsText() const
 {
-    return QString("<p>%1</p><p>%2</p>").arg(
+    return QStringLiteral("<p>%1</p><p>%2</p>").arg(
                 tr("LXQt is developed by the <a %1>LXQt Team and contributors</a>.", "About dialog, 'Authors' tab text")
-                    .arg(" href=\"https://github.com/lxqt/lxqt\""),
+                    .arg(QStringLiteral(" href=\"https://github.com/lxqt/lxqt\"")),
                 tr("If you are interested in working with our development team, <a %1>join us</a>.", "About dialog, 'Authors' tab text")
-                    .arg("href=\"https://lxqt.org\"")
+                    .arg(QStringLiteral("href=\"https://lxqt.org\""))
                 );
 }
 
@@ -136,7 +136,7 @@ QString AboutDialogPrivate::thanksText() const
 QString AboutDialogPrivate::translationsText() const
 {
     TranslatorsInfo translatorsInfo;
-    return QString("%1<p><ul>%2</ul>").arg(
+    return QStringLiteral("%1<p><ul>%2</ul>").arg(
                 tr("LXQt is translated into many languages thanks to the work of the translation teams all over the world.", "About dialog, 'Translations' tab text"),
                 translatorsInfo.asHtml()
                 );
