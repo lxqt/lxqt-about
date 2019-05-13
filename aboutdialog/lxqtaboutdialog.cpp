@@ -39,19 +39,19 @@ AboutDialogPrivate::AboutDialogPrivate()
 {
     setupUi(this);
 
-    QString css="<style TYPE='text/css'> "
+    QString css=QStringLiteral("<style TYPE='text/css'> "
                     "body { font-family: sans-serif;} "
                     ".name { font-size: 16pt; } "
                     "a { white-space: nowrap ;} "
                     "h2 { font-size: 10pt;} "
                     "li { line-height: 120%;} "
                     ".techInfoKey { white-space: nowrap ; margin: 0 20px 0 16px; } "
-                "</style>"
+                "</style>")
             ;
 
     iconLabel->setFixedSize(48, 48);
     iconLabel->setScaledContents(true);
-    iconLabel->setPixmap(QPixmap(QStringLiteral(LXQT_SHARE_DIR) + "/graphics/lxqt_logo.png"));
+    iconLabel->setPixmap(QPixmap(QStringLiteral(LXQT_SHARE_DIR) + QStringLiteral("/graphics/lxqt_logo.png")));
 
     nameLabel->setText(css + titleText());
 
@@ -80,13 +80,13 @@ AboutDialogPrivate::AboutDialogPrivate()
 QString AboutDialogPrivate::titleText() const
 {
     return QStringLiteral("<div class=name>%1</div><div class=ver>%2</div>").arg(QStringLiteral("LXQt"),
-                tr("Version: %1").arg(LXQT_VERSION));
+                tr("Version: %1").arg(QStringLiteral(LXQT_VERSION)));
 
 }
 
 QString AboutDialogPrivate::aboutText() const
 {
-    return QString(
+    return QStringLiteral(
         "<p>%1</p>"
         "<p>%2</p>"
         "<p>%3</p>"
@@ -102,9 +102,9 @@ QString AboutDialogPrivate::aboutText() const
             tr("Homepage: %1", "About dialog, 'About' tab text")
                 .arg(QStringLiteral("<a href=\"https://lxqt.org\">https://lxqt.org</a>")),
             tr("License: %1", "About dialog, 'About' tab text")
-                .arg("<a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU Lesser General Public License version 2.1 or later</a>"
+                .arg(QStringLiteral("<a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU Lesser General Public License version 2.1 or later</a>"
                      " and partly under the "
-                     "<a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License version 2</a>")
+                     "<a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License version 2</a>"))
             );
 }
 
@@ -121,7 +121,7 @@ QString AboutDialogPrivate::authorsText() const
 
 QString AboutDialogPrivate::thanksText() const
 {
-    return QString(
+    return QStringLiteral(
                 "%1"
                 "<ul>"
                 "<li>Alexey Nosov (for the A-MeGo theme)</li>"
