@@ -65,16 +65,16 @@ QString TechInfoTable::html() const
 {
     QString res;
 
-    res = "<style TYPE='text/css'> "
+    res = QStringLiteral("<style TYPE='text/css'> "
             ".techInfoKey { white-space: nowrap ; margin: 0 20px 0 16px; } "
-          "</style>";
+          "</style>");
 
     res += QStringLiteral("<b>%1</b>").arg(mTitle);
     res += QLatin1String("<table width='100%'>");
     QPair<QString,QString> row;
     for(const auto& row : qAsConst(mRows))
     {
-        res += QString("<tr>"
+        res += QStringLiteral("<tr>"
                        "<td class=techInfoTd width='1%'>"
                             "<div class=techInfoKey>%1</div>"
                         "</td>"
@@ -95,7 +95,7 @@ QString TechInfoTable::text(int nameFieldWidth) const
     for(const auto& row : qAsConst(mRows))
     {
         res += QStringLiteral("  %1  %2\n")
-                .arg(row.first + ":", -nameFieldWidth)
+                .arg(row.first + QStringLiteral(":"), -nameFieldWidth)
                 .arg(row.second);
     }
     return res;
@@ -158,17 +158,17 @@ TechnicalInfo::TechnicalInfo()
     // ******************************************
     table = newTable(QStringLiteral("LXQt Desktop Toolbox - Technical Info<p>"));
 #ifdef DEBUG
-    QString buildType("Debug");
+    QString buildType(QStringLiteral("Debug"));
 #else
     QString buildType(QStringLiteral("Release"));
 #endif
 
-    table->add(QStringLiteral("LXQt About Version"),   LXQT_ABOUT_VERSION);
-    table->add(QStringLiteral("LXQt Version"),         LXQT_VERSION);
-    table->add(QStringLiteral("Qt"),                   qVersion());
+    table->add(QStringLiteral("LXQt About Version"),   QStringLiteral(LXQT_ABOUT_VERSION));
+    table->add(QStringLiteral("LXQt Version"),         QStringLiteral(LXQT_VERSION));
+    table->add(QStringLiteral("Qt"),                   QLatin1String(qVersion()));
     table->add(QStringLiteral("Build type"),           buildType);
-    table->add(QStringLiteral("System Configuration"), LXQT_ETC_XDG_DIR);
-    table->add(QStringLiteral("Share Directory"),      LXQT_SHARE_DIR);
+    table->add(QStringLiteral("System Configuration"), QStringLiteral(LXQT_ETC_XDG_DIR));
+    table->add(QStringLiteral("Share Directory"),      QStringLiteral(LXQT_SHARE_DIR));
     table->add(QStringLiteral("Translations"),         Translator::translationSearchPaths().join(QStringLiteral("<br>\n")));
 
 

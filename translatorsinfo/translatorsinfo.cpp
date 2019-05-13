@@ -387,9 +387,9 @@ QString TranslatorsInfo::asHtml() const
         const auto& lang = entry.first;
         const auto& translators = entry.second;
 
-        ret += "<dt><strong>" + languageToString(lang) + "</strong></dt>";
+        ret += QLatin1String("<dt><strong>") + languageToString(lang) + QLatin1String("</strong></dt>");
         for(const auto & translator : translators) {
-            ret += "<dd>" + translator.asHtml() + "</dd>";
+            ret += QLatin1String("<dd>") + translator.asHtml() + QLatin1String("</dd>");
         }
     }
     ret += QLatin1String("</dl>");
@@ -413,7 +413,7 @@ QString TranslatorPerson::asHtml() const
 
     if (!mContact.isEmpty())
     {
-        if (mContact.contains(QRegExp("^(https?|mailto):")))
+        if (mContact.contains(QRegExp(QStringLiteral("^(https?|mailto):"))))
             ret = QStringLiteral(" <a href='%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
         else if (mContact.contains(QLatin1String("@")) || mContact.contains(QLatin1String("<")))
             ret = QStringLiteral(" <a href='mailto:%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
