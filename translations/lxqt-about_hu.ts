@@ -36,7 +36,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Licensz: %1</translation>
+        <translation>Licenc: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>Az LXQT sok nyelvre le van fordítva, a világban működő fordítóknak köszönhetőn.</translation>
+        <translation>Az LXQT több nyelven elérhető, az önkéntes fordítók hozzájárulásával.</translation>
     </message>
 </context>
 <context>
@@ -68,13 +68,13 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source>About LXQt</source>
-        <translation type="unfinished"></translation>
+        <translation>Az LXQt névjegye</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation>Rólunk</translation>
+        <translation>Névjegy</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
@@ -103,7 +103,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Vágólapra másol</translation>
+        <translation>Másolás vágólapra</translation>
     </message>
 </context>
 </TS>
