@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Pokročilé, snadno použitelné a rychlé pracovní prostředí založené na technologiích Qt.</translation>
+        <translation>Pokročilé, snadno použitelné a svižné pracovní prostředí založené na technologiích Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
@@ -103,7 +103,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Kopírovat do schránky</translation>
+        <translation>Zkopírovat do schránky</translation>
     </message>
 </context>
 </TS>
