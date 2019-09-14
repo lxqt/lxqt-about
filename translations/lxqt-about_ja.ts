@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt は、&lt;a %1&gt;Razor-qt&lt;/a&gt; プロジェクトとそのたくさんの貢献者たちなしにはありえませんでした。</translation>
+        <translation>LXQt は、&lt;a %1&gt;Razor-qt&lt;/a&gt; プロジェクトと大勢の貢献者たちなしにはありえませんでした。</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -74,7 +74,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation>About</translation>
+        <translation>LXQt とは</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
