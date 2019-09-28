@@ -42,7 +42,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt blir utviklet av &lt;a %1&gt;LXQt-gruppa og bidragsyterne&lt;/a&gt;.</translation>
+        <translation>LXQt er utviklet av &lt;a %1&gt;LXQt-gruppa og bidragsyterne&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
@@ -103,7 +103,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Teknisk info</translation>
+        <translation>Teknisk informasjon</translation>
     </message>
 </context>
 </TS>
