@@ -75,15 +75,6 @@ add_executable(${PROJECT_NAME}
 
 )
 
-target_compile_definitions(${PROJECT_NAME}
-    PRIVATE
-        QT_USE_QSTRINGBUILDER
-        QT_NO_CAST_FROM_ASCII
-        QT_NO_CAST_TO_ASCII
-        QT_NO_URL_CAST_FROM_STRING
-        QT_NO_CAST_FROM_BYTEARRAY
-)
-
 target_link_libraries(${PROJECT_NAME}
     lxqt
 )
