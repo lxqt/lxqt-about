@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Pokročilé, ľahko použiteľné a rýchle pracovné prostredie založené na Qt technológii.</translation>
+        <translation>Pokročilé, ľahko použiteľné a rýchle desktopové prostredie založené na technológiách Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
@@ -42,25 +42,25 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt je vyvíjané s pomocou &lt;a %1&gt;Tímu LXQt a prispievateľmi&lt;/a&gt;.</translation>
+        <translation>Za vývoj LXQt je zodpovedný &lt;a %1&gt;tím LXQt a jeho prspievatelia&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Ak máte záujem spolupracovať s našim vývojovým tímom, &lt;a %1&gt;pripojte sa k nám&lt;/a&gt;.</translation>
+        <translation>Ak by Vás zaujímala spolupráca s našim vývojárskym tímom, &lt;a %1&gt;pridajte sa k nám&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Zvláštne poďakovanie:</translation>
+        <translation>Špeciálne poďakovanie:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt je preložené do mnohých jazykov vďaka práci tímov prekladateľov po celom svete.</translation>
+        <translation>LXQt je vďaka práci prekladateľských tímov po celom svete lokalizované do mnohých jazykov.</translation>
     </message>
 </context>
 <context>
@@ -103,7 +103,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Kopírovať</translation>
+        <translation>Skopírovať do schránky</translation>
     </message>
 </context>
 </TS>
