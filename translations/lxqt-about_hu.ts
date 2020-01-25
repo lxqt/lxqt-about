@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Qt alapú könnyen használható, fejlett és gyors asztali környezet.</translation>
+        <translation>Qt alapú, könnyen használható, fejlett és gyors asztali környezet.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
@@ -36,7 +36,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Licenc: %1</translation>
+        <translation>Licensz: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>Az LXQT több nyelven elérhető, az önkéntes fordítók hozzájárulásával.</translation>
+        <translation>Az LXQt több nyelven elérhető, az önkéntes fordítók hozzájárulásával.</translation>
     </message>
 </context>
 <context>
@@ -98,7 +98,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Technikai háttér</translation>
+        <translation>Technikai információ</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
