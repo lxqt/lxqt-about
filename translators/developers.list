@@ -1,0 +1,7 @@
+declare -A developers=( \
+  [weblate@lxqt.org]="--" \
+  [jubalh@iodoru.org]="--" \
+  [agaida@siduction.org]="de" \
+  [philipp.wiesemann@arcor.de]="de" \
+  [pmattern@arcor.de]="de" \
+)
