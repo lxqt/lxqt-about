@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>ما كانت ستكون لكسكيوت موجودة لولا مشروع &lt;a %1&gt;ريزر كيوت&lt;/a&gt; ومساهميه.</translation>
+        <translation>ما كانت ستكون «لكسكيوت» موجودة لولا مشروع &lt;a %1&gt;ريزر كيوت&lt;/a&gt; ومساهميه.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -42,13 +42,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>تُطوّر لكسكيوت بجهود &lt;a %1&gt;فريق لكسكيوت ومساهميها&lt;/a&gt;.</translation>
+        <translation>تُطوّر «لكسكيوت» بجهود &lt;a %1&gt;فريق لكسكيوت ومساهميها&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>إن كنت مهتمًّا بالعمل مع فريقنا، &lt;a %1&gt;فهلمّ وانضم معنا&lt;/a&gt;.</translation>
+        <translation>إن كنت مهتمًا بالعمل مع فريقنا، &lt;a %1&gt;فهلمّ وانضم معنا&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>تُرجمت لكسكيوت إلى عدد من اللغات بفضل عمل فِرَق الترجمة حول العالم.</translation>
+        <translation>لم تُترجم «لكسكيوت» إلى كلّ هذه اللغات إلّا بفضل عمل فِرَق الترجمة حول العالم.</translation>
     </message>
 </context>
 <context>
