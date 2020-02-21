@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Az LXQt a &lt;a %1&gt;Razor-qt&lt;/a&gt;-és annak fejlesztői nélkül nem létezne.</translation>
+        <translation>Az LXQt a &lt;a %1&gt;Razor-qt&lt;/a&gt; és annak fejlesztői nélkül nem létezne.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
