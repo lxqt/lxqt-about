@@ -27,7 +27,7 @@ set(UI_FILES
 )
 
 # Minimum versions
-set(LXQT_MINIMUM_VERSION "0.14.1")
+set(LXQT_MINIMUM_VERSION "0.15.0")
 
 find_package(lxqt ${LXQT_MINIMUM_VERSION} REQUIRED)
 
@@ -35,7 +35,7 @@ include(LXQtPreventInSourceBuilds)
 include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
 ## Patch Version
-set(LXQT_ABOUT_PATCH_VERSION 1)
+set(LXQT_ABOUT_PATCH_VERSION 0)
 
 set(LXQT_ABOUT_VERSION ${LXQT_MAJOR_VERSION}.${LXQT_MINOR_VERSION}.${LXQT_ABOUT_PATCH_VERSION})
 add_definitions(
