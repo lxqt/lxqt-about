@@ -1,0 +1,13 @@
+# [nameEnglish contact]="Proper-name Proper-mail"
+
+declare -A map2019=(
+  ["Mika Kobayashi https://github.com/mika-k/"]="Mika Kobayashi mika-k@users.noreply.github.com" # ja
+  ["Safa AlFulaij"]="Safa Alfulaij safa1996alfulaij@gmail.com" # ar
+  ["Pavel Fric"]="Pavel Fric pavelfric@yahoo.com" # cs
+  ["scootergrisen"]="scootergrisen scootergrisen@gmail.com" # da
+  ["Mikkel Skovlund"]="Mikkel Skovlund @" # da
+  ["Igor Zakharov f2404@yandex.ru"]="Igor f2404@yandex.ru" # ru
+  ["Daiana Heinrich"]="Daiana Heinrich @" # ro_RO
+  ["Moo"]="Moo @" # lt
+  ["Ilya Shestopalov yast4ik@yahoo.com"]="Ilya87 yast4ik@gmail.com" # ru
+)
