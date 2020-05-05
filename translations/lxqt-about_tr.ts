@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQT&apos;nin &lt;a %1&gt;Razor-qt&lt;/a&gt; projesi ve birçok katkıcısı olmadan devam etmesi mümkün değil.</translation>
+        <translation>LXQT, &lt;a %1&gt;Razor-qt&lt;/a&gt; Projesi ve birçok katkıcısı olmadan mümkün olmazdı.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -30,7 +30,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Anasayfa: %1</translation>
+        <translation>Ana Sayfa: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
@@ -42,25 +42,25 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt &lt;a %1&gt;LXQt Takımı ve katkıcıları&lt;/a&gt; tarafından geliştirilmektedir.</translation>
+        <translation>LXQt &lt;a %1&gt;LXQt Takımı ve katkıcılar&lt;/a&gt; tarafından geliştirilmektedir.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Eğer geliştirme takımı ile çalışmak isterseniz &lt;a %1&gt;bize katılın&lt;/a&gt;.</translation>
+        <translation>Eğer bizim geliştirme takımı ile çalışmak isterseniz &lt;a %1&gt;bize katılın&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Özel teşekkür:</translation>
+        <translation>Özellikle teşekkür:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt tüm dünyadaki çeviri ekiplerinin çalışmaları sayesinde birçok dile çevrilmektedir.</translation>
+        <translation>LXQt, tüm dünyadaki çeviri ekiplerinin çalışmaları sayesinde birçok dile çevrilmektedir.</translation>
     </message>
 </context>
 <context>
