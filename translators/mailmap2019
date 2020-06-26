@@ -3,6 +3,7 @@
 declare -A map2019=(
   ["Mika Kobayashi https://github.com/mika-k/"]="Mika Kobayashi mika-k@users.noreply.github.com" # ja
   ["Safa AlFulaij"]="Safa Alfulaij safa1996alfulaij@gmail.com" # ar
+  ["Pavel Borecki"]="Pavel Borecki @" # cs
   ["Pavel Fric"]="Pavel Fric pavelfric@yahoo.com" # cs
   ["scootergrisen"]="scootergrisen scootergrisen@gmail.com" # da
   ["Mikkel Skovlund"]="Mikkel Skovlund @" # da
