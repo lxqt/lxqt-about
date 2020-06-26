@@ -1,6 +1,6 @@
 # [nameEnglish contact]="Proper-name Proper-mail"
 
-declare -A map2019=(
+declare -A map_manual=(
   ["Mika Kobayashi https://github.com/mika-k/"]="Mika Kobayashi mika-k@users.noreply.github.com" # ja
   ["Safa AlFulaij"]="Safa Alfulaij safa1996alfulaij@gmail.com" # ar
   ["Pavel Borecki"]="Pavel Borecki @" # cs

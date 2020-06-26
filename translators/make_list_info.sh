@@ -1,7 +1,7 @@
 #!/bin/bash
 
 . developers.list
-. mailmap2019
+. mailmap_manual
 
 cd list
 for fp in `find . -name "translators_*$1.gitlog"` ; do
@@ -10,25 +10,25 @@ for fp in `find . -name "translators_*$1.gitlog"` ; do
   lang=${fp#*_}
   lang=${lang%.*}
   outfp=${fp%.*}.info
-  fp2019="../translators2019/"$outfp
-  if [[ -e $fp2019 ]] ; then
-    echo Read: $fp2019
+  fp_manual="../translators_manual/"$outfp
+  if [[ -e $fp_manual ]] ; then
+    echo Read: $fp_manual
     IFS=$'\n'
-    for line in `cat $fp2019` ; do
+    for line in `cat $fp_manual` ; do
       unset IFS
       case $line in
         translator_*_nameEnglish*)
           author=${line#*= }
           author=${author% }
-          let list["${map2019[$author]:-$author}"]=0
+          let list["${map_manual[$author]:-$author}"]=0
           ;;
         translator_*_contact*)
-          unset list["${map2019[$author]:-$author}"]
+          unset list["${map_manual[$author]:-$author}"]
           mail=${line#*= }
           mail=${mail// /+}
           mail=${mail//[<>]/}
           author="$author $mail"
-          let list["${map2019[$author]:-$author}"]=0
+          let list["${map_manual[$author]:-$author}"]=0
           ;;
       esac
     done
