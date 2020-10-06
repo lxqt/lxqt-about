@@ -29,7 +29,6 @@ Debian, Fedora and openSUSE. Just use your package manager to search for string
 `lxqt-about`.
 
 ### Translation (Weblate)
-
-<a href="https://weblate.lxqt.org/projects/lxqt/lxqt-about/">
-<img src="https://weblate.lxqt.org/widgets/lxqt/-/lxqt-about/multi-auto.svg" alt="Translation status" />
+<a href="https://translate.lxqt-project.org/engage/lxqt-desktop/?utm_source=widget">
+<img src="https://translate.lxqt-project.org/widgets/lxqt-desktop/-/lxqt-about/multi-auto.svg" alt="TRanslation status" />
 </a>
