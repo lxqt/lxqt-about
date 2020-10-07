@@ -28,7 +28,11 @@ The library is provided by all major Linux distributions like Arch Linux,
 Debian, Fedora and openSUSE. Just use your package manager to search for string
 `lxqt-about`.
 
-### Translation (Weblate)
-<a href="https://translate.lxqt-project.org/engage/lxqt-desktop/?utm_source=widget">
-<img src="https://translate.lxqt-project.org/widgets/lxqt-desktop/-/lxqt-about/multi-auto.svg" alt="TRanslation status" />
+### Translation
+
+Translations can be done in [LXQt-Weblate](https://translate.lxqt-project.org/projects/lxqt-desktop/lxqt-about/)
+
+<a href="https://translate.lxqt-project.org/projects/lxqt-desktop/lxqt-about/">
+<img src="https://translate.lxqt-project.org/widgets/lxqt-desktop/-/lxqt-about/multi-auto.svg" alt="Translation status" />
 </a>
+
