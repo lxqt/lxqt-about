@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt לא הייתה קיימת ללא המיזם &lt;a %1&gt;Razor-qt&lt;/a&gt; על שלל תורמיו.</translation>
+        <translation>‏LXQt לא הייתה קיימת ללא המיזם &lt;a %1&gt;Razor-qt&lt;/a&gt; על שלל תורמיו.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -42,7 +42,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt נמצאת בפיתוח על ידי &lt;a %1&gt;צוות LXQt ותורמים נוספים&lt;/a&gt;.</translation>
+        <translation>‏LXQt מפותחת על ידי &lt;a %1&gt;צוות LXQt ותורמים נוספים&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt מתורגמת לשפות רבות בזכות עבודתם של צוותי התרגום מכל רחבי העולם.</translation>
+        <translation>‏LXQt מתורגמת לשפות רבות בזכות עבודתם של צוותי התרגום מכל רחבי העולם.</translation>
     </message>
 </context>
 <context>
@@ -68,12 +68,12 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>העתקה ללוח גזירים</translation>
+        <translation>העתקה ללוח הגזירים</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source>About LXQt</source>
-        <translation>על LXQt</translation>
+        <translation>על אודות LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
