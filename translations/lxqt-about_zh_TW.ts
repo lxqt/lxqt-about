@@ -58,50 +58,57 @@
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
-        <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world.</source>
+        <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt已經有由世界各地的翻譯團隊所提供多種語言的翻譯。</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>about</name>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
+        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="189"/>
         <source>About LXQt</source>
         <translation>關於LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
+        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="190"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
         <translation>關於</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
+        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="191"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
         <translation>作者</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
+        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="192"/>
         <source>Thanks</source>
         <comment>About dialog, Tab title</comment>
         <translation>感謝</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="117"/>
+        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="193"/>
         <source>Translations</source>
         <comment>About dialog, Tab title</comment>
         <translation>翻譯</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
+        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="195"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
         <translation>技術資訊</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
+        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="194"/>
         <source>Copy to clipboard</source>
         <translation>複製到剪貼簿</translation>
     </message>

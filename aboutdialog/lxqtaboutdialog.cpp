@@ -137,7 +137,8 @@ QString AboutDialogPrivate::translationsText() const
 {
     TranslatorsInfo translatorsInfo;
     return QStringLiteral("%1<p><ul>%2</ul>").arg(
-                tr("LXQt is translated into many languages thanks to the work of the translation teams all over the world.", "About dialog, 'Translations' tab text"),
+                tr("LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in <a %1>LXQt-Weblate</a>.", "About dialog, 'Translations' tab text")
+                .arg(QStringLiteral("href=\"https://translate.lxqt-project.org\"")),
                 translatorsInfo.asHtml()
                 );
 }
