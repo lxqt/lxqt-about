@@ -6,7 +6,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
-        <translation>Version&#xa0;: %1</translation>
+        <translation>Version : %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
@@ -24,19 +24,19 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Copyright&#xa0;: © %1-%2 %3</translation>
+        <translation>Copyright : © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Site officiel&#xa0;: %1</translation>
+        <translation>Site officiel : %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Licence&#xa0;: %1</translation>
+        <translation>Licence : %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt est traduit dans de nombreuses langues grâce aux contributions des équipes de traduction à travers le monde. Les traductions peuvent être effectuées sur &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
