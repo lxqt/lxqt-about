@@ -1,8 +1,5 @@
 [Desktop Entry]
 Type=Application
-Name=About LXQt
-GenericName=About LXQt
-Comment=Learn more about LXQt
 Exec=lxqt-about
 Icon=help-about
 Categories=System;Documentation;
