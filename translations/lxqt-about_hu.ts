@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Az LXQt a &lt;a %1&gt;Razor-qt&lt;/a&gt; és annak fejlesztői nélkül nem létezne.</translation>
+        <translation>Az LXQt nem lett volna lehetséges a &lt;a %1&gt;Razor-qt&lt;/a&gt; projekt és sok közreműködője nélkül.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -36,19 +36,19 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Licensz: %1</translation>
+        <translation>Licenc: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Az LXQt fejlesztői: &lt;a %1&gt; az LXQt Team és a közreműködők&lt;/a&gt;.</translation>
+        <translation>Az LXQt-t &lt;a %1&gt;az LXQt csapata és a közreműködők&lt;/a&gt; fejlesztik.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Ha érdekli a fejlesztés. akkor &lt;a %1&gt;csatlakozhat hozzánk&lt;/a&gt;.</translation>
+        <translation>Ha érdekel a fejlesztő csapatunkkal való együttműködés, akkor &lt;a %1&gt;csatlakozhat hozzánk&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>Az LXQt számos nyelvre le van fordítva, a fordítócsapatok munkájának köszönhetően a világ minden tájáról. A fordítások elvégezhetők az &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;en.</translation>
+        <translation>Az LXQt számos nyelvre le van fordítva, a fordítócsapatok munkájának köszönhetően a világ minden tájáról. A fordítások elvégezhetők az &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;-en.</translation>
     </message>
 </context>
 <context>
