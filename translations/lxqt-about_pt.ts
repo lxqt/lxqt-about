@@ -48,7 +48,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Se  estiver interessado em em ajudar no desenvolvimento, &lt;a %1&gt;junte-se a nós&lt;/a&gt;.</translation>
+        <translation>Se estiver interessado em ajudar no desenvolvimento, &lt;a %1&gt;junte-se a nós&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt está traduzido em diversos idiomas graças ao contributo das equipas de tradução em todo o mundo. Pode ajudar nas traduções em &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
