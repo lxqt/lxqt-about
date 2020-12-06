@@ -48,7 +48,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished">Gure garapen taldearekin lan egitea interesatzen bazaizu, &lt;a %1&gt; batu gurekin &lt;/a&gt;.</translation>
+        <translation>Gure garapen taldearekin lan egitea interesatzen bazaizu, &lt;a %1&gt; batu gurekin &lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt hizkuntza askotara itzultzen da mundu osoko itzulpen taldeen lanari esker. Itzulpenak &lt;a %1&gt;LXQt-Weblate&lt;/a&gt; helbidean egin daitezke.</translation>
     </message>
 </context>
 <context>
@@ -69,7 +69,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="189"/>
         <source>About LXQt</source>
-        <translation type="unfinished">LXQt-i buruz</translation>
+        <translation>LXQt-i buruz</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
