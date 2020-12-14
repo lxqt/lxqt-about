@@ -69,7 +69,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="189"/>
         <source>About LXQt</source>
-        <translation>Acerca de LXQt</translation>
+        <translation>Acerca do LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
