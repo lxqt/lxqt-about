@@ -24,7 +24,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Всі права застережено: © %1-%2 %3 </translation>
+        <translation>Всі права захищено: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt перекладено багатьма мовами завдяки роботі команд перекладачів з усього світу. Переклади можна здійснити на &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -69,7 +69,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="189"/>
         <source>About LXQt</source>
-        <translation type="unfinished"></translation>
+        <translation>Про LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
@@ -110,7 +110,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="194"/>
         <source>Copy to clipboard</source>
-        <translation>Скопіювати в буфер обміну </translation>
+        <translation>Копіювати в буфер обміну</translation>
     </message>
 </context>
 </TS>
