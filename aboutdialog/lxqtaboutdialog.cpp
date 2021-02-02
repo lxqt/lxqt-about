@@ -71,7 +71,7 @@ AboutDialogPrivate::AboutDialogPrivate()
     techBrowser->setHtml(info.html());
     techBrowser->viewport()->setAutoFillBackground(false);
 
-    connect(techCopyToClipboardButton, SIGNAL(clicked()), this, SLOT(copyToCliboardTechInfo()));
+    connect(techCopyToClipboardButton, &QPushButton::clicked, this, &AboutDialogPrivate::copyToCliboardTechInfo);
     this->setAttribute(Qt::WA_DeleteOnClose);
     show();
 
