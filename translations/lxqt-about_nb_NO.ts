@@ -69,7 +69,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="194"/>
         <source>Copy to clipboard</source>
-        <translation>Kopier til utklippsboken</translation>
+        <translation>Kopier til utklippstavlen</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
