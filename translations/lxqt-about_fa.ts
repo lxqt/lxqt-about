@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt بدون پروژه &lt;a %1&gt;Razor-qt&lt;/a&gt; و  شرکت کنندگان فراوان آن امکان پذیر نبود.</translation>
+        <translation>LXQt بدون پروژه &lt;a %1&gt;Razor-qt&lt;/a&gt; و شرکت کنندگان فراوان آن امکان پذیر نبود.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt به لطف کار تیم‌های ترجمه در سراسر جهان به بسیاری از زبانها ترجمه شده است. ترجمه‌ها را می توان در &lt;a ٪1&gt; LXQt-Weblate &lt;/a&gt; انجام داد.</translation>
     </message>
 </context>
 <context>
