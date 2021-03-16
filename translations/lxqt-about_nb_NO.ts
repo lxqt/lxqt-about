@@ -110,7 +110,7 @@
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="195"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Teknisk informasjon</translation>
+        <translation>Teknisk info</translation>
     </message>
 </context>
 </TS>
