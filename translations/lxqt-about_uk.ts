@@ -48,7 +48,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Якщо Ви зацікавлені в роботі з нашою командою розробників, тоді &lt;a %1&gt;долучайтесь до нас&lt;/a&gt;.</translation>
+        <translation>Якщо ви зацікавлені в роботі з нашою командою розробників, тоді &lt;a %1&gt;долучайтесь до нас&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
