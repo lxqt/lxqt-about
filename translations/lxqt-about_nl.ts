@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Geavanceerde, makkelijk te gebruiken en snelle werkomgeving, gebaseerd op Qt-technologie.</translation>
+        <translation>Uitgebreide, snelle, makkelijk te gebruiken werkomgeving, gebouwd met Qt-technologie.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
@@ -24,13 +24,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Auteursrecht: © %1-%2 %3</translation>
+        <translation>Copyright: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Webpagina: %1</translation>
+        <translation>Website: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
@@ -42,25 +42,25 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt wordt door de &lt;a %1&gt;LXQt-ploeg en zijn medewerkers&lt;/a&gt; ontwikkeld.</translation>
+        <translation>LXQt wordt ontwikkeld door het &lt;a %1&gt;LXQt-team en zijn medewerkers&lt;/a&gt; .</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Als u zin hebt om mee te werken met onze ontwikkelingsploeg, &lt;a %1&gt;doe dan mee&lt;/a&gt;.</translation>
+        <translation>Als u ons ontwikkelingsteam wilt komen versterken, &lt;a %1&gt;word dan lid&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Bijzondere dank aan:</translation>
+        <translation>Met grote dank aan:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt wordt vertaald naar meerdere talen, dankzij onze vertaalteams van over heel de wereld. U kunt meehelpen op &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -83,14 +83,14 @@
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="191"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Auteurs</translation>
+        <translation>Makers</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="192"/>
         <source>Thanks</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Dankbetuigingen</translation>
+        <translation>Met dank aan</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="117"/>
@@ -110,7 +110,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="194"/>
         <source>Copy to clipboard</source>
-        <translation>Kopieer naar klembord</translation>
+        <translation>Kopiëren naar klembord</translation>
     </message>
 </context>
 </TS>
