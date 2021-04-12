@@ -1,3 +1,10 @@
+lxqt-about-0.17.0 / 2021-04-15
+==============================
+
+  * Bumped version to 0.17.0.
+  * Update README.md.
+  * Moved to Qt5 signal/slot syntax.
+
 lxqt-about-0.16.0 / 2020-11-01
 ==============================
 
