@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt este tradus în multe limbi datorită muncii echipelor de traduceri din întreaga lume. Traducerile pot fi făcute în &lt;a %1&gt; LXQt-Weblate &lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -69,7 +69,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="189"/>
         <source>About LXQt</source>
-        <translation type="unfinished"></translation>
+        <translation>Despre LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
