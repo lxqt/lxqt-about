@@ -24,7 +24,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Copyright: © %1-%2 %3</translation>
+        <translation>Derechos de autor: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
@@ -48,7 +48,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Si está interesado en trabajar con nuestro equipo de desarrollo, &lt;a %1&gt;únase a nosotros&lt;/a&gt;.</translation>
+        <translation>Si tiene interés en trabajar con nuestro equipo de desarrollo, &lt;a %1&gt;únase a nosotros&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt ha sido traducido a muchos idiomas gracias al trabajo de grupos de traducción alrededor de todo el mundo. Las traducciones pueden realizarse en &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
+        <translation>LXQt se ha traducido a muchos idiomas gracias al trabajo de grupos de traducción de todo el mundo. Las traducciones pueden efectuarse en &lt;a %1&gt;Weblate de LXQt&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -110,7 +110,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="194"/>
         <source>Copy to clipboard</source>
-        <translation>Copiar al portapapeles</translation>
+        <translation>Copiar en el portapapeles</translation>
     </message>
 </context>
 </TS>
