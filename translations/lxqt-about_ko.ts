@@ -12,13 +12,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>고급지며, 사용하기 쉬운, Qt 기술 기반의 빠른 데스크톱 환경.</translation>
+        <translation>Qt 기술을 기반으로 한 진보된, 사용하기 쉽고 빠른 데스크톱 환경입니다.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt는 &lt;a %1&gt;Razor-qt&lt;/a&gt; 프로젝트와 그 프로젝트를 이끄는 수많은 기여자들 덕분에 있을 수 있습니다.</translation>
+        <translation>LXQt는 &lt;a %1&gt;Razor-qt&lt;/a&gt; 프로젝트와 많은 기여자가 없었다면 불가능했을 것입니다.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt는 전 세계 번역 팀의 작업 덕분에 다양한 언어로 번역되었습니다. 번역은 &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;에서 할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -83,7 +83,7 @@
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="191"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
-        <translation>기여자</translation>
+        <translation>작성자</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
