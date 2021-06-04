@@ -6,7 +6,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
-        <translation>Versiune:% 1</translation>
+        <translation>Versiune:%1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
@@ -18,25 +18,25 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt nu ar fi fost posibil fără proiectul &lt;a%1 %&gt; Razor-qt &lt;/a&gt; și numeroșii săi contribuabili.</translation>
+        <translation>LXQt nu ar fi fost posibil fără proiectul &lt;a %1&gt; Razor-qt &lt;/a&gt; și numeroșii săi contribuitori.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Drepturi de autor: ©% 1-% 2% 3</translation>
+        <translation>Drepturi de autor: ©%1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Pagina de pornire:% 1</translation>
+        <translation>Pagina de pornire:%1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Licență:% 1</translation>
+        <translation>Licență:%1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
@@ -48,13 +48,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Dacă ești interesat să colaborezi cu echipa noastră de dezvoltare, &lt;a$1&gt; alătură-te nouă &lt;/a&gt;.</translation>
+        <translation>Dacă ești interesat să colaborezi cu echipa noastră de dezvoltare, &lt;a %1&gt; alătură-te nouă &lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Mulțumiri speciale lui:</translation>
+        <translation>Mulțumiri speciale către:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
