@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Prostredie LXQt je preložené do mnohých jazykov vďaka prekladateľským tímom z celého sveta. S prekladom môžete pomôcť na &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
