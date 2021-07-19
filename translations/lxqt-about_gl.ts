@@ -9,55 +9,67 @@
         <translation>Versión: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="96"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Contorno de escritorio avanzado, doado de usar e rápido, baseado nas tecnoloxías de Qt.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="98"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="101"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>LXQt no tería sido posíbel sen o proxecto &lt;a %1&gt;Razor-qt&lt;/a&gt; e os seus moitos colaboradores.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="100"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Dereitos de autoría: © %1-%2 %3</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="102"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="105"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Páxina de inicio: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
+        <source>Wiki: %1</source>
+        <comment>About dialog, &apos;About&apos; tab text</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="109"/>
+        <source>Development: %1</source>
+        <comment>About dialog, &apos;About&apos; tab text</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="111"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>Licenza: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="121"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation>LXQt é desenvolvido polo &lt;a %1&gt;equipo de LXQt e os seus colaboradores&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="123"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation>Se está interesado en traballar co noso equipo de desenvolvemento, &lt;a %1&gt;únase a nós&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="133"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
         <translation>Un agradecemento especial a:</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="147"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
         <translation type="unfinished"></translation>
