@@ -36,13 +36,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
         <source>Wiki: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>维基百科： %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="109"/>
         <source>Development: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>开发： %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="111"/>
