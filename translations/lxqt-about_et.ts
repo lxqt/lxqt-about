@@ -36,7 +36,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
         <source>Wiki: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Vikipeedia: %1</translation>
+        <translation>Viki: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="109"/>
