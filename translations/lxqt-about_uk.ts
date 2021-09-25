@@ -102,7 +102,7 @@
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="192"/>
         <source>Thanks</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Подяка</translation>
+        <translation>Подяки</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="117"/>

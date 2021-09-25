@@ -36,13 +36,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
         <source>Wiki: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>위키: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="109"/>
         <source>Development: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>개발: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="111"/>
@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="147"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt는 전 세계 번역 팀의 작업 덕분에 다양한 언어로 번역되었습니다. 번역은 &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;에서 할 수 있습니다.</translation>
+        <translation>LXQt는 전 세계 번역 팀의 노력 덕분에 여러 언어로 번역되었습니다. 번역은 &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;에서 할 수 있습니다.</translation>
     </message>
 </context>
 <context>
