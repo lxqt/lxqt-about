@@ -6,19 +6,19 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Versio: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Altnivela, facile uzebla kaj rapida labortabla medio bazita sur Qt-teknologioj.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="101"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt ne eblus sen la projekto &lt;a %1&gt; Razor-qt &lt;/a&gt; kaj ĝiaj multaj kontribuantoj.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
