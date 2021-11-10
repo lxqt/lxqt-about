@@ -24,7 +24,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Autorské právo: © %1-%2 %3</translation>
+        <translation>Autorská práva: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="105"/>
@@ -54,7 +54,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="121"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt je vyvíjeno &lt;a %1&gt;členy stejnojmenného týmu projektu a dalšími přispěvateli&lt;/a&gt;.</translation>
+        <translation>LXQt je vyvíjeno &lt;a %1&gt;členy týmu stejnojmenného projektu a dalšími přispěvateli&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="123"/>
@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="147"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt je přeloženo do mnoha jazyků díky práci překladatelských týmů po celém světě. Překlady lze provádět na &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
+        <translation>LXQt je přeloženo do mnoha jazyků díky práci překladatelských týmů z celého světa. Překlady lze provádět na &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
