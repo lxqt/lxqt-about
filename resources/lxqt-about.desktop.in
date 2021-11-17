@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Exec=lxqt-about
-Icon=lxqt
+Icon=lxqt-about
 Categories=System;Documentation;
 OnlyShowIn=LXQt;
 
