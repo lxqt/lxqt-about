@@ -90,3 +90,8 @@ install(FILES
     DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/applications"
     COMPONENT Runtime
 )
+install(DIRECTORY
+    resources/hicolor
+    DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/icons"
+    COMPONENT Runtime
+ )
