@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Ambiente de trabalho rápido, simples e fácil de utilizar, baseado na tecnologia Qt.</translation>
+        <translation>Ambiente gráfico avançado, rápido e fácil de usar baseado na tecnologia Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="101"/>
