@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="147"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt는 전 세계 번역 봉사자의 노력 덕분에 다양한 언어를 지원하고 있습니다. 번역 작업은 &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;에서 참여하실 수 있습니다.</translation>
+        <translation>LXQt는 전 세계의 번역 봉사자의 노력 덕에 다양한 언어를 지원하고 있습니다. 번역 작업은 &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;에서 참여하실 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -81,14 +81,14 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="189"/>
         <source>About LXQt</source>
-        <translation>LXQt 소개</translation>
+        <translation>LXQt 정보</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="190"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation>소개</translation>
+        <translation>정보</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
@@ -102,7 +102,7 @@
         <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="192"/>
         <source>Thanks</source>
         <comment>About dialog, Tab title</comment>
-        <translation>고마운 사람들</translation>
+        <translation>도움을 주신 분들</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="117"/>
