@@ -79,47 +79,40 @@
     <name>about</name>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="194"/>
         <source>Copy to clipboard</source>
         <translation>क्लिपबोर्ड पर कॉपी करें</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="189"/>
         <source>About LXQt</source>
         <translation>LXQt का परिचय</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="190"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
         <translation>परिचय</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="191"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
         <translation>लेखकगण</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="192"/>
         <source>Thanks</source>
         <comment>About dialog, Tab title</comment>
         <translation>धन्यवाद</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="117"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="193"/>
         <source>Translations</source>
         <comment>About dialog, Tab title</comment>
         <translation>अनुवाद</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="195"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
         <translation>तकनीकी जानकारी</translation>
