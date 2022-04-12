@@ -6,7 +6,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
-        <translation>Version : %1</translation>
+        <translation>Version&#x202f;: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
@@ -24,13 +24,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Copyright : © %1-%2 %3</translation>
+        <translation>Copyright&#x202f;: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="105"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Pagina web : %1</translation>
+        <translation>Pagina web&#x202f;: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
@@ -42,13 +42,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="109"/>
         <source>Development: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Desvolopament : %1</translation>
+        <translation>Desvolopament&#x202f;: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="111"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Licéncia : %1</translation>
+        <translation>Licéncia&#x202f;: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="121"/>
@@ -66,7 +66,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
-        <translation>Mercejaments particular a :</translation>
+        <translation>Mercejaments particular a&#x202f;:</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="147"/>
@@ -79,47 +79,40 @@
     <name>about</name>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="194"/>
         <source>Copy to clipboard</source>
         <translation>Copiar al quichapapièrs</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="189"/>
         <source>About LXQt</source>
         <translation>A prepaus de LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="190"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
         <translation>A prepaus</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="191"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
         <translation>Autors</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="192"/>
         <source>Thanks</source>
         <comment>About dialog, Tab title</comment>
         <translation>Mercés</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="117"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="193"/>
         <source>Translations</source>
         <comment>About dialog, Tab title</comment>
         <translation>Traduccions</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
-        <location filename="../build/lxqt-about_autogen/include/ui_lxqtaboutdialog.h" line="195"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
         <translation>Info tecnicas</translation>
