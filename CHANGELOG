@@ -1,3 +1,7 @@
+lxqt-about-1.1.0 / 2022-04-15
+==============================
+ * Added `lxqt-about` icon and used it instead of the `help-about` icon.
+
 lxqt-about-1.0.0 / 2021-11-04
 ==============================
  * Bumped version to 1.0.0.
