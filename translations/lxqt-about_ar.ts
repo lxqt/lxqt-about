@@ -42,7 +42,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="109"/>
         <source>Development: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>التطوير: 1%</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="111"/>
@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="147"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>تمت ترجمة LXQt إلى العديد من اللغات بفضل عمل فرق الترجمة في جميع أنحاء العالم. يمكن إجراء الترجمات في &lt;a ٪1&gt; LXQt-Weblate &lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
