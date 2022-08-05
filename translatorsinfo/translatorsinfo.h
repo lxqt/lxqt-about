@@ -45,7 +45,6 @@ public:
     TranslatorPerson(const QString &englishName, const QString &nativeName, const QString &contact)
         :mEnglishName (englishName), mNativeName (nativeName != englishName ? nativeName : QLatin1String("")), mContact (contact)
     { }
-    TranslatorPerson(TranslatorPerson &&other) = default;
 
     QString englishName() const { return mEnglishName; }
     QString nativeName() const { return mNativeName; }

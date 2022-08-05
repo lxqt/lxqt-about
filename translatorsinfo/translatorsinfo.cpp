@@ -382,12 +382,21 @@ QString TranslatorsInfo::asHtml() const
 {
     QString ret;
     ret = QLatin1String("<dl>");
-    for(const auto& entry : mLangTranslators)
+
+    // sort by language name
+    std::vector<std::pair<QString, std::set<TranslatorPerson>>> trVector;
+    trVector.reserve(mLangTranslators.size());
+    for(const auto& entry : mLangTranslators) {
+        trVector.push_back(std::make_pair(languageToString(entry.first), entry.second));
+    }
+    std::sort(trVector.begin(), trVector.end());
+
+    for(const auto& entry : trVector)
     {
         const auto& lang = entry.first;
         const auto& translators = entry.second;
 
-        ret += QLatin1String("<dt><strong>") + languageToString(lang) + QLatin1String("</strong></dt>");
+        ret += QLatin1String("<dt><strong>") + lang + QLatin1String("</strong></dt>");
         for(const auto & translator : translators) {
             ret += QLatin1String("<dd>") + translator.asHtml() + QLatin1String("</dd>");
         }
