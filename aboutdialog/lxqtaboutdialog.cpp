@@ -34,6 +34,7 @@
 #include <QDebug>
 #include <QDate>
 #include <QClipboard>
+#include <QDesktopServices>
 
 AboutDialogPrivate::AboutDialogPrivate()
 {
@@ -70,6 +71,10 @@ AboutDialogPrivate::AboutDialogPrivate()
     TechnicalInfo info;
     techBrowser->setHtml(info.html());
     techBrowser->viewport()->setAutoFillBackground(false);
+    techBrowser->setOpenLinks(false);
+    connect(techBrowser, &QTextBrowser::anchorClicked, this, [](const QUrl &link) {
+        QDesktopServices::openUrl(link);
+    });
 
     connect(techCopyToClipboardButton, &QPushButton::clicked, this, &AboutDialogPrivate::copyToCliboardTechInfo);
     this->setAttribute(Qt::WA_DeleteOnClose);
