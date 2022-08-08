@@ -359,9 +359,10 @@ TranslatorsInfo::TranslatorsInfo()
     const auto groups = src.childGroups();
     for(const QString& group : qAsConst(groups))
     {
-        QString lang = group.section(QStringLiteral("_"), 1).remove(QStringLiteral(".info"));
+        QString lang = languageToString(group.section(QStringLiteral("_"), 1).remove(QStringLiteral(".info")));
         src.beginGroup(group);
         int cnt = src.allKeys().count();
+        std::set<TranslatorPerson> translators;
         for (int i=0; i<cnt; i++)
         {
             QString nameEnglish = getValue(src, QStringLiteral("translator_%1_nameEnglish").arg(i));
@@ -370,11 +371,12 @@ TranslatorsInfo::TranslatorsInfo()
 
             if (!nameEnglish.isEmpty())
             {
-                process(lang, nameEnglish, nameNative, contact);
+                translators.emplace(std::move(nameEnglish), std::move(nameNative), std::move(contact));
             }
-
         }
         src.endGroup();
+        if (!translators.empty())
+            mLangTranslators.emplace(std::move(lang), std::move(translators));
     }
 }
 
@@ -387,7 +389,7 @@ QString TranslatorsInfo::asHtml() const
         const auto& lang = entry.first;
         const auto& translators = entry.second;
 
-        ret += QLatin1String("<dt><strong>") + languageToString(lang) + QLatin1String("</strong></dt>");
+        ret += QLatin1String("<dt><strong>") + lang + QLatin1String("</strong></dt>");
         for(const auto & translator : translators) {
             ret += QLatin1String("<dd>") + translator.asHtml() + QLatin1String("</dd>");
         }
@@ -395,12 +397,6 @@ QString TranslatorsInfo::asHtml() const
     ret += QLatin1String("</dl>");
 
     return ret;
-}
-
-
-void TranslatorsInfo::process(const QString &lang, const QString &englishName, const QString &nativeName, const QString &contact)
-{
-    mLangTranslators[lang].emplace(englishName, nativeName, contact);
 }
 
 QString TranslatorPerson::asHtml() const
