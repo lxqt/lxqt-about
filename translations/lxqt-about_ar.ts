@@ -24,7 +24,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>الحقوق محفوظة: © ‏%L1-‏%L2 ‏%L3</translation>
+        <translation>الحقوق محفوظة: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="105"/>
@@ -42,7 +42,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="109"/>
         <source>Development: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>التطوير: 1%</translation>
+        <translation>التطوير:%1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="111"/>
@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="147"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>تمت ترجمة LXQt إلى العديد من اللغات بفضل عمل فرق الترجمة في جميع أنحاء العالم. يمكن إجراء الترجمات في &lt;a ٪1&gt; LXQt-Weblate &lt;/a&gt;.</translation>
+        <translation>تمت ترجمة LXQt إلى العديد من اللغات بفضل عمل فرق الترجمة في جميع أنحاء العالم. يمكن إجراء الترجمات في &lt;a%1&gt; LXQt-Weblate &lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
