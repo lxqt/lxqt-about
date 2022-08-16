@@ -30,6 +30,7 @@
 #include <LXQt/Translator>
 
 #include <XdgDirs>
+#include <QFile>
 
 using namespace LXQt;
 
@@ -77,9 +78,15 @@ QString TechInfoTable::html() const
         res += QStringLiteral("<tr>"
                        "<td class=techInfoTd width='1%'>"
                             "<div class=techInfoKey>%1</div>"
-                        "</td>"
-                        "<td>%2</td>"
-                       "</tr>").arg(row.first, row.second);
+                        "</td><td>").arg(row.first);
+        // add line breaks and links
+        auto list = row.second.split(QLatin1Char('\n'));
+        for(auto &s : list)
+        {
+            if(QFile::exists(s))
+                s = QStringLiteral("<a href='%1'>%1</a>").arg(s);
+        }
+        res += list.join(QStringLiteral("<br>\n")) + QStringLiteral("</td></tr>");
     }
 
     res += QLatin1String("</table>");
@@ -169,7 +176,7 @@ TechnicalInfo::TechnicalInfo()
     table->add(QStringLiteral("Build type"),           buildType);
     table->add(QStringLiteral("System Configuration"), QStringLiteral(LXQT_ETC_XDG_DIR));
     table->add(QStringLiteral("Share Directory"),      QStringLiteral(LXQT_SHARE_DIR));
-    table->add(QStringLiteral("Translations"),         Translator::translationSearchPaths().join(QStringLiteral("<br>\n")));
+    table->add(QStringLiteral("Translations"),         Translator::translationSearchPaths().join(QLatin1Char('\n')));
 
 
     // ******************************************
@@ -178,10 +185,10 @@ TechnicalInfo::TechnicalInfo()
 
     table->add(QStringLiteral("Xdg Data Home"),        xdgDirs.dataHome(false));
     table->add(QStringLiteral("Xdg Config Home"),      xdgDirs.configHome(false));
-    table->add(QStringLiteral("Xdg Data Dirs"),        xdgDirs.dataDirs().join(QStringLiteral(":")));
+    table->add(QStringLiteral("Xdg Data Dirs"),        xdgDirs.dataDirs().join(QLatin1Char('\n')));
     table->add(QStringLiteral("Xdg Cache Home"),       xdgDirs.cacheHome(false));
     table->add(QStringLiteral("Xdg Runtime Home"),     xdgDirs.runtimeDir());
-    table->add(QStringLiteral("Xdg Autostart Dirs"),   xdgDirs.autostartDirs().join(QStringLiteral("<br>\n")));
+    table->add(QStringLiteral("Xdg Autostart Dirs"),   xdgDirs.autostartDirs().join(QLatin1Char('\n')));
     table->add(QStringLiteral("Xdg Autostart Home"),   xdgDirs.autostartHome(false));
 
 }
