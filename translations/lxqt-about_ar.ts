@@ -6,7 +6,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
         <source>Version: %1</source>
-        <translation>الإصدارة: %1</translation>
+        <translation>الإصدار: %L1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
