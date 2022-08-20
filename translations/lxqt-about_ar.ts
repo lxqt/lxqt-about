@@ -12,13 +12,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>بيئة سطح مكتب متقدمة وسريعة وسهلة الاستخدام، مبنيّة على تقنيات «كيوت».</translation>
+        <translation>بيئة سطح مكتب متقدمة وسريعة وسهلة الاستخدام، مبنيّة على تقنياتQT.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="101"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>ما كانت ستكون «لكسكيوت» موجودة لولا مشروع &lt;a %1&gt;ريزر كيوت&lt;/a&gt; ومساهميه.</translation>
+        <translation>ما كانت ستكون LXQt موجودة لولا مشروع &lt;a %1&gt;ريزر كيوت&lt;/a&gt; ومساهميه.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
@@ -54,7 +54,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="121"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>تُطوّر «لكسكيوت» بجهود &lt;a %1&gt;فريق لكسكيوت ومساهميها&lt;/a&gt;.</translation>
+        <translation>تُطوّر LXQt بجهود &lt;a %1&gt;فريق LXQt ومساهميها&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="123"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source>About LXQt</source>
-        <translation>عن لكسكيوت</translation>
+        <translation>عن LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
