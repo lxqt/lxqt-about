@@ -4,72 +4,72 @@
 <context>
     <name>AboutDialogPrivate</name>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="83"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="88"/>
         <source>Version: %1</source>
         <translation>גרסה: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="99"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>סביבת שולחן עבודה מתקדמת, קלה לשימוש ומהירה על בסיס טכנולוגיות Qt.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="101"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="106"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>‏LXQt לא הייתה קיימת ללא המיזם &lt;a %1&gt;Razor-qt&lt;/a&gt; על שלל תורמיו.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="103"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="108"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>זכויות יוצרים: © %1-%2 %3</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="105"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="110"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>דף הבית: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="107"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="112"/>
         <source>Wiki: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>ויקי: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="109"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>Development: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>פיתוח: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="111"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
         <translation>רישיון: %1</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="121"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="126"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation>LXQt מפותחת על ידי &lt;a %1&gt;צוות LXQt ותורמים נוספים&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="123"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
         <translation>אם מעניין אותך לקחת חלק בצוות הפיתוח שלך, ניתן &lt;a %1&gt;להצטרף אלינו&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="140"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="145"/>
         <source>Special thanks to:</source>
         <comment>About dialog, &apos;Thanks&apos; tab text</comment>
         <translation>תודתנו הרבה נתונה אל:</translation>
     </message>
     <message>
-        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="147"/>
+        <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="152"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
         <translation>‏LXQt מתורגמת לשפות רבות הודות לעבודה של צוותי התרגום מכל רחבי העולם. אפשר לעזור בתרגום דרך &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
