@@ -1,3 +1,8 @@
+lxqt-about-1.2.0 / 2022-11-05
+==============================
+ * Sort language names alphabetically.
+ * Made directory paths clickable under "Technical Info".
+
 lxqt-about-1.1.0 / 2022-04-15
 ==============================
  * Added `lxqt-about` icon and used it instead of the `help-about` icon.
