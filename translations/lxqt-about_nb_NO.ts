@@ -54,7 +54,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="126"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt er utviklet av &lt;a %1&gt;LXQt-gruppa og bidragsyterne&lt;/a&gt;.</translation>
+        <translation>LXQt er utviklet av &lt;a %1&gt;LXQt-laget og bidragsytere&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
