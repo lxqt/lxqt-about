@@ -6,55 +6,55 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="88"/>
         <source>Version: %1</source>
-        <translation>Version&#xa0;: %1</translation>
+        <translation>Version : %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Environnement de bureau avancé, facile d&apos;emploi et rapide, articulé autour de la technologie Qt.</translation>
+        <translation>Environnement de bureau avancé, facile d’emploi et rapide, articulé autour de la technologie Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="106"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt n&apos;aurait pu être réalisé sans le projet &lt;a %1&gt;Razor-qt&lt;/a&gt; et ses nombreux collaborateurs.</translation>
+        <translation>LXQt n’aurait pu être réalisé sans le projet &lt;a %1&gt;Razor-qt&lt;/a&gt; et ses nombreux collaborateurs.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="108"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Copyright&#xa0;: © %1-%2 %3</translation>
+        <translation>Copyright : © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="110"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Site officiel&#xa0;: %1</translation>
+        <translation>Site officiel : %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="112"/>
         <source>Wiki: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Wiki&#xa0;: %1</translation>
+        <translation>Wiki : %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>Development: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Développement&#xa0;: %1</translation>
+        <translation>Développement : %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Licence&#xa0;: %1</translation>
+        <translation>Licence : %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="126"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt est développé par &lt;a %1&gt;l&apos;équipe LXQt et les contributeurs&lt;/a&gt;.</translation>
+        <translation>LXQt est développé par &lt;a %1&gt;l’équipe LXQt et les contributeurs&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
