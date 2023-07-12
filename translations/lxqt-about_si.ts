@@ -30,7 +30,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="110"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>මුල් පිටුව: %1</translation>
+        <translation>වෙබ් අඩවිය: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="112"/>
