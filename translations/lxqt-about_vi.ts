@@ -12,19 +12,19 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Môi trường desktop nhanh nhạy, dễ sử dụng và đầy tính năng dựa trên công nghệ Qt.</translation>
+        <translation>Một môi trường cho máy tính để bàn nhanh nhạy, dễ sử dụng và đầy tính năng dựa trên công nghệ Qt.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="106"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt sẽ không thể khả thi nếu không có dự án &lt;a %1&gt;Razor-qt&lt;/a&gt; và những người đóng góp của nó.</translation>
+        <translation>LXQt sẽ không thể được thực hiện nếu không có dự án &lt;a %1&gt;Razor-qt&lt;/a&gt; và những người đóng góp của nó.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="108"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Copyright: © %1-%2 %3</translation>
+        <translation>Bản quyền: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="110"/>
@@ -36,13 +36,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="112"/>
         <source>Wiki: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Wiki: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="114"/>
         <source>Development: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Phát triển: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Sao chép vào khay nhớ tạm</translation>
+        <translation>Sao chép vào bộ nhớ đệm</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
