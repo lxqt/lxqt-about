@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5.0 FATAL_ERROR)
 # CMP0000: Call the cmake_minimum_required() command at the beginning of the top-level
 # CMakeLists.txt file even before calling the project() command.
 # The cmake_minimum_required(VERSION) command implicitly invokes the cmake_policy(VERSION)
@@ -27,9 +27,10 @@ set(UI_FILES
 )
 
 # Minimum versions
-set(LXQT_MINIMUM_VERSION "1.4.0")
+set(LXQT_MINIMUM_VERSION "2.0.0")
 
 find_package(lxqt ${LXQT_MINIMUM_VERSION} REQUIRED)
+find_package(Qt6 COMPONENTS REQUIRED Core Widgets)
 
 include(LXQtPreventInSourceBuilds)
 include(LXQtCompilerSettings NO_POLICY_SCOPE)

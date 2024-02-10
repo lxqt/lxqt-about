@@ -35,7 +35,6 @@
 int main(int argc, char *argv[])
 {
     LXQt::Application app(argc, argv);
-    app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 
     QCommandLineParser parser;
     parser.setApplicationDescription(QStringLiteral("LXQt About"));
