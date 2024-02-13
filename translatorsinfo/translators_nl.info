@@ -4,7 +4,7 @@ _help = Don't translate this text, it is only help. \
 
 
 translator_1_nameEnglish = Heimen Stoffels
-translator_1_nameNative  = Heimen Stoffels
+translator_1_nameNative  = Translator 1. Your name in the native language.
 translator_1_contact     = vistausss@fastmail.com
 
 #translator_2_nameEnglish = Translator 2. Your name in English. 
