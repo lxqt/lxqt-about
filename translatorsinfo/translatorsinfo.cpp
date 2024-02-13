@@ -29,7 +29,6 @@
 #include <QDebug>
 #include <QSettings>
 #include <QStringList>
-#include <QtCore5Compat/QTextCodec>
 #include <QTextDocument>
 #include <QHash>
 #include <QRegularExpression>
@@ -409,7 +408,7 @@ QString TranslatorPerson::asHtml() const
         ret = QStringLiteral("%1 (%2)").arg(mEnglishName, mNativeName);
 
     if (!mContact.isEmpty())
-    {       
+    {
          static QRegularExpression regexp(QStringLiteral("^(https?|mailto):"));
     if (regexp.match(mContact).hasMatch())// to recheck if correct
             ret = QStringLiteral(" <a href='%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
