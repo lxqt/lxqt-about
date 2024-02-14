@@ -183,6 +183,7 @@ void fillLangguages(QHash<QString, QString> *languages)
     languages->insert(QStringLiteral("lt")    ,QStringLiteral("Lithuanian"));
     languages->insert(QStringLiteral("lt_LT") ,QStringLiteral("Lithuanian (Lithuania)"));
     languages->insert(QStringLiteral("nds")   ,QStringLiteral("Low German"));
+    languages->insert(QStringLiteral("lg")    ,QStringLiteral("Luganda (Africa)"));
     languages->insert(QStringLiteral("lb")    ,QStringLiteral("Luxembourgish"));
     languages->insert(QStringLiteral("mk")    ,QStringLiteral("Macedonian"));
     languages->insert(QStringLiteral("mk_MK") ,QStringLiteral("Macedonian (Macedonia)"));
