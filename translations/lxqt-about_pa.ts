@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਜੇ ਤੁਸੀਂ ਸਾਡੀ ਡਿਵੈਲਪਮੈਂਟ ਟੀਮ ਨਾਲ ਕੰਮ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ &lt;a %1&gt;ਸਾਡਾ ਹਿੱਸਾ ਬਣੋ&lt;/a&gt;।</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="145"/>
@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="152"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt ਨੂੰ ਸੰਸਾਰ ਭਰ ਵਿੱਚ ਮੌਜੂਦ ਅਨੁਵਾਦ ਟੀਮਾਂ ਦੇ ਕੰਮ ਕਰਕੇ ਕਈ ਸਾਰੀਆਂ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ ਹੈ। ਅਨੁਵਾਦ ਦਾ ਕੰਮ &lt;a %1&gt;LXQt-Weblate&lt;/a&gt; ਰਾਹੀਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।</translation>
     </message>
 </context>
 <context>
