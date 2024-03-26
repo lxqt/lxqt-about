@@ -29,9 +29,9 @@
 #include <QDebug>
 #include <QSettings>
 #include <QStringList>
-#include <QTextCodec>
 #include <QTextDocument>
 #include <QHash>
+#include <QRegularExpression>
 
 //using namespace LXQt;
 
@@ -353,12 +353,10 @@ QString getValue(const QSettings &src, const QString &key)
 TranslatorsInfo::TranslatorsInfo()
 {
     //fillLangguages(&mLanguagesList);
-
     QSettings src(QStringLiteral(":/translatorsInfo"), QSettings::IniFormat);
-    src.setIniCodec("UTF-8");
 
     const auto groups = src.childGroups();
-    for(const QString& group : qAsConst(groups))
+    for(const QString& group : std::as_const(groups))
     {
         QString lang = languageToString(group.section(QStringLiteral("_"), 1).remove(QStringLiteral(".info")));
         src.beginGroup(group);
@@ -410,7 +408,8 @@ QString TranslatorPerson::asHtml() const
 
     if (!mContact.isEmpty())
     {
-        if (mContact.contains(QRegExp(QStringLiteral("^(https?|mailto):"))))
+        static const QRegularExpression regexp(QStringLiteral("^(https?|mailto):"));
+        if (mContact.contains(regexp))
             ret = QStringLiteral(" <a href='%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
         else if (mContact.contains(QLatin1String("@")) || mContact.contains(QLatin1String("<")))
             ret = QStringLiteral(" <a href='mailto:%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
