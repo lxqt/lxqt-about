@@ -30,7 +30,6 @@ set(UI_FILES
 set(LXQT_MINIMUM_VERSION "2.0.0")
 
 find_package(lxqt ${LXQT_MINIMUM_VERSION} REQUIRED)
-find_package(Qt6 COMPONENTS REQUIRED Core Widgets)
 
 include(LXQtPreventInSourceBuilds)
 include(LXQtCompilerSettings NO_POLICY_SCOPE)

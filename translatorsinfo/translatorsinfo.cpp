@@ -352,9 +352,7 @@ QString getValue(const QSettings &src, const QString &key)
 TranslatorsInfo::TranslatorsInfo()
 {
     //fillLangguages(&mLanguagesList);
-
-    QSettings src(QStringLiteral(":/translatorsInfo"), QSettings::Format::IniFormat);
-    //Format("UTF-8");not working yet
+    QSettings src(QStringLiteral(":/translatorsInfo"), QSettings::IniFormat);
 
     const auto groups = src.childGroups();
     for(const QString& group : std::as_const(groups))
@@ -409,8 +407,8 @@ QString TranslatorPerson::asHtml() const
 
     if (!mContact.isEmpty())
     {
-         static QRegularExpression regexp(QStringLiteral("^(https?|mailto):"));
-    if (regexp.match(mContact).hasMatch())// to recheck if correct
+        static const QRegularExpression regexp(QStringLiteral("^(https?|mailto):"));
+        if (mContact.contains(regexp))
             ret = QStringLiteral(" <a href='%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
         else if (mContact.contains(QLatin1String("@")) || mContact.contains(QLatin1String("<")))
             ret = QStringLiteral(" <a href='mailto:%1'>%2</a>").arg(mContact, ret.toHtmlEscaped());
