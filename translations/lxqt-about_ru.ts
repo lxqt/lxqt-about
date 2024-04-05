@@ -18,7 +18,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="106"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQT не могло бы существовать без проекта &lt;a %1&gt;Razor-qt&lt;/a&gt; и его многочисленных участников.</translation>
+        <translation>LXQt не могло бы существовать без проекта &lt;a %1&gt;Razor-qt&lt;/a&gt; и его многочисленных участников.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="108"/>
@@ -54,7 +54,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="126"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQT разработан &lt;a %1&gt;командой LXQt и прочими участниками&lt;/a&gt;.</translation>
+        <translation>LXQt разработан &lt;a %1&gt;командой LXQt и прочими участниками&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
@@ -86,7 +86,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation>О программе</translation>
+        <translation>О среде</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
@@ -104,7 +104,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="117"/>
         <source>Translations</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Переводы</translation>
+        <translation>Перевод</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
