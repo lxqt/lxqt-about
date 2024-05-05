@@ -24,7 +24,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="108"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Авторские права: © %1-%2 %3</translation>
+        <translation>Авторское право: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="110"/>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source>About LXQt</source>
-        <translation>О LXQt</translation>
+        <translation>О среде LXQt</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
