@@ -12,7 +12,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Avanceret, let anvendeligt og hurtigt skrivebordsmiljø baseret på Qt-teknologier.</translation>
+        <translation>Avanceret, brugervenligt, ressourcevenligt og hurtigt skrivebordsmiljø baseret på Qt-teknologier.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="106"/>
@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Hvis du er interesseret i at arbejde med vores udviklingsteam, så &lt;a %1&gt;vær med&lt;/a&gt;.</translation>
+        <translation>Hvis du er interesseret i at arbejde med vores udviklingsteam, så kom og &lt;a %1&gt;vær med&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="145"/>
@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="152"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt er oversat til mange sprog takke være det arbejde oversættelsesholdene har udført verden over. Oversættelserne findes i &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
+        <translation>LXQt er oversat til mange sprog takke være det arbejde oversættelsesholdene har udført verden over. Oversættelserne findes på &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -92,7 +92,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Forfattere</translation>
+        <translation>Udviklere</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Kopiér til udklipsholder</translation>
+        <translation>Kopiér til Udklipsholder</translation>
     </message>
 </context>
 </TS>
