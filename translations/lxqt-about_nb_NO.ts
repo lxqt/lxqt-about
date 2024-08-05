@@ -97,7 +97,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Opphavsmenn</translation>
+        <translation>Utviklere</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
