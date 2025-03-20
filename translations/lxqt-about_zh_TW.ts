@@ -60,7 +60,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>如果你對和我們的開發團隊一起工作有興趣，&lt;a %1&gt;加入我們&lt;/a&gt;。</translation>
+        <translation>如果您對於與我們開發團隊一同工作很有興趣，&lt;a %1&gt;加入我們&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="145"/>
