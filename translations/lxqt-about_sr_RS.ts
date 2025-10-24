@@ -24,7 +24,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="108"/>
         <source>Copyright: © %1-%2 %3</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation type="unfinished">Копирајт: © %1-%2 %3</translation>
+        <translation>Ауторска права: © %1-%2 %3</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="110"/>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Копирај у клипборд</translation>
     </message>
 </context>
 </TS>
