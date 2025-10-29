@@ -104,7 +104,7 @@ QString AboutDialogPrivate::aboutText() const
             tr("Advanced, easy-to-use, and fast desktop environment based on Qt technologies.",
                "About dialog, 'About' tab text"),
             tr("LXQt would not have been possible without the <a %1>Razor-qt</a> project and its many contributors.",
-               "About dialog, 'About' tab text"),
+               "About dialog, 'About' tab text").arg(QStringLiteral("href=\"https://en.wikipedia.org/wiki/Razor-qt\"")),
             tr("Copyright: © %1-%2 %3", "About dialog, 'About' tab text")
                 .arg(QStringLiteral("2010"), QDate::currentDate().toString(QStringLiteral("yyyy")), QStringLiteral("LXQt team")),
             tr("Homepage: %1", "About dialog, 'About' tab text")
