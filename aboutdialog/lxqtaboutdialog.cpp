@@ -104,13 +104,13 @@ QString AboutDialogPrivate::aboutText() const
             tr("Advanced, easy-to-use, and fast desktop environment based on Qt technologies.",
                "About dialog, 'About' tab text"),
             tr("LXQt would not have been possible without the <a %1>Razor-qt</a> project and its many contributors.",
-               "About dialog, 'About' tab text").arg(QStringLiteral("href=\"https://blog.lxde.org/2014/11/21/in-memory-of-razor-qt/\"")),
+               "About dialog, 'About' tab text"),
             tr("Copyright: © %1-%2 %3", "About dialog, 'About' tab text")
                 .arg(QStringLiteral("2010"), QDate::currentDate().toString(QStringLiteral("yyyy")), QStringLiteral("LXQt team")),
             tr("Homepage: %1", "About dialog, 'About' tab text")
                 .arg(QStringLiteral("<a href=\"https://lxqt-project.org\">https://lxqt-project.org</a>")),
            tr("Wiki: %1", "About dialog, 'About' tab text")
-                .arg(QStringLiteral("<a href=\"https://github.com/lxqt/lxqt/wiki\">https://github.com/lxqt/lxqt/wiki</a>")),
+                .arg(QStringLiteral("<a href=\"https://lxqt-project.org/wiki\">https://lxqt-project.org/wiki</a>")),
            tr("Development: %1", "About dialog, 'About' tab text")
                 .arg(QStringLiteral("<a href=\"https://github.com/lxqt/\">https://github.com/lxqt</a>")),
             tr("License: %1", "About dialog, 'About' tab text")
