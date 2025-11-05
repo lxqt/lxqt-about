@@ -27,7 +27,7 @@ set(UI_FILES
 )
 
 # Minimum versions
-set(LXQT_MINIMUM_VERSION "2.2.0")
+set(LXQT_MINIMUM_VERSION "2.3.0")
 
 find_package(lxqt ${LXQT_MINIMUM_VERSION} REQUIRED)
 
