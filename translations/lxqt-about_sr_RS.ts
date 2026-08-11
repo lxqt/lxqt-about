@@ -6,19 +6,19 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="88"/>
         <source>Version: %1</source>
-        <translation>Верзија: %1</translation>
+        <translation>Издање: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Напредно, лако за коришћење и брзо десктоп окружење засновано на Qt технологијама.</translation>
+        <translation>Напредно, лако за коришћење и брзо окружење радне површине засновано на Qt технологијама.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="106"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt не би био могућ без &lt;a %1&gt;Razor-qt&lt;/a&gt; пројекта и многих његових сарадника.</translation>
+        <translation>LxQt не би био могућ без &lt;a %1&gt;Razor-qt&lt;/a&gt; пројекта и многих његових доприносиоца.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="108"/>
@@ -48,13 +48,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="116"/>
         <source>License: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Лиценца: %1</translation>
+        <translation>Дозвола: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="126"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt је развијен од стране &lt;a %1&gt;LXQt Тима и помоћника&lt;/a&gt;.</translation>
+        <translation>LxQt развијају &lt;a %1&gt;LxQt тим и доприносиоци&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
@@ -80,13 +80,13 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source>About LXQt</source>
-        <translation>O LXQt</translation>
+        <translation>О LxQt-у</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation>O</translation>
+        <translation>O програму</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
@@ -110,12 +110,12 @@
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
-        <translation>Техничке информације</translation>
+        <translation>Технички подаци</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Копирај у клипборд</translation>
+        <translation>Копирај у оставу</translation>
     </message>
 </context>
 </TS>
