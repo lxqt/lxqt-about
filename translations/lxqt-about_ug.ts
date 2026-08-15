@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="152"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation type="unfinished"></translation>
+        <translation>LXQt نۇرغۇن تىلغا تەرجىمە قىلىندى، دۇنيانىڭ ھەر قايسى جايلىرىدىكى تەرجىمە گۇرۇپپىلىرىنىڭ خىزمىتىگە كۆپ رەھمەت. تەرجىمە &lt;a %1&gt;LXQt-Weblate&lt;/a&gt; دا ئېلىپ بېرىلىدۇ.</translation>
     </message>
 </context>
 <context>
@@ -80,42 +80,42 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>چاپلاش تاختىسىغا كۆچۈر</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
         <source>About LXQt</source>
-        <translation type="unfinished"></translation>
+        <translation>LXQt ھەققىدە</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="66"/>
         <source>About</source>
         <comment>About dialog, Tab title </comment>
-        <translation type="unfinished"></translation>
+        <translation>ھەققىدە</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="83"/>
         <source>Authors</source>
         <comment>About dialog, Tab title</comment>
-        <translation type="unfinished"></translation>
+        <translation>يازغۇچى</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="100"/>
         <source>Thanks</source>
         <comment>About dialog, Tab title</comment>
-        <translation type="unfinished"></translation>
+        <translation>تەشەككۈر</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="117"/>
         <source>Translations</source>
         <comment>About dialog, Tab title</comment>
-        <translation type="unfinished"></translation>
+        <translation>تەرجىمە</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="134"/>
         <source>Technical Info</source>
         <comment>About dialog, Tab title</comment>
-        <translation type="unfinished"></translation>
+        <translation>تېخنىكىلىق ئۇچۇر</translation>
     </message>
 </context>
 </TS>
