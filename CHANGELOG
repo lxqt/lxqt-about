@@ -1,6 +1,7 @@
 lxqt-about-2.5.0 / 2026-11-05
 =============================
  * CMake maintenance.
+ * Workaround for local URLs in Qt 6.12.
  * Updated the address of Free Software Foundation.
  * Updated translations and bumped the version.
 
