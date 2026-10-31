@@ -73,7 +73,12 @@ AboutDialogPrivate::AboutDialogPrivate()
     techBrowser->viewport()->setAutoFillBackground(false);
     techBrowser->setOpenLinks(false);
     connect(techBrowser, &QTextBrowser::anchorClicked, this, [](const QUrl &link) {
-        QDesktopServices::openUrl(link);
+        // NOTE: Since Qt 6.12, the portal is used if available
+        // and local URLs cannot be opened without a scheme.
+        if (link.scheme().isEmpty())
+            QDesktopServices::openUrl(QUrl::fromLocalFile(link.path()));
+        else
+            QDesktopServices::openUrl(link);
     });
 
     connect(techCopyToClipboardButton, &QPushButton::clicked, this, &AboutDialogPrivate::copyToCliboardTechInfo);
