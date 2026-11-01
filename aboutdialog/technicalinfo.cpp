@@ -17,7 +17,7 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * Lesser General Public License for more details.
-
+ *
  * You should have received a copy of the GNU Lesser General
  * Public License along with this library; if not, write to the
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
@@ -25,10 +25,9 @@
  *
  * END_COMMON_COPYRIGHT_HEADER */
 
-
 #include "technicalinfo.h"
+#include <algorithm>
 #include <LXQt/Translator>
-
 #include <XdgDirs>
 #include <QFile>
 
@@ -46,7 +45,6 @@ private:
     QString mTitle;
     QList<QPair<QString,QString> > mRows;
 };
-
 
 
 TechInfoTable::TechInfoTable(const QString &title)
@@ -113,7 +111,7 @@ int TechInfoTable::maxNameLength() const
     int res = 0;
     QPair<QString,QString> row;
     for(const auto& row : std::as_const(mRows))
-        res = qMax(res, row.first.length());
+        res = std::max(res, static_cast<int>(row.first.length()));
 
     return res;
 }
@@ -134,7 +132,7 @@ QString TechnicalInfo::text() const
 {
     int nameWidth = 0;
     for(const TechInfoTable* item : std::as_const(mItems))
-        nameWidth = qMax(nameWidth, item->maxNameLength());
+        nameWidth = std::max(nameWidth, item->maxNameLength());
 
     QString res;
     for(const TechInfoTable* item : std::as_const(mItems))
@@ -190,6 +188,4 @@ TechnicalInfo::TechnicalInfo()
     table->add(QStringLiteral("Xdg Runtime Home"),     xdgDirs.runtimeDir());
     table->add(QStringLiteral("Xdg Autostart Dirs"),   xdgDirs.autostartDirs().join(QLatin1Char('\n')));
     table->add(QStringLiteral("Xdg Autostart Home"),   xdgDirs.autostartHome(false));
-
 }
-
