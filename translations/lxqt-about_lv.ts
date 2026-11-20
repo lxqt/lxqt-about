@@ -12,13 +12,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="104"/>
         <source>Advanced, easy-to-use, and fast desktop environment based on Qt technologies.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Priekšzīmīga, viegli lietojama un ātra darbvirsmas vide uz Qt tehnoloģijas bāzes.</translation>
+        <translation>Moderna, viegli lietojama un ātra darbvirsmas vide, kuras pamatā ir Qt tehnoloģijas.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="106"/>
         <source>LXQt would not have been possible without the &lt;a %1&gt;Razor-qt&lt;/a&gt; project and its many contributors.</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>LXQt nepastāvētu bez &lt;a %1&gt;Razor-qt&lt;/a&gt; projekta un tā daudzajiem atbalstītājiem.</translation>
+        <translation>LXQt nebūtu iespējama bez projekta &lt;a %1&gt;Razor-qt&lt;/a&gt; un tā daudzajiem līdzstrādniekiem.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="108"/>
@@ -30,7 +30,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="110"/>
         <source>Homepage: %1</source>
         <comment>About dialog, &apos;About&apos; tab text</comment>
-        <translation>Tīmekļvietne: %1</translation>
+        <translation>Mājaslapa: %1</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="112"/>
@@ -54,13 +54,13 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="126"/>
         <source>LXQt is developed by the &lt;a %1&gt;LXQt Team and contributors&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>LXQt izstrādā &lt;a %1&gt;LXQt komanda un atbalstītāji&lt;/a&gt;.</translation>
+        <translation>LXQt izstrādā &lt;a %1&gt;LXQt komanda un līdzstrādnieki&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="128"/>
         <source>If you are interested in working with our development team, &lt;a %1&gt;join us&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Authors&apos; tab text</comment>
-        <translation>Ja esi ieinteresēts strādāt kopā ar mūsu izstrādes komandu, &lt;a %1&gt;pievienojies!&lt;/a&gt;.</translation>
+        <translation>Ja vēlaties strādāt kopā ar mūsu izstrādes komandu, &lt;a %1&gt;pievienojieties mums&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="145"/>
@@ -72,7 +72,7 @@
         <location filename="../aboutdialog/lxqtaboutdialog.cpp" line="152"/>
         <source>LXQt is translated into many languages thanks to the work of the translation teams all over the world. Translations can be done in &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</source>
         <comment>About dialog, &apos;Translations&apos; tab text</comment>
-        <translation>LXQt ir pārtulkots daudzās valodās, pateicoties tulkotāju komandu darbam visā pasaulē. Piedalīties tulkošanas darbā var interneta vietnē &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
+        <translation>LXQt ir tulkota daudzās valodās, pateicoties tulkotāju komandām visā pasaulē. Tulkot var vietnē &lt;a %1&gt;LXQt-Weblate&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -80,7 +80,7 @@
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="165"/>
         <source>Copy to clipboard</source>
-        <translation>Kopēt uz starpeni</translation>
+        <translation>Kopēt starpliktuvē</translation>
     </message>
     <message>
         <location filename="../aboutdialog/lxqtaboutdialog.ui" line="14"/>
